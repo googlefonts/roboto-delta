@@ -186,7 +186,7 @@ glyphtools==0.8.0
     # via
     #   collidoscope
     #   fontfeatures
-h11==0.14.0
+h11==0.16.0
     # via wsproto
 hyperglot==0.4.1
     # via gftools
