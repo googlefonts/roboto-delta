@@ -41,10 +41,10 @@
       <point x="730" y="-20"/>
       <point x="506" y="-20" type="qcurve" smooth="yes"/>
       <point x="338" y="-20"/>
-      <point x="85" y="126"/>
+      <point x="85" y="116"/>
       <point x="85" y="246" type="qcurve" smooth="yes"/>
       <point x="85" y="806" type="line" smooth="yes"/>
-      <point x="85" y="933"/>
+      <point x="85" y="940"/>
       <point x="346" y="1072"/>
     </contour>
   </outline>
