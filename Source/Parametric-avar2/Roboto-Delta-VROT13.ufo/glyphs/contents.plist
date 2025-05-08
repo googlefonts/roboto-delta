@@ -50,6 +50,8 @@
     <string>cent.rvrn.glif</string>
     <key>d</key>
     <string>d.glif</string>
+    <key>dieresiscomb.case</key>
+    <string>dieresiscomb.case.glif</string>
     <key>dollar</key>
     <string>dollar.glif</string>
     <key>dollar.rvrn</key>

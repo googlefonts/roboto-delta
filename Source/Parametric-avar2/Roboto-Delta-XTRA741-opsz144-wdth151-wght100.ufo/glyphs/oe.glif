@@ -37,8 +37,8 @@
       <point x="1919" y="122"/>
       <point x="2216" y="122" type="qcurve" smooth="yes"/>
       <point x="2427" y="122"/>
-      <point x="2715" y="205"/>
-      <point x="2790" y="270" type="qcurve"/>
+      <point x="2704" y="205"/>
+      <point x="2779" y="270" type="qcurve"/>
       <point x="2903" y="175" type="line"/>
       <point x="2819" y="100"/>
       <point x="2478" y="-30"/>
