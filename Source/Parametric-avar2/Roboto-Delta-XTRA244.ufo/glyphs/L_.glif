@@ -3,7 +3,7 @@
   <advance width="588"/>
   <unicode hex="004C"/>
   <anchor x="318" y="0" name="bottom"/>
-  <anchor x="507" y="728" name="center"/>
+  <anchor x="497" y="728" name="center"/>
   <anchor x="278" y="1456" name="top"/>
   <anchor x="362" y="1052" name="topright"/>
   <anchor x="304" y="728" name="slash"/>
