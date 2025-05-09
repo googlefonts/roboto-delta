@@ -88,6 +88,8 @@
     <string>h.glif</string>
     <key>hairspace</key>
     <string>hairspace.glif</string>
+    <key>ldot</key>
+    <string>ldot.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>n</key>
