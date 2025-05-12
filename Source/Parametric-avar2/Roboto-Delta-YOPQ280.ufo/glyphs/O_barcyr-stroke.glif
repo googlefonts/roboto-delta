@@ -5,10 +5,10 @@
   <guideline x="1248" y="730" angle="90" identifier="hwb5F7EShy"/>
   <outline>
     <contour>
-      <point x="212" y="1030" type="line"/>
-      <point x="1248" y="1030" type="line"/>
-      <point x="1248" y="472" type="line"/>
-      <point x="212" y="472" type="line"/>
+      <point x="212" y="1000" type="line"/>
+      <point x="1248" y="1000" type="line"/>
+      <point x="1248" y="442" type="line"/>
+      <point x="212" y="442" type="line"/>
     </contour>
   </outline>
 </glyph>
