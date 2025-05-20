@@ -16,17 +16,17 @@
     <contour>
       <point x="346" y="700" type="line"/>
       <point x="346" y="1456" type="line"/>
-      <point x="584" y="1456" type="line"/>
-      <point x="595" y="1016" type="line"/>
-      <point x="603" y="1016" type="line"/>
-      <point x="614" y="1456" type="line"/>
+      <point x="494" y="1456" type="line"/>
+      <point x="595" y="876" type="line"/>
+      <point x="603" y="876" type="line"/>
+      <point x="704" y="1456" type="line"/>
       <point x="846" y="1456" type="line"/>
       <point x="846" y="700" type="line"/>
       <point x="697" y="700" type="line"/>
       <point x="697" y="1175" type="line"/>
       <point x="685" y="1175" type="line"/>
-      <point x="667" y="700" type="line"/>
-      <point x="531" y="700" type="line"/>
+      <point x="627" y="700" type="line"/>
+      <point x="571" y="700" type="line"/>
       <point x="513" y="1175" type="line"/>
       <point x="501" y="1175" type="line"/>
       <point x="501" y="700" type="line"/>

@@ -8,14 +8,14 @@
     <contour>
       <point x="0" y="1456" type="line"/>
       <point x="694" y="1456" type="line"/>
-      <point x="978" y="454" type="line" smooth="yes"/>
-      <point x="984" y="432"/>
-      <point x="998" y="389"/>
-      <point x="1005" y="356" type="qcurve"/>
-      <point x="1013" y="356" type="line"/>
-      <point x="1019" y="389"/>
-      <point x="1032" y="433"/>
-      <point x="1038" y="454" type="qcurve" smooth="yes"/>
+      <point x="978" y="654" type="line" smooth="yes"/>
+      <point x="986" y="632"/>
+      <point x="998" y="589"/>
+      <point x="1005" y="556" type="qcurve"/>
+      <point x="1013" y="556" type="line"/>
+      <point x="1019" y="589"/>
+      <point x="1031" y="633"/>
+      <point x="1038" y="654" type="qcurve" smooth="yes"/>
       <point x="1330" y="1456" type="line"/>
       <point x="1994" y="1456" type="line"/>
       <point x="1381" y="-10" type="line"/>
