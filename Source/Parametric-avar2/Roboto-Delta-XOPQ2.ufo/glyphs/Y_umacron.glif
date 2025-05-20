@@ -6,7 +6,7 @@
     <component base="I"/>
     <component base="Yu-dash.case" xOffset="179"/>
     <component base="O" xOffset="420"/>
-    <component base="macroncomb.case" xOffset="417.9000000000233"/>
+    <component base="macroncomb.case" xOffset="437.8500000000349"/>
   </outline>
   <lib>
     <dict>

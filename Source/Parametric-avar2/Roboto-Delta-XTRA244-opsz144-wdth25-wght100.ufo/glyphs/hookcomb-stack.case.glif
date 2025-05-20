@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hookcomb-stack.case" format="2">
   <anchor x="0" y="1456" name="_top"/>
-  <anchor x="0" y="2014" name="top"/>
+  <anchor x="0" y="1982" name="top"/>
   <anchor x="0" y="1456" name="_topright"/>
   <outline>
     <contour>

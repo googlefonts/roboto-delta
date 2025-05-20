@@ -3,32 +3,32 @@
   <anchor x="0" y="1456" name="_top"/>
   <outline>
     <contour>
-      <point x="-218" y="1787" type="qcurve" smooth="yes"/>
-      <point x="-218" y="1843"/>
-      <point x="-163" y="1903"/>
-      <point x="-112" y="1903" type="qcurve" smooth="yes"/>
-      <point x="-64" y="1903"/>
-      <point x="-6" y="1839"/>
-      <point x="-6" y="1787" type="qcurve" smooth="yes"/>
-      <point x="-6" y="1732"/>
-      <point x="-60" y="1672"/>
-      <point x="-112" y="1672" type="qcurve" smooth="yes"/>
-      <point x="-160" y="1672"/>
-      <point x="-218" y="1735"/>
+      <point x="-218" y="1629" type="qcurve" smooth="yes"/>
+      <point x="-218" y="1685"/>
+      <point x="-163" y="1745"/>
+      <point x="-112" y="1745" type="qcurve" smooth="yes"/>
+      <point x="-64" y="1745"/>
+      <point x="-6" y="1681"/>
+      <point x="-6" y="1629" type="qcurve" smooth="yes"/>
+      <point x="-6" y="1574"/>
+      <point x="-60" y="1514"/>
+      <point x="-112" y="1514" type="qcurve" smooth="yes"/>
+      <point x="-160" y="1514"/>
+      <point x="-218" y="1577"/>
     </contour>
     <contour>
-      <point x="6" y="1787" type="qcurve" smooth="yes"/>
-      <point x="6" y="1843"/>
-      <point x="61" y="1903"/>
-      <point x="112" y="1903" type="qcurve" smooth="yes"/>
-      <point x="160" y="1903"/>
-      <point x="218" y="1839"/>
-      <point x="218" y="1787" type="qcurve" smooth="yes"/>
-      <point x="218" y="1732"/>
-      <point x="164" y="1672"/>
-      <point x="112" y="1672" type="qcurve" smooth="yes"/>
-      <point x="64" y="1672"/>
-      <point x="6" y="1735"/>
+      <point x="6" y="1629" type="qcurve" smooth="yes"/>
+      <point x="6" y="1685"/>
+      <point x="61" y="1745"/>
+      <point x="112" y="1745" type="qcurve" smooth="yes"/>
+      <point x="160" y="1745"/>
+      <point x="218" y="1681"/>
+      <point x="218" y="1629" type="qcurve" smooth="yes"/>
+      <point x="218" y="1574"/>
+      <point x="164" y="1514"/>
+      <point x="112" y="1514" type="qcurve" smooth="yes"/>
+      <point x="64" y="1514"/>
+      <point x="6" y="1577"/>
     </contour>
   </outline>
 </glyph>

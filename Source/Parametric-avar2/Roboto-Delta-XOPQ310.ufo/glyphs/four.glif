@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four" format="2">
-  <advance width="1934"/>
+  <advance width="1968"/>
   <unicode hex="0034"/>
   <outline>
     <contour>
@@ -22,8 +22,8 @@
       <point x="608" y="661" type="line"/>
       <point x="1326" y="661" type="line"/>
       <point x="1403" y="661" type="line"/>
-      <point x="1886" y="661" type="line"/>
-      <point x="1886" y="243" type="line"/>
+      <point x="1920" y="661" type="line"/>
+      <point x="1920" y="243" type="line"/>
     </contour>
   </outline>
 </glyph>
