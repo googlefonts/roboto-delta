@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kadescender" format="2">
+  <advance width="1307"/>
+  <unicode hex="049A"/>
+  <outline>
+    <component base="Ka"/>
+    <component base="cy-descendercomb" xOffset="862.0370577021434"/>
+  </outline>
+</glyph>

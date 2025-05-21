@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Endescender" format="2">
+  <advance width="1230"/>
+  <unicode hex="04A2"/>
+  <outline>
+    <component base="H"/>
+    <component base="cy-descendercomb" xOffset="786"/>
+  </outline>
+</glyph>
