@@ -32,5 +32,7 @@
     <string>ve.bgr.glif</string>
     <key>w</key>
     <string>w.glif</string>
+    <key>y</key>
+    <string>y.glif</string>
   </dict>
 </plist>
