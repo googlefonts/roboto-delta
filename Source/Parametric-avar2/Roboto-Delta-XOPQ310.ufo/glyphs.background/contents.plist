@@ -22,6 +22,8 @@
     <string>I_cyr.glif</string>
     <key>Iemacroncyr</key>
     <string>I_emacroncyr.glif</string>
+    <key>K</key>
+    <string>K_.glif</string>
     <key>Kaisymbol</key>
     <string>K_aisymbol.glif</string>
     <key>M</key>

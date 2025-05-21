@@ -4,6 +4,8 @@
   <unicode hex="004B"/>
   <anchor x="633" y="0" name="bottom"/>
   <anchor x="633" y="1456" name="top"/>
+  <anchor x="1061" y="0" name="bottom"/>
+  <anchor x="1061" y="1456" name="top"/>
   <outline>
   </outline>
 </glyph>
