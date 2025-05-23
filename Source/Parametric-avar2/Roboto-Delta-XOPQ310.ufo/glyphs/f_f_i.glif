@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f_f_i" format="2">
-  <advance width="2990"/>
+  <advance width="2910"/>
   <unicode hex="FB03"/>
   <outline>
-    <component base="f"/>
-    <component base="f" xOffset="1005"/>
-    <component base="idotless" xOffset="2090"/>
-    <component base="idot" xOffset="2540"/>
+    <component base="f" xOffset="-80"/>
+    <component base="f" xOffset="925"/>
+    <component base="idotless" xOffset="2010"/>
+    <component base="idot" xOffset="2460"/>
   </outline>
   <lib>
     <dict>
