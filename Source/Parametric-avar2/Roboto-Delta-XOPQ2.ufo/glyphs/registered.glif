@@ -34,13 +34,13 @@
     <contour>
       <point x="335" y="226" type="line"/>
       <point x="335" y="1159" type="line"/>
-      <point x="499" y="1159" type="line" smooth="yes"/>
-      <point x="623" y="1159"/>
+      <point x="449" y="1159" type="line" smooth="yes"/>
+      <point x="603" y="1159"/>
       <point x="701" y="1018"/>
       <point x="701" y="877" type="qcurve" smooth="yes"/>
       <point x="701" y="764"/>
-      <point x="611" y="598"/>
-      <point x="564" y="598" type="qcurve" smooth="yes"/>
+      <point x="591" y="598"/>
+      <point x="514" y="598" type="qcurve" smooth="yes"/>
       <point x="339" y="598" type="line"/>
       <point x="339" y="739" type="line"/>
       <point x="525" y="739" type="line" smooth="yes"/>
