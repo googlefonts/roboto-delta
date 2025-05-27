@@ -34,22 +34,22 @@
     <contour>
       <point x="629" y="145" type="line"/>
       <point x="629" y="1078" type="line"/>
-      <point x="1951" y="1078" type="line" smooth="yes"/>
-      <point x="2123" y="1078"/>
+      <point x="1931" y="1078" type="line" smooth="yes"/>
+      <point x="2103" y="1078"/>
       <point x="2327" y="938"/>
       <point x="2327" y="797" type="qcurve" smooth="yes"/>
       <point x="2327" y="684"/>
-      <point x="2156" y="517"/>
-      <point x="2015" y="517" type="qcurve" smooth="yes"/>
+      <point x="2136" y="517"/>
+      <point x="1995" y="517" type="qcurve" smooth="yes"/>
       <point x="724" y="517" type="line"/>
       <point x="724" y="658" type="line"/>
-      <point x="1977" y="658" type="line" smooth="yes"/>
-      <point x="2050" y="658"/>
+      <point x="1957" y="658" type="line" smooth="yes"/>
+      <point x="2030" y="658"/>
       <point x="2146" y="715"/>
       <point x="2146" y="779" type="qcurve" smooth="yes"/>
       <point x="2146" y="860"/>
-      <point x="2070" y="927"/>
-      <point x="1952" y="927" type="qcurve" smooth="yes"/>
+      <point x="2050" y="927"/>
+      <point x="1932" y="927" type="qcurve" smooth="yes"/>
       <point x="794" y="927" type="line"/>
       <point x="794" y="145" type="line"/>
     </contour>
