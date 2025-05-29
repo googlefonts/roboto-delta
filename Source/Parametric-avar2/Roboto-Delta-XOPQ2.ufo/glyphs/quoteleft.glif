@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quoteleft" format="2">
-	<unicode hex="2018"/>
-	<advance width="319"/>
-	<outline>
-		<contour>
-			<point x="92" y="1073" type="line"/>
-			<point x="92" y="1194" type="line" smooth="yes"/>
-			<point x="92" y="1284"/>
-			<point x="92" y="1488"/>
-			<point x="175" y="1556" type="qcurve"/>
-			<point x="280" y="1483" type="line"/>
-			<point x="227" y="1423"/>
-			<point x="100" y="1278"/>
-			<point x="99" y="1197" type="qcurve" smooth="yes"/>
-			<point x="99" y="1073" type="line"/>
-		</contour>
-	</outline>
+  <advance width="234"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="111.55963302752298" y="1073" type="line"/>
+      <point x="111.55963302752298" y="1194" type="line" smooth="yes"/>
+      <point x="111.55963302752298" y="1284"/>
+      <point x="37.55963302752298" y="1488"/>
+      <point x="109.55963302752298" y="1556" type="qcurve"/>
+      <point x="214.55963302752298" y="1483" type="line"/>
+      <point x="168.55963302752298" y="1417"/>
+      <point x="118.55963302752298" y="1278"/>
+      <point x="118.55963302752298" y="1197" type="qcurve" smooth="yes"/>
+      <point x="118.55963302752298" y="1073" type="line"/>
+    </contour>
+  </outline>
 </glyph>

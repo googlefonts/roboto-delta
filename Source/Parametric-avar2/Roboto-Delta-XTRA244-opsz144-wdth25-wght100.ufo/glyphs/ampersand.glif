@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ampersand" format="2">
-  <advance width="495"/>
+  <advance width="424"/>
   <unicode hex="0026"/>
   <outline>
     <contour>
@@ -21,10 +21,10 @@
       <point x="264" y="1090"/>
       <point x="284" y="912"/>
       <point x="298" y="840" type="qcurve" smooth="yes"/>
-      <point x="460" y="0" type="line"/>
-      <point x="240" y="0" type="line"/>
+      <point x="400" y="0" type="line"/>
+      <point x="180" y="0" type="line"/>
       <point x="156" y="740" type="line"/>
-      <point x="142" y="817"/>
+      <point x="148" y="817"/>
       <point x="82" y="1060"/>
       <point x="82" y="1160" type="qcurve" smooth="yes"/>
       <point x="82" y="1320"/>
