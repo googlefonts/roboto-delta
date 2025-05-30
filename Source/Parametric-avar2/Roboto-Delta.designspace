@@ -904,8 +904,10 @@
             <dimension name="WDSP" xvalue="250"/>
             <dimension name="BARS" xvalue="1000"/>
             <dimension name="XTUD" xvalue="463"/>
-            <dimension name="STUI" xvalue="92"/>
-            <dimension name="STUO" xvalue="92"/>
+            <dimension name="STUI" xvalue="60"/>
+            <!-- EXCEPTION TO ROUND INTSIDE -->
+            <dimension name="STUO" xvalue="60"/>
+            <!-- EXCEPTION TO ROUND OUTTSIDE -->
             <dimension name="STLI" xvalue="32"/>
             <dimension name="STLO" xvalue="32"/>
         </output>

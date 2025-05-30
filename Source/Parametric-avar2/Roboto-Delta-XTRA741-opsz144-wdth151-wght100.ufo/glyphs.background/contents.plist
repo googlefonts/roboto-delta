@@ -22,6 +22,8 @@
     <string>acutecomb.glif</string>
     <key>beta</key>
     <string>beta.glif</string>
+    <key>dollar.rvrn</key>
+    <string>dollar.rvrn.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
     <key>four</key>
@@ -52,6 +54,8 @@
     <string>xi.glif</string>
     <key>y</key>
     <string>y.glif</string>
+    <key>zero</key>
+    <string>zero.glif</string>
     <key>zhe</key>
     <string>zhe.glif</string>
     <key>zhe.bgr</key>
