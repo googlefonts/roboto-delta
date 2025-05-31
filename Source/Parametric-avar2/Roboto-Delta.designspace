@@ -353,7 +353,8 @@
             <dimension name="XTSP" xvalue="0"/>
             <dimension name="YOPE" xvalue="79"/>
             <dimension name="YOPQ" xvalue="42"/>
-            <dimension name="YTAS" xvalue="728"/>
+            <dimension name="YTAS" xvalue="756"/>
+            <!-- EXCEPTION ASCENDERS FOR LEGIBILITY -->
             <dimension name="YTDE" xvalue="-208"/>
             <dimension name="YTFI" xvalue="743"/>
             <dimension name="YTLC" xvalue="526"/>
@@ -453,7 +454,8 @@
             <dimension name="XTSP" xvalue="10"/>
             <dimension name="YOPE" xvalue="79"/>
             <dimension name="YOPQ" xvalue="44"/>
-            <dimension name="YTAS" xvalue="728"/>
+            <dimension name="YTAS" xvalue="756"/>
+            <!-- EXCEPTION ASCENDERS FOR LEGIBILITY -->
             <dimension name="YTDE" xvalue="-208"/>
             <dimension name="YTFI" xvalue="743"/>
             <dimension name="YTLC" xvalue="526"/>
@@ -553,7 +555,8 @@
             <dimension name="XTSP" xvalue="10"/>
             <dimension name="YOPE" xvalue="79"/>
             <dimension name="YOPQ" xvalue="46"/>
-            <dimension name="YTAS" xvalue="728"/>
+            <dimension name="YTAS" xvalue="756"/>
+            <!-- EXCEPTION ASCENDERS FOR LEGIBILITY -->
             <dimension name="YTDE" xvalue="-208"/>
             <dimension name="YTFI" xvalue="743"/>
             <dimension name="YTLC" xvalue="526"/>
@@ -653,7 +656,8 @@
             <dimension name="XTSP" xvalue="-75"/>
             <dimension name="YOPE" xvalue="79"/>
             <dimension name="YOPQ" xvalue="2"/>
-            <dimension name="YTAS" xvalue="728"/>
+            <dimension name="YTAS" xvalue="756"/>
+            <!-- EXCEPTION ASCENDERS FOR LEGIBILITY -->
             <dimension name="YTDE" xvalue="-155"/>
             <dimension name="YTFI" xvalue="743"/>
             <dimension name="YTLC" xvalue="458"/>
@@ -756,7 +760,8 @@
             <dimension name="XTSP" xvalue="-10"/>
             <dimension name="YOPE" xvalue="79"/>
             <dimension name="YOPQ" xvalue="4"/>
-            <dimension name="YTAS" xvalue="728"/>
+            <dimension name="YTAS" xvalue="756"/>
+            <!-- EXCEPTION ASCENDERS FOR LEGIBILITY -->
             <dimension name="YTDE" xvalue="-155"/>
             <dimension name="YTFI" xvalue="743"/>
             <dimension name="YTLC" xvalue="458"/>
@@ -892,7 +897,8 @@
             <dimension name="XTSP" xvalue="20"/>
             <dimension name="YOPE" xvalue="79"/>
             <dimension name="YOPQ" xvalue="4"/>
-            <dimension name="YTAS" xvalue="728"/>
+            <dimension name="YTAS" xvalue="756"/>
+            <!-- EXCEPTION ASCENDERS FOR LEGIBILITY -->
             <dimension name="YTDE" xvalue="-155"/>
             <dimension name="YTFI" xvalue="743"/>
             <dimension name="YTLC" xvalue="458"/>
