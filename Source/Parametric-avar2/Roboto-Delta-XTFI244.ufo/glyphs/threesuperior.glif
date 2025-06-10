@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threesuperior" format="2">
-  <advance width="515"/>
+  <advance width="502"/>
   <unicode hex="00B3"/>
   <outline>
     <contour>
@@ -36,9 +36,9 @@
       <point x="164" y="1487"/>
       <point x="246" y="1487" type="qcurve" smooth="yes"/>
       <point x="325" y="1487"/>
-      <point x="431" y="1372"/>
-      <point x="431" y="1263" type="qcurve" smooth="yes"/>
-      <point x="431" y="1212"/>
+      <point x="418" y="1372"/>
+      <point x="418" y="1263" type="qcurve" smooth="yes"/>
+      <point x="418" y="1212"/>
       <point x="404" y="1120"/>
       <point x="364" y="1098" type="qcurve"/>
       <point x="364" y="1097" type="line"/>

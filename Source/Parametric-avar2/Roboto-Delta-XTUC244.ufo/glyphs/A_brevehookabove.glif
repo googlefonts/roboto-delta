@@ -5,7 +5,7 @@
   <outline>
     <component base="A"/>
     <component base="brevecomb-stack.case" xOffset="253"/>
-    <component base="hookabovecomb-stack" xOffset="253" yOffset="776"/>
+    <component base="hookabovecomb-stack" xOffset="253" yOffset="676"/>
   </outline>
   <lib>
     <dict>

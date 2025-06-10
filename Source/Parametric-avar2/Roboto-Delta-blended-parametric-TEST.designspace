@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.1">
+  <axes>
+    
+    <axis tag="XTRA" name="XTRA" minimum="244" maximum="741" default="463"/>
+    <axis tag="XTUC" name="XTUC" minimum="244" maximum="741" default="463"/>
+    <axis tag="XTLC" name="XTLC" minimum="244" maximum="741" default="463"/>
+    <axis tag="XTFI" name="XTFI" minimum="244" maximum="741" default="463"/>
+    <axis tag="XTUD" name="XTUD" minimum="463" maximum="741" default="463"/>
+    <axis tag="XTUR" name="XTUR" minimum="463" maximum="741" default="463"/>
+    
+    <mappings>
+    
+      <mapping>
+        <input>
+            <dimension name="XTRA" xvalue="244"/>
+        </input>
+        <output>
+            <dimension name="XTRA" xvalue="244"/>
+            <dimension name="XTUC" xvalue="244"/>
+            <dimension name="XTLC" xvalue="244"/>
+            <dimension name="XTFI" xvalue="244"/>
+            <dimension name="XTUD" xvalue="244"/>
+            <dimension name="XTUR" xvalue="244"/>
+        </output>
+      </mapping>
+      
+      <mapping>
+        <input>
+            <dimension name="XTRA" xvalue="741"/>
+        </input>
+        <output>
+            <dimension name="XTRA" xvalue="741"/>
+            <dimension name="XTUC" xvalue="741"/>
+            <dimension name="XTLC" xvalue="741"/>
+            <dimension name="XTFI" xvalue="741"/>
+            <dimension name="XTUD" xvalue="741"/>
+            <dimension name="XTUR" xvalue="741"/>
+        </output>
+      </mapping>
+    
+    </mappings>
+    
+  </axes>
+  
+  <sources>
+    <source filename="Roboto-Delta-wght400.ufo" familyname="Roboto Delta" stylename="Regular">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="463"/>
+        <dimension name="XTLC" xvalue="463"/>
+        <dimension name="XTFI" xvalue="463"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTUC244.ufo" familyname="Roboto Delta" stylename="XTUC244">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="244"/>
+        <dimension name="XTLC" xvalue="463"/>
+        <dimension name="XTFI" xvalue="463"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTUC741.ufo" familyname="Roboto Delta" stylename="XTUC741">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="741"/>
+        <dimension name="XTLC" xvalue="463"/>
+        <dimension name="XTFI" xvalue="463"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTLC244.ufo" familyname="Roboto Delta" stylename="XTLC244">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="463"/>
+        <dimension name="XTLC" xvalue="244"/>
+        <dimension name="XTFI" xvalue="463"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTLC244.ufo" familyname="Roboto Delta" stylename="XTLC244">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="463"/>
+        <dimension name="XTLC" xvalue="300"/>
+        <dimension name="XTFI" xvalue="463"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTLC741.ufo" familyname="Roboto Delta" stylename="XTLC741">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="463"/>
+        <dimension name="XTLC" xvalue="741"/>
+        <dimension name="XTFI" xvalue="463"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTLC741.ufo" familyname="Roboto Delta" stylename="XTLC741">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="463"/>
+        <dimension name="XTLC" xvalue="600"/>
+        <dimension name="XTFI" xvalue="463"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTFI244.ufo" familyname="Roboto Delta" stylename="XTFI244">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="463"/>
+        <dimension name="XTLC" xvalue="463"/>
+        <dimension name="XTFI" xvalue="244"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTFI741.ufo" familyname="Roboto Delta" stylename="XTFI741">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="463"/>
+        <dimension name="XTLC" xvalue="463"/>
+        <dimension name="XTFI" xvalue="741"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTUD741.ufo" familyname="Roboto Delta" stylename="XTUD741">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="463"/>
+        <dimension name="XTLC" xvalue="463"/>
+        <dimension name="XTFI" xvalue="463"/>
+        <dimension name="XTUD" xvalue="741"/>
+        <dimension name="XTUR" xvalue="463"/>
+      </location>
+    </source>
+    
+    <source filename="Roboto-Delta-XTUR741.ufo" familyname="Roboto Delta" stylename="XTUR741">
+      <location>
+        <dimension name="XTRA" xvalue="463"/>
+        <dimension name="XTUC" xvalue="463"/>
+        <dimension name="XTLC" xvalue="463"/>
+        <dimension name="XTFI" xvalue="463"/>
+        <dimension name="XTUD" xvalue="463"/>
+        <dimension name="XTUR" xvalue="741"/>
+      </location>
+    </source>
+    
+  </sources>
+
+</designspace>

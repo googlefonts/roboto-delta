@@ -5,7 +5,7 @@
   <outline>
     <component base="E"/>
     <component base="circumflexcomb-stack.case" xOffset="329"/>
-    <component base="hookcomb-stack.case" xOffset="561" yOffset="146"/>
+    <component base="hookcomb-stack.case" xOffset="561" yOffset="56"/>
   </outline>
   <lib>
     <dict>
