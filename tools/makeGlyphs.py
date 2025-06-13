@@ -66,12 +66,24 @@ def makeGlyphs(src_font, dst_font, glyphs, in_set):
 # makeGlyphs('Roboto-Delta-XOPQ310.ufo', 'Roboto-Delta-XOUC310.ufo', XOUC, True)
 
 # # XTRAs
+
+# # # XTFI 
 makeGlyphs('Roboto-Delta-XTRA244.ufo', 'Roboto-Delta-XTFI244.ufo', XTFI, True)
 makeGlyphs('Roboto-Delta-XTRA741.ufo', 'Roboto-Delta-XTFI741.ufo', XTFI, True)
+makeGlyphs('Roboto-Delta-XTRA244-opsz144-wdth25-wght100.ufo', 'Roboto-Delta-XTFI244-opsz144-wdth25-wght100.ufo', XTFI, True)
+makeGlyphs('Roboto-Delta-XTRA741-opsz144-wdth151-wght100.ufo', 'Roboto-Delta-XTFI741-opsz144-wdth151-wght100.ufo', XTFI, True)
+
+# # # XTLC
 makeGlyphs('Roboto-Delta-XTRA244.ufo', 'Roboto-Delta-XTLC244.ufo', XTLC, True)
 makeGlyphs('Roboto-Delta-XTRA741.ufo', 'Roboto-Delta-XTLC741.ufo', XTLC, True)
+makeGlyphs('Roboto-Delta-XTRA244-opsz144-wdth25-wght100.ufo', 'Roboto-Delta-XTLC244-opsz144-wdth25-wght100.ufo', XTLC, True)
+makeGlyphs('Roboto-Delta-XTRA741-opsz144-wdth151-wght100.ufo', 'Roboto-Delta-XTLC741-opsz144-wdth151-wght100.ufo', XTLC, True)
+
+# # # XTUC
 makeGlyphs('Roboto-Delta-XTRA244.ufo', 'Roboto-Delta-XTUC244.ufo', XTUC, True)
 makeGlyphs('Roboto-Delta-XTRA741.ufo', 'Roboto-Delta-XTUC741.ufo', XTUC, True)
+makeGlyphs('Roboto-Delta-XTRA244-opsz144-wdth25-wght100.ufo', 'Roboto-Delta-XTUC244-opsz144-wdth25-wght100.ufo', XTUC, True)
+makeGlyphs('Roboto-Delta-XTRA741-opsz144-wdth151-wght100.ufo', 'Roboto-Delta-XTUC741-opsz144-wdth151-wght100.ufo', XTUC, True)
 
 # # # YTAS
 # makeGlyphs('Roboto-Delta-wght400.ufo', 'Roboto-Delta-YTAS665.ufo', YTAS, False)

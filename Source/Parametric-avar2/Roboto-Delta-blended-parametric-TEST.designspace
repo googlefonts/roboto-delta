@@ -88,7 +88,7 @@
       </location>
     </source>
     
-    <source filename="Roboto-Delta-XTLC244.ufo" familyname="Roboto Delta" stylename="XTLC244">
+    <source filename="Roboto-Delta-XTLC244.ufo" familyname="Roboto Delta" stylename="XTLC300">
       <location>
         <dimension name="XTRA" xvalue="463"/>
         <dimension name="XTUC" xvalue="463"/>
@@ -110,7 +110,7 @@
       </location>
     </source>
     
-    <source filename="Roboto-Delta-XTLC741.ufo" familyname="Roboto Delta" stylename="XTLC741">
+    <source filename="Roboto-Delta-XTLC741.ufo" familyname="Roboto Delta" stylename="XTLC600">
       <location>
         <dimension name="XTRA" xvalue="463"/>
         <dimension name="XTUC" xvalue="463"/>
