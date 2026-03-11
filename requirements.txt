@@ -45,7 +45,7 @@ blackrenderer[skia]==0.6.0
     #   drawbot-skia
 booleanoperations==0.9.0
     # via ufo2ft
-brotli==1.0.9
+brotli==1.2.0
     # via gftools
 browserstack-local==1.2.2
     # via gftools
