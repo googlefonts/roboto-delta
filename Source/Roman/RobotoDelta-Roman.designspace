@@ -26,108 +26,108 @@
     <axis tag="XTSP" name="XTSP" minimum="-100" maximum="100" default="0">
       <labelname xml:lang="en">Parametric Spacing</labelname>
     </axis>
-    <axis tag="XOPQ" name="XOPQ" minimum="2" maximum="310" default="96">
+    <axis tag="XOPQ" name="XOPQ" minimum="2" maximum="310" default="96" hidden="1">
       <labelname xml:lang="en">Parametric Thick Stroke</labelname>
     </axis>
-    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="280" default="79">
+    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="280" default="79" hidden="1">
       <labelname xml:lang="en">Parametric Thin Stroke</labelname>
     </axis>
-    <axis tag="XTRA" name="XTRA" minimum="244" maximum="741" default="463">
+    <axis tag="XTRA" name="XTRA" minimum="244" maximum="741" default="463" hidden="1">
       <labelname xml:lang="en">Parametric Counter Width</labelname>
     </axis>
-    <axis tag="BDSZ" name="BDSZ" minimum="-1" maximum="1.4" default="0">
+    <axis tag="BDSZ" name="BDSZ" minimum="-1" maximum="1.4" default="0" hidden="1">
       <labelname xml:lang="en">Parametric Body Size</labelname>
     </axis>
-    <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="246">
+    <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="246" hidden="1">
       <labelname xml:lang="en">Parametric Wordspace</labelname>
     </axis>
     
     <!-- UPPERCASE -->
-    <axis tag="XOUC" name="XOUC" minimum="2" maximum="310" default="96">
+    <axis tag="XOUC" name="XOUC" minimum="2" maximum="310" default="96" hidden="1">
       <labelname xml:lang="en">Parametric Thick Stroke Uppercase</labelname>
     </axis>
-    <axis tag="YOUC" name="YOUC" minimum="2" maximum="280" default="79">
+    <axis tag="YOUC" name="YOUC" minimum="2" maximum="280" default="79" hidden="1">
       <labelname xml:lang="en">Parametric Thin Stroke Uppercase</labelname>
     </axis>
-    <axis tag="XTUC" name="XTUC" minimum="244" maximum="741" default="463">
+    <axis tag="XTUC" name="XTUC" minimum="244" maximum="741" default="463" hidden="1">
       <labelname xml:lang="en">Parametric Counter Width Uppercase</labelname>
     </axis>
-    <axis tag="XTUD" name="XTUD" minimum="463" maximum="741" default="463">
+    <axis tag="XTUD" name="XTUD" minimum="463" maximum="741" default="463" hidden="1">
       <labelname xml:lang="en">Parametric Counter Width Diagonals Uppercase</labelname>
     </axis>
-    <axis tag="XTUR" name="XTUR" minimum="463" maximum="741" default="463">
+    <axis tag="XTUR" name="XTUR" minimum="463" maximum="741" default="463" hidden="1">
       <labelname xml:lang="en">Parametric Counter Width Round Letters Uppercase</labelname>
     </axis>
-    <axis tag="YOPE" name="YOPE" minimum="79" maximum="280" default="79">
+    <axis tag="YOPE" name="YOPE" minimum="79" maximum="280" default="79" hidden="1">
       <labelname xml:lang="en">Parametric Thin Stroke E</labelname>
     </axis>
-    <axis tag="YTUC" name="YTUC" minimum="528" maximum="778" default="728">
+    <axis tag="YTUC" name="YTUC" minimum="528" maximum="778" default="728" hidden="1">
       <labelname xml:lang="en">Parametric Uppercase Height</labelname>
     </axis>
-    <axis tag="STUI" name="STUI" minimum="2" maximum="736" default="92">
+    <axis tag="STUI" name="STUI" minimum="2" maximum="736" default="92" hidden="1">
       <labelname xml:lang="en">Parametric Uppercase Internal Straight Counter</labelname>
     </axis>
-    <axis tag="STUO" name="STUO" minimum="2" maximum="722" default="92">
+    <axis tag="STUO" name="STUO" minimum="2" maximum="722" default="92" hidden="1">
       <labelname xml:lang="en">Parametric Uppercase Outer Straight Counter</labelname>
     </axis>
     <!-- LOWERCASE -->
-    <axis tag="XOLC" name="XOLC" minimum="2" maximum="310" default="96">
+    <axis tag="XOLC" name="XOLC" minimum="2" maximum="310" default="96" hidden="1">
       <labelname xml:lang="en">Parametric Thick Stroke Lowercase</labelname>
     </axis>
-    <axis tag="YOLC" name="YOLC" minimum="2" maximum="280" default="79">
+    <axis tag="YOLC" name="YOLC" minimum="2" maximum="280" default="79" hidden="1">
       <labelname xml:lang="en">Parametric Thin Stroke Lowercase</labelname>
     </axis>
-    <axis tag="XTLC" name="XTLC" minimum="244" maximum="741" default="463">
+    <axis tag="XTLC" name="XTLC" minimum="244" maximum="741" default="463" hidden="1">
       <labelname xml:lang="en">Parametric Counter Width Lowercase</labelname>
     </axis>
-    <axis tag="YTAS" name="YTAS" minimum="665" maximum="875" default="728">
+    <axis tag="YTAS" name="YTAS" minimum="665" maximum="875" default="728" hidden="1">
       <labelname xml:lang="en">Parametric Ascender Height</labelname>
     </axis>
-    <axis tag="YTDE" name="YTDE" minimum="-310" maximum="-100" default="-208">
+    <axis tag="YTDE" name="YTDE" minimum="-310" maximum="-100" default="-208" hidden="1">
       <labelname xml:lang="en">Parametric Descender Depth</labelname>
     </axis>
-    <axis tag="YTLC" name="YTLC" minimum="426" maximum="584" default="526">
+    <axis tag="YTLC" name="YTLC" minimum="426" maximum="584" default="526" hidden="1">
       <labelname xml:lang="en">Parametric Lowercase Height</labelname>
     </axis>
-    <axis tag="STLI" name="STLI" minimum="2" maximum="412" default="32">
+    <axis tag="STLI" name="STLI" minimum="2" maximum="412" default="32" hidden="1">
       <labelname xml:lang="en">Parametric Lowercase Internal Straight Counter</labelname>
     </axis>
-    <axis tag="STLO" name="STLO" minimum="2" maximum="426" default="32">
+    <axis tag="STLO" name="STLO" minimum="2" maximum="426" default="32" hidden="1">
       <labelname xml:lang="en">Parametric Lowercase Internal Straight Counter</labelname>
     </axis>
-    <axis tag="YOLB" name="YOLB" minimum="132" maximum="280" default="132">
+    <axis tag="YOLB" name="YOLB" minimum="132" maximum="280" default="132" hidden="1">
       <labelname xml:lang="en">Parametric Thin Stroke Lowercase Compensation</labelname>
     </axis>
     <!-- FIGURES -->
-    <axis tag="XOFI" name="XOFI" minimum="2" maximum="310" default="96">
+    <axis tag="XOFI" name="XOFI" minimum="2" maximum="310" default="96" hidden="1">
       <labelname xml:lang="en">Parametric Thick Stroke Figures</labelname>
     </axis>
-    <axis tag="YOFI" name="YOFI" minimum="2" maximum="280" default="79">
+    <axis tag="YOFI" name="YOFI" minimum="2" maximum="280" default="79" hidden="1">
       <labelname xml:lang="en">Parametric Thin Stroke Figures</labelname>
     </axis>
-    <axis tag="XTFI" name="XTFI" minimum="244" maximum="741" default="463">
+    <axis tag="XTFI" name="XTFI" minimum="244" maximum="741" default="463" hidden="1">
       <labelname xml:lang="en">Parametric Counter Width Figures</labelname>
     </axis>
-    <axis tag="YTFI" name="YTFI" minimum="270" maximum="793" default="743">
+    <axis tag="YTFI" name="YTFI" minimum="270" maximum="793" default="743" hidden="1">
       <labelname xml:lang="en">Parametric Figure Height</labelname>
     </axis>
     <!-- VARIETY -->
-    <axis tag="BARS" name="BARS" minimum="0" maximum="1000" default="1000">
+    <axis tag="BARS" name="BARS" minimum="0" maximum="1000" default="1000" hidden="1">
       <labelname xml:lang="en">Parametric Bars</labelname>
     </axis>
-    <axis tag="VANG" name="VANG" minimum="-3" maximum="13" default="0">
+    <axis tag="VANG" name="VANG" minimum="-3" maximum="13" default="0" hidden="1">
       <labelname xml:lang="en">Parametric Angle</labelname>
     </axis>
-    <axis tag="VROT" name="VROT" minimum="0" maximum="13" default="0">
+    <axis tag="VROT" name="VROT" minimum="0" maximum="13" default="0" hidden="1">
       <labelname xml:lang="en">Parametric Rotation</labelname>
     </axis>
-    <axis tag="YTTL" name="YTTL" minimum="0" maximum="50" default="25">
+    <axis tag="YTTL" name="YTTL" minimum="0" maximum="50" default="25" hidden="1">
       <labelname xml:lang="en">Parametric Ink Trap Length</labelname>
     </axis>
-    <axis tag="XTTW" name="XTTW" minimum="0" maximum="30" default="5">
+    <axis tag="XTTW" name="XTTW" minimum="0" maximum="30" default="5" hidden="1">
       <labelname xml:lang="en">Parametric Ink Trap Width</labelname>
     </axis>
-    <axis tag="YTOS" name="YTOS" minimum="0" maximum="50" default="30">
+    <axis tag="YTOS" name="YTOS" minimum="0" maximum="50" default="30" hidden="1">
       <labelname xml:lang="en">Parametric Overshoot</labelname>
     </axis>
     
