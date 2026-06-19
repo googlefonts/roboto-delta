@@ -43,27 +43,18 @@ do
 					
 					if [ $fontPosture == 'Roman' ]; then
 						fonttools varLib.instancer fonts/LGCAlpha/RobotoDelta-Roman-VF.ttf opsz=$fontOpticalSize wght=$fontWeight wdth=$fontWidth -o $FULL_PATH/$FILENAME.ttf --static
+						
+						# # Update nameIDs
+						python3 tools/updateNameIDs-avar1-datestamp.py -f "Roboto Delta Roman" -s $LOCATION_WP -i $FULL_PATH/$FILENAME.ttf -o $FULL_PATH/$FILENAME.ttf -d False
+						
+						echo 'Location / Stylename' + $LOCATION_WP
 					else
 						fonttools varLib.instancer fonts/LGCAlpha/RobotoDelta-Italic-VF.ttf opsz=$fontOpticalSize wght=$fontWeight wdth=$fontWidth -o $FULL_PATH/$FILENAME.ttf --static
+						
+						# # Update nameIDs
+						python3 tools/updateNameIDs-avar1-datestamp.py -f "Roboto Delta Italic" -s $LOCATION_WP -i $FULL_PATH/$FILENAME.ttf -o $FULL_PATH/$FILENAME.ttf -d False
+						
 					fi
-					# ttx name
-					ttx -t name $FULL_PATH/$FILENAME.ttf
-					
-					# Update nameIDs
-					if [ $fontPosture == 'Roman' ]; then
-						python tools/make_instances/updateNameIDs.py -l $LOCATION_WP -p $fontPosture -t $FULL_PATH/$FILENAME.ttx -o $FULL_PATH/$FILENAME'-output'.ttx
-					else
-						python tools/make_instances/updateNameIDs.py -l $LOCATION_WP -p $fontPosture -t $FULL_PATH/$FILENAME.ttx -o $FULL_PATH/$FILENAME'-output'.ttx
-					fi
-					#merge with new nameIDs
-					ttx -m $FULL_PATH/$FILENAME.ttf $FULL_PATH/$FILENAME'-output'.ttx
-					echo 'ttx -m '$FULL_PATH/$FILENAME.ttf' '$FULL_PATH/$FILENAME'-output.ttx'
-					
-					#rename output
-					rm $FULL_PATH/$FILENAME.ttf
-					rm $FULL_PATH/$FILENAME.ttx
-					rm $FULL_PATH/$FILENAME'-output'.ttx
-					mv $FULL_PATH/$FILENAME'-output'.ttf $FULL_PATH/$FILENAME.ttf
 					
 				done
 			
