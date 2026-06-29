@@ -1,9 +1,21 @@
-
+#!/bin/bash
+python3 -m venv tools/RobotoflexA2-env
 source tools/RobotoflexA2-env/bin/activate
 
-declare -a weights=('100' '400' '1000')
-declare -a widths=('25' '100' '151')
-declare -a opticalsize=('8' '14' '144')
+pip install fonttools
+
+# Check if VIRTUAL_ENV is set
+if [ -z "$VIRTUAL_ENV" ]; then
+    echo "❌ Error: No active Python virtual environment detected!"
+    echo "Please activate your venv before running this script."
+    exit 1
+fi
+
+echo "✅ Using virtual environment: $VIRTUAL_ENV"
+
+declare -a weights=('1' '100' '200' '300' '400' '500' '600' '700' '800' '900' '1000')
+declare -a widths=('25' '50' '75' '100' '125' '151')
+declare -a opticalsize=('8' '14' '36' '72' '144')
 declare -a grade=('0')
 declare -a posture=('Roman' 'Italic')
 
@@ -45,14 +57,14 @@ do
 						fonttools varLib.instancer fonts/LGCAlpha/RobotoDelta-Roman-VF.ttf opsz=$fontOpticalSize wght=$fontWeight wdth=$fontWidth -o $FULL_PATH/$FILENAME.ttf --static
 						
 						# # Update nameIDs
-						python3 tools/updateNameIDs-avar1-datestamp.py -f "Roboto Delta Roman" -s $LOCATION_WP -i $FULL_PATH/$FILENAME.ttf -o $FULL_PATH/$FILENAME.ttf -d False
+						"$VIRTUAL_ENV/bin/python" tools/updateNameIDs-avar1-datestamp.py -f "Roboto Delta Roman" -s $LOCATION_WP -i $FULL_PATH/$FILENAME.ttf -o $FULL_PATH/$FILENAME.ttf -d False
 						
 						echo 'Location / Stylename' + $LOCATION_WP
 					else
 						fonttools varLib.instancer fonts/LGCAlpha/RobotoDelta-Italic-VF.ttf opsz=$fontOpticalSize wght=$fontWeight wdth=$fontWidth -o $FULL_PATH/$FILENAME.ttf --static
 						
 						# # Update nameIDs
-						python3 tools/updateNameIDs-avar1-datestamp.py -f "Roboto Delta Italic" -s $LOCATION_WP -i $FULL_PATH/$FILENAME.ttf -o $FULL_PATH/$FILENAME.ttf -d False
+						"$VIRTUAL_ENV/bin/python" tools/updateNameIDs-avar1-datestamp.py -f "Roboto Delta Italic" -s $LOCATION_WP -i $FULL_PATH/$FILENAME.ttf -o $FULL_PATH/$FILENAME.ttf -d False
 						
 					fi
 					
