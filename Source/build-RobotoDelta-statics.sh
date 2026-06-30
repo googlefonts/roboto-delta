@@ -2,7 +2,7 @@
 python3 -m venv tools/RobotoflexA2-env
 source tools/RobotoflexA2-env/bin/activate
 
-pip install fonttools
+pip install fonttools setuptools
 
 # Check if VIRTUAL_ENV is set
 if [ -z "$VIRTUAL_ENV" ]; then
