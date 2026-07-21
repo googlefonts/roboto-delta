@@ -2,7 +2,7 @@
 python3 -m venv tools/RobotoflexA2-env
 source tools/RobotoflexA2-env/bin/activate
 
-pip install fonttools
+pip install fonttools axisregistry
 
 # Check if VIRTUAL_ENV is set
 if [ -z "$VIRTUAL_ENV" ]; then
@@ -74,5 +74,8 @@ do
 		done
 	done
 done
+
+# Make the name tables conform to https://googlefonts.github.io/gf-guide/statics.html
+"$VIRTUAL_ENV/bin/python" tools/fix_static_names.py fonts/LGCAlpha/statics/*/*.ttf
 
 deactivate
