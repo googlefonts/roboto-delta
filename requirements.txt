@@ -284,7 +284,7 @@ pygithub==1.57
     # via gftools
 pygments==2.15.0
     # via rich
-pyjwt==2.6.0
+pyjwt==2.13.0
     # via pygithub
 pynacl==1.5.0
     # via pygithub
