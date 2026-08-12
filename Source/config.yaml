@@ -1,0 +1,6 @@
+sources:
+  - ./Roman/RobotoDelta.designspace
+  - ./Italic/RobotoDelta-Italic.designspace
+checkCompatibility: False
+familyName: "Roboto Delta"
+splitItalic: false
