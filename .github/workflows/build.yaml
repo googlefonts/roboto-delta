@@ -1,0 +1,34 @@
+name: Build fonts
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - "sources/**"
+      - ".github/workflows/build.yaml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install gftools
+        # 0.9.998 is the first release with builder support for the
+        # "instances" config section.
+        run: pip install "gftools>=0.9.998"
+
+      - name: Build fonts
+        run: gftools builder sources/config.yaml
+
+      - name: Upload fonts
+        uses: actions/upload-artifact@v4
+        with:
+          name: fonts
+          path: fonts/
