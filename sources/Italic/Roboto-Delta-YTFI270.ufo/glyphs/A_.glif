@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A" format="2">
+	<unicode hex="0041"/>
+	<advance width="1280"/>
+	<outline>
+		<contour>
+			<point x="-154.7411768958" y="0" type="line"/>
+			<point x="710.8667425125" y="1466" type="line"/>
+			<point x="882.8667425125" y="1466" type="line"/>
+			<point x="1125.2588231042" y="0" type="line"/>
+			<point x="925.2588231042" y="0" type="line"/>
+			<point x="759.0710409412" y="1100" type="line" smooth="yes"/>
+			<point x="754.0854074764" y="1133"/>
+			<point x="749.2639142999" y="1195"/>
+			<point x="749.278280835" y="1228" type="qcurve"/>
+			<point x="739.278280835" y="1228" type="line"/>
+			<point x="725.2639142999" y="1195"/>
+			<point x="694.0854074764" y="1133"/>
+			<point x="675.0710409412" y="1100" type="qcurve" smooth="yes"/>
+			<point x="37.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="164.0303165388" y="380" type="line"/>
+			<point x="256.6142532827" y="538" type="line"/>
+			<point x="940.6142532827" y="538" type="line"/>
+			<point x="965.0303165388" y="380" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="485.2588231042" y="0"/>
+	<anchor name="ogonek" x="1019.2588231042" y="0"/>
+	<anchor name="top" x="794.7411768958" y="1456"/>
+	<anchor name="tonos" x="336.5445703378" y="1074"/>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upsilon" format="2">
+	<unicode hex="03C5"/>
+	<advance width="1128"/>
+	<outline>
+		<contour>
+			<point x="406.0076918708" y="-20" type="qcurve" smooth="yes"/>
+			<point x="160.0076918708" y="-20"/>
+			<point x="-8.0173080001" y="201"/>
+			<point x="34.9191174572" y="403" type="qcurve" smooth="yes"/>
+			<point x="172.8683259811" y="1052" type="line"/>
+			<point x="416.8683259811" y="1052" type="line"/>
+			<point x="284.4455880607" y="429" type="line" smooth="yes"/>
+			<point x="258.7262440986" y="308"/>
+			<point x="335.2436648348" y="174"/>
+			<point x="447.2436648348" y="174" type="qcurve" smooth="yes"/>
+			<point x="559.2436648348" y="174"/>
+			<point x="691.7262440986" y="308"/>
+			<point x="717.4455880607" y="429" type="qcurve" smooth="yes"/>
+			<point x="849.8683259811" y="1052" type="line"/>
+			<point x="1093.8683259811" y="1052" type="line"/>
+			<point x="955.9191174572" y="403" type="line" smooth="yes"/>
+			<point x="912.9826919999" y="201"/>
+			<point x="651.0076918708" y="-20"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="668.0770913974" y="1052"/>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f_f_ij" format="2">
+	<advance width="2200"/>
+	<outline>
+		<component base="f" xOffset="-11.5887850467"/>
+		<component base="f" xOffset="647.0794392523"/>
+		<component base="idotless" xOffset="1317.3364485981"/>
+		<component base="idot" xOffset="1596.308411215"/>
+		<component base="jdotless" xOffset="1875.2803738318"/>
+		<component base="idot" xOffset="2154.2523364486"/>
+	</outline>
+</glyph>

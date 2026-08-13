@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lira" format="2">
+	<unicode hex="20A4"/>
+	<advance width="468"/>
+	<outline>
+		<contour>
+			<point x="306.2588231042" y="0" type="line"/>
+			<point x="-118.7411768958" y="0" type="line"/>
+			<point x="-84.7321270286" y="160" type="line"/>
+			<point x="-69.7321270286" y="160" type="line" smooth="yes"/>
+			<point x="-59.7321270286" y="160"/>
+			<point x="0.1271490853" y="324"/>
+			<point x="25.5227374041" y="467" type="qcurve" smooth="yes"/>
+			<point x="128.1050906794" y="1039" type="line" smooth="yes"/>
+			<point x="162.278280835" y="1228"/>
+			<point x="300.9923081292" y="1476"/>
+			<point x="414.9923081292" y="1476" type="qcurve" smooth="yes"/>
+			<point x="541.9923081292" y="1476"/>
+			<point x="587.2056564252" y="1270"/>
+			<point x="551.7087106263" y="1103" type="qcurve" smooth="yes"/>
+			<point x="548.3078056395" y="1087" type="line"/>
+			<point x="356.3078056395" y="1087" type="line"/>
+			<point x="359.7087106263" y="1103" type="line" smooth="yes"/>
+			<point x="384.1527152183" y="1218"/>
+			<point x="399.620927947" y="1319"/>
+			<point x="382.620927947" y="1319" type="qcurve" smooth="yes"/>
+			<point x="373.620927947" y="1319"/>
+			<point x="333.2495477648" y="1162"/>
+			<point x="310.1050906794" y="1039" type="qcurve" smooth="yes"/>
+			<point x="212.2375564326" y="508" type="line" smooth="yes"/>
+			<point x="187.3298640455" y="372"/>
+			<point x="144.2580313699" y="207"/>
+			<point x="130.5432123414" y="166" type="qcurve"/>
+			<point x="341.5432123414" y="166" type="line"/>
+		</contour>
+		<contour>
+			<point x="313.9334839924" y="436" type="line"/>
+			<point x="-40.0665160076" y="436" type="line"/>
+			<point x="-8.3955883188" y="585" type="line"/>
+			<point x="345.6044116812" y="585" type="line"/>
+		</contour>
+		<contour>
+			<point x="383.0143665351" y="761" type="line"/>
+			<point x="29.0143665351" y="761" type="line"/>
+			<point x="60.8978507856" y="911" type="line"/>
+			<point x="414.8978507856" y="911" type="line"/>
+		</contour>
+	</outline>
+</glyph>

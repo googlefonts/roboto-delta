@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ieukran" format="2">
+	<unicode hex="0404"/>
+	<advance width="626"/>
+	<outline>
+		<contour>
+			<point x="162.8821262541" y="-30" type="qcurve" smooth="yes"/>
+			<point x="32.8821262541" y="-30"/>
+			<point x="33.8033934421" y="346"/>
+			<point x="105.2223981632" y="682" type="qcurve" smooth="yes"/>
+			<point x="124.7776018368" y="774" type="line" smooth="yes"/>
+			<point x="196.1966065579" y="1110"/>
+			<point x="355.1178737459" y="1486"/>
+			<point x="485.1178737459" y="1486" type="qcurve" smooth="yes"/>
+			<point x="615.1178737459" y="1486"/>
+			<point x="632.5392536699" y="1201"/>
+			<point x="589.8153847742" y="1000" type="qcurve" smooth="yes"/>
+			<point x="587.6898191575" y="990" type="line"/>
+			<point x="395.6898191575" y="990" type="line"/>
+			<point x="397.8153847742" y="1000" type="line" smooth="yes"/>
+			<point x="427.3607468464" y="1139"/>
+			<point x="461.258597632" y="1322"/>
+			<point x="450.258597632" y="1322" type="qcurve" smooth="yes"/>
+			<point x="440.258597632" y="1322"/>
+			<point x="377.8683259811" y="1052"/>
+			<point x="323.6664027552" y="797" type="qcurve" smooth="yes"/>
+			<point x="297.5219456698" y="674" type="line" smooth="yes"/>
+			<point x="244.8079183757" y="426"/>
+			<point x="187.741402368" y="134"/>
+			<point x="197.741402368" y="134" type="qcurve" smooth="yes"/>
+			<point x="207.741402368" y="134"/>
+			<point x="252.2769228386" y="320"/>
+			<point x="281.1846152258" y="456" type="qcurve" smooth="yes"/>
+			<point x="283.3101808425" y="466" type="line"/>
+			<point x="475.3101808425" y="466" type="line"/>
+			<point x="473.1846152258" y="456" type="line" smooth="yes"/>
+			<point x="430.4607463301" y="255"/>
+			<point x="292.8821262541" y="-30"/>
+		</contour>
+		<contour>
+			<point x="200.0968325465" y="672" type="line"/>
+			<point x="233.6807692903" y="830" type="line"/>
+			<point x="357.6807692903" y="830" type="line"/>
+			<point x="324.0968325465" y="672" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="223.5408371385" y="787" angle="102" identifier="mFTeE97JTj"/>
+</glyph>

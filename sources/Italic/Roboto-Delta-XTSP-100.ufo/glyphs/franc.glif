@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="franc" format="2">
+	<unicode hex="20A3"/>
+	<advance width="1002"/>
+	<outline>
+		<contour>
+			<point x="15.2588231042" y="0" type="line"/>
+			<point x="324.7411768958" y="1456" type="line"/>
+			<point x="1146.7411768958" y="1456" type="line"/>
+			<point x="1113.1572401519" y="1298" type="line"/>
+			<point x="483.1572401519" y="1298" type="line"/>
+			<point x="207.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="-81.8244346414" y="296" type="line"/>
+			<point x="-48.2404978976" y="454" type="line"/>
+			<point x="656.7595021024" y="454" type="line"/>
+			<point x="623.1755653586" y="296" type="line"/>
+		</contour>
+		<contour>
+			<point x="266.6860859582" y="703" type="line"/>
+			<point x="300.2700227021" y="861" type="line"/>
+			<point x="931.2700227021" y="861" type="line"/>
+			<point x="897.6860859582" y="703" type="line"/>
+		</contour>
+	</outline>
+</glyph>

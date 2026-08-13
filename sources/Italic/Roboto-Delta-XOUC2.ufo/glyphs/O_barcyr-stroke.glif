@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Obarcyr-stroke" format="2">
+	<advance width="1086"/>
+	<outline>
+		<contour>
+			<point x="139.6807692903" y="830" type="line"/>
+			<point x="987.6807692903" y="830" type="line"/>
+			<point x="954.0968325465" y="672" type="line"/>
+			<point x="106.0968325465" y="672" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="148.3955883188" y="871" angle="102" identifier="UtNSclIhRG"/>
+	<guideline x="949.6331447514" y="651" angle="102" identifier="hwb5F7EShy"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,1,0</string>
+		</dict>
+	</lib>
+</glyph>

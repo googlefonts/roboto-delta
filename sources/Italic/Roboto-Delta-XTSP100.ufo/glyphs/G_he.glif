@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ghe" format="2">
+	<unicode hex="0413"/>
+	<advance width="1327"/>
+	<outline>
+		<component base="Gamma"/>
+	</outline>
+	<anchor name="top" x="632" y="1456"/>
+	<anchor name="center" x="397" y="708"/>
+</glyph>

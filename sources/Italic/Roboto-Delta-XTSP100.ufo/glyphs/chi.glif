@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="chi" format="2">
+	<unicode hex="03C7"/>
+	<advance width="1229"/>
+	<outline>
+		<contour>
+			<point x="626.8352934495" y="-416" type="line"/>
+			<point x="463.6490947551" y="270" type="line"/>
+			<point x="454.6490947551" y="270" type="line"/>
+			<point x="217.8683259811" y="1052" type="line"/>
+			<point x="430.8683259811" y="1052" type="line"/>
+			<point x="590.1074658823" y="418" type="line"/>
+			<point x="600.1074658823" y="418" type="line"/>
+			<point x="840.8352934495" y="-416" type="line"/>
+		</contour>
+		<contour>
+			<point x="-98.1647065505" y="-416" type="line"/>
+			<point x="513.3585971157" y="438" type="line"/>
+			<point x="530.3585971157" y="438" type="line"/>
+			<point x="932.8683259811" y="1052" type="line"/>
+			<point x="1142.8683259811" y="1052" type="line"/>
+			<point x="596.4123300568" y="283" type="line"/>
+			<point x="579.4123300568" y="283" type="line"/>
+			<point x="111.8352934495" y="-416" type="line"/>
+		</contour>
+	</outline>
+</glyph>

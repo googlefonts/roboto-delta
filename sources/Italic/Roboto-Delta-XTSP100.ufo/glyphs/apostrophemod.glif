@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="apostrophemod" format="2">
+	<unicode hex="02BC"/>
+	<advance width="850"/>
+	<outline>
+		<contour>
+			<point x="350.9938915978" y="1062" type="line"/>
+			<point x="397.3705884479" y="1092"/>
+			<point x="526.452262725" y="1210"/>
+			<point x="555.6935523568" y="1277" type="qcurve"/>
+			<point x="484.6935523568" y="1277"/>
+			<point x="420.6352944821" y="1352"/>
+			<point x="433.1761316206" y="1411" type="qcurve" smooth="yes"/>
+			<point x="445.5044121975" y="1469"/>
+			<point x="542.8712674461" y="1546"/>
+			<point x="605.8712674461" y="1546" type="qcurve" smooth="yes"/>
+			<point x="664.8712674461" y="1546"/>
+			<point x="740.4658375258" y="1450"/>
+			<point x="724.0989822772" y="1373" type="qcurve" smooth="yes"/>
+			<point x="698.1670817534" y="1251"/>
+			<point x="499.2064481595" y="1063"/>
+			<point x="383.578620076" y="1013" type="qcurve"/>
+		</contour>
+	</outline>
+</glyph>

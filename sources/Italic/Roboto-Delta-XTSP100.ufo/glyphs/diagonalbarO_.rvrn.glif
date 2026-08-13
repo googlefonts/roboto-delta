@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="diagonalbarO.rvrn" format="2">
+	<advance width="873"/>
+	<outline>
+		<contour>
+			<point x="-49.9098421178" y="-109" type="line"/>
+			<point x="45.5386874078" y="86" type="line"/>
+			<point x="62.4759045995" y="81" type="line"/>
+			<point x="93.1665154913" y="136" type="line"/>
+			<point x="186.7126692978" y="68" type="line"/>
+			<point x="177.7368774344" y="54" type="line"/>
+			<point x="196.8866511877" y="50" type="line"/>
+			<point x="120.0901578822" y="-109" type="line"/>
+		</contour>
+		<contour>
+			<point x="766.1753398863" y="1618" type="line"/>
+			<point x="937.1753398863" y="1618" type="line"/>
+			<point x="842.9393669223" y="1424" type="line"/>
+			<point x="822.789593169" y="1428" type="line"/>
+			<point x="785.9976247971" y="1349" type="line"/>
+			<point x="692.4514709906" y="1417" type="line"/>
+			<point x="708.5286203341" y="1455" type="line"/>
+			<point x="689.5914031425" y="1460" type="line"/>
+		</contour>
+	</outline>
+</glyph>

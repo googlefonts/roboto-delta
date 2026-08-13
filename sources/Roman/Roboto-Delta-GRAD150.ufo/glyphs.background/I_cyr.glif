@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Icyr" format="2">
+	<unicode hex="0418"/>
+	<advance width="1478"/>
+	<outline>
+		<contour>
+			<point x="1330" y="0" type="line"/>
+			<point x="1079" y="0" type="line"/>
+			<point x="1079" y="951" type="line" smooth="yes"/>
+			<point x="1079" y="981"/>
+			<point x="1080" y="1056"/>
+			<point x="1081" y="1086" type="qcurve"/>
+			<point x="1074" y="1086" type="line"/>
+			<point x="1061" y="1061"/>
+			<point x="1030" y="1001"/>
+			<point x="1012" y="971" type="qcurve" smooth="yes"/>
+			<point x="414" y="0" type="line"/>
+			<point x="147" y="0" type="line"/>
+			<point x="147" y="1456" type="line"/>
+			<point x="399" y="1456" type="line"/>
+			<point x="399" y="506" type="line" smooth="yes"/>
+			<point x="399" y="476"/>
+			<point x="398" y="401"/>
+			<point x="397" y="371" type="qcurve"/>
+			<point x="405" y="371" type="line"/>
+			<point x="416" y="396"/>
+			<point x="448" y="456"/>
+			<point x="466" y="486" type="qcurve" smooth="yes"/>
+			<point x="1064" y="1456" type="line"/>
+			<point x="1330" y="1456" type="line"/>
+		</contour>
+	</outline>
+</glyph>

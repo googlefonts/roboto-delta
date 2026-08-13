@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="liraTurkish" format="2">
+	<unicode hex="20BA"/>
+	<advance width="673"/>
+	<outline>
+		<contour>
+			<point x="-57.129298816" y="431" type="line"/>
+			<point x="-21.4197964554" y="599" type="line"/>
+			<point x="667.4583711272" y="876" type="line"/>
+			<point x="625.9614253283" y="709" type="line"/>
+		</contour>
+		<contour>
+			<point x="25.2588231042" y="0" type="line"/>
+			<point x="334.7411768958" y="1456" type="line"/>
+			<point x="341.7411768958" y="1456" type="line"/>
+			<point x="64.7799770397" y="153" type="line"/>
+			<point x="138.7799770397" y="153" type="line" smooth="yes"/>
+			<point x="346.7799770397" y="153"/>
+			<point x="579.4168549904" y="363"/>
+			<point x="613.4259048576" y="523" type="qcurve" smooth="yes"/>
+			<point x="620.8653845161" y="558" type="line"/>
+			<point x="627.8653845161" y="558" type="line"/>
+			<point x="620.4259048576" y="523" type="line" smooth="yes"/>
+			<point x="572.6006784819" y="298"/>
+			<point x="318.2588231042" y="0"/>
+			<point x="107.2588231042" y="0" type="qcurve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="19.3910633852" y="791" type="line"/>
+			<point x="55.1005657458" y="959" type="line"/>
+			<point x="743.9787333284" y="1236" type="line"/>
+			<point x="702.4817875295" y="1069" type="line"/>
+		</contour>
+	</outline>
+</glyph>

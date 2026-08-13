@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tedescender-cy" format="2">
+	<unicode hex="04AD"/>
+	<advance width="906"/>
+	<outline>
+		<component base="te"/>
+		<component base="cy-descendercomb" xOffset="464.5680877395"/>
+	</outline>
+</glyph>

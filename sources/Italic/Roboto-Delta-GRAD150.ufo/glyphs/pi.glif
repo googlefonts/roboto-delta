@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pi" format="2">
+	<unicode hex="03C0"/>
+	<advance width="1184"/>
+	<outline>
+		<contour>
+			<point x="5.9076923871" y="864" type="line"/>
+			<point x="45.8683259811" y="1052" type="line"/>
+			<point x="1225.8683259811" y="1052" type="line"/>
+			<point x="1185.9076923871" y="864" type="line"/>
+		</contour>
+		<contour>
+			<point x="-25.7411768958" y="0" type="line"/>
+			<point x="180.6512444858" y="971" type="line"/>
+			<point x="424.6512444858" y="971" type="line"/>
+			<point x="218.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="854.8821262541" y="-30" type="qcurve" smooth="yes"/>
+			<point x="734.8821262541" y="-30"/>
+			<point x="626.3019227096" y="99"/>
+			<point x="659.8858594534" y="257" type="qcurve"/>
+			<point x="811.6512444858" y="971" type="line"/>
+			<point x="1055.6512444858" y="971" type="line"/>
+			<point x="915.3639137836" y="311" type="line"/>
+			<point x="898.35938885" y="231"/>
+			<point x="922.9683254648" y="168"/>
+			<point x="973.9683254648" y="168" type="qcurve"/>
+			<point x="987.9683254648" y="168"/>
+			<point x="1027.8813345198" y="177"/>
+			<point x="1038.9441173282" y="182" type="qcurve"/>
+			<point x="998.5583706109" y="-8" type="line"/>
+			<point x="974.6453615558" y="-17"/>
+			<point x="900.8821262541" y="-30"/>
+		</contour>
+	</outline>
+</glyph>

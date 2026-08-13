@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>color</key>
+		<string>0,0.5046,0,0.7</string>
+		<key>lib</key>
+		<dict>
+			<key>org.unifiedfontobject.normalizer.imageReferences</key>
+			<dict>
+			</dict>
+			<key>org.unifiedfontobject.normalizer.modTimes</key>
+			<string>version: 0.6.3
+1761874816.5 breve.cyr.glif
+1761874816.5 breve.cyrcomb.glif
+1761874899.0 dieresiscomb.glif
+1761884695.2 el.bgr.glif
+1761884695.2 em.glif
+1761874951.1 hungarumlautcomb.glif
+1761884695.2 icyr.glif
+1761884695.2 k.glif
+1761874882.3 macroncomb.glif
+1761874788.7 ucyr.glif
+1761874925.5 udieresiscyr.glif
+1761874962.1 uhungarumlautcyr.glif
+1761875407.7 umacroncyr.glif
+1761874835.4 ushort.glif
+1761884695.2 ustraight.glif
+1761875841.2 ustraightstroke.glif
+1761884695.2 v.glif
+1761884695.2 w.glif
+1761884695.2 y.glif</string>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omega" format="2">
+	<unicode hex="03A9"/>
+	<advance width="1478"/>
+	<outline>
+		<contour>
+			<point x="-39.7411768958" y="0" type="line"/>
+			<point x="-5.9446835902" y="159" type="line"/>
+			<point x="326.0553164098" y="159" type="line"/>
+			<point x="357.9388006603" y="309" type="line"/>
+			<point x="215.1173074838" y="371"/>
+			<point x="93.3192307097" y="626"/>
+			<point x="137.7435520987" y="835" type="qcurve"/>
+			<point x="149.6467195522" y="891" type="line"/>
+			<point x="209.1625568198" y="1171"/>
+			<point x="609.7411768958" y="1456"/>
+			<point x="893.7411768958" y="1456" type="qcurve"/>
+			<point x="1177.7411768958" y="1456"/>
+			<point x="1457.1625568198" y="1171"/>
+			<point x="1397.6467195522" y="891" type="qcurve"/>
+			<point x="1385.7435520987" y="835" type="line"/>
+			<point x="1341.3192307097" y="626"/>
+			<point x="1111.1173074838" y="371"/>
+			<point x="941.9388006603" y="309" type="qcurve"/>
+			<point x="910.0553164098" y="159" type="line"/>
+			<point x="1242.0553164098" y="159" type="line"/>
+			<point x="1208.2588231042" y="0" type="line"/>
+			<point x="704.2588231042" y="0" type="line"/>
+			<point x="797.146040554" y="437" type="line"/>
+			<point x="962.7352939658" y="468"/>
+			<point x="1159.6475112865" y="684"/>
+			<point x="1191.7435520987" y="835" type="qcurve"/>
+			<point x="1203.6467195522" y="891" type="line"/>
+			<point x="1247.0082581329" y="1095"/>
+			<point x="1059.8819007819" y="1292"/>
+			<point x="858.8819007819" y="1292" type="qcurve"/>
+			<point x="657.8819007819" y="1292"/>
+			<point x="387.0082581329" y="1095"/>
+			<point x="343.6467195522" y="891" type="qcurve"/>
+			<point x="331.7435520987" y="835" type="line"/>
+			<point x="299.6475112865" y="684"/>
+			<point x="404.7352939658" y="468"/>
+			<point x="557.146040554" y="437" type="qcurve"/>
+			<point x="464.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="tonos" x="78.5445703378" y="1074"/>
+</glyph>

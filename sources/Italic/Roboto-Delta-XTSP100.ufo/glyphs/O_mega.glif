@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omega" format="2">
+	<unicode hex="03A9"/>
+	<advance width="1728"/>
+	<outline>
+		<contour>
+			<point x="85.2588231042" y="0" type="line"/>
+			<point x="119.0553164098" y="159" type="line"/>
+			<point x="451.0553164098" y="159" type="line"/>
+			<point x="482.9388006603" y="309" type="line"/>
+			<point x="340.1173074838" y="371"/>
+			<point x="218.3192307097" y="626"/>
+			<point x="262.7435520987" y="835" type="qcurve"/>
+			<point x="274.6467195522" y="891" type="line"/>
+			<point x="334.1625568198" y="1171"/>
+			<point x="741.1178737459" y="1486"/>
+			<point x="1025.1178737459" y="1486" type="qcurve"/>
+			<point x="1309.1178737459" y="1486"/>
+			<point x="1582.1625568198" y="1171"/>
+			<point x="1522.6467195522" y="891" type="qcurve"/>
+			<point x="1510.7435520987" y="835" type="line"/>
+			<point x="1466.3192307097" y="626"/>
+			<point x="1236.1173074838" y="371"/>
+			<point x="1066.9388006603" y="309" type="qcurve"/>
+			<point x="1035.0553164098" y="159" type="line"/>
+			<point x="1367.0553164098" y="159" type="line"/>
+			<point x="1333.2588231042" y="0" type="line"/>
+			<point x="829.2588231042" y="0" type="line"/>
+			<point x="922.146040554" y="437" type="line"/>
+			<point x="1087.7352939658" y="468"/>
+			<point x="1284.6475112865" y="684"/>
+			<point x="1316.7435520987" y="835" type="qcurve"/>
+			<point x="1328.6467195522" y="891" type="line"/>
+			<point x="1372.0082581329" y="1095"/>
+			<point x="1191.258597632" y="1322"/>
+			<point x="990.258597632" y="1322" type="qcurve"/>
+			<point x="789.258597632" y="1322"/>
+			<point x="512.0082581329" y="1095"/>
+			<point x="468.6467195522" y="891" type="qcurve"/>
+			<point x="456.7435520987" y="835" type="line"/>
+			<point x="424.6475112865" y="684"/>
+			<point x="529.7352939658" y="468"/>
+			<point x="682.146040554" y="437" type="qcurve"/>
+			<point x="589.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="tonos" x="203.5445703378" y="1074"/>
+</glyph>

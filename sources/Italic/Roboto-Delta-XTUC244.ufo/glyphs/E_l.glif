@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="El" format="2">
+	<unicode hex="041B"/>
+	<advance width="621"/>
+	<outline>
+		<contour>
+			<point x="213.7411768958" y="1456" type="line"/>
+			<point x="605.7411768958" y="1456" type="line"/>
+			<point x="296.2588231042" y="0" type="line"/>
+			<point x="104.2588231042" y="0" type="line"/>
+			<point x="380.1572401519" y="1298" type="line"/>
+			<point x="360.1572401519" y="1298" type="line"/>
+			<point x="190.4644795294" y="542" type="line"/>
+			<point x="126.0984160151" y="258"/>
+			<point x="-8.1178737459" y="-30"/>
+			<point x="-111.1178737459" y="-30" type="qcurve" smooth="yes"/>
+			<point x="-118.1178737459" y="-30"/>
+			<point x="-146.6299778142" y="-23"/>
+			<point x="-147.5044121975" y="-13" type="qcurve"/>
+			<point x="-112.6451360836" y="151" type="line"/>
+			<point x="-111.345588577" y="143"/>
+			<point x="-105.4083713853" y="138"/>
+			<point x="-99.4083713853" y="138" type="qcurve" smooth="yes"/>
+			<point x="-90.4083713853" y="138"/>
+			<point x="-34.3221721746" y="336"/>
+			<point x="18.4788460645" y="575" type="qcurve"/>
+		</contour>
+	</outline>
+</glyph>

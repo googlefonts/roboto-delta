@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omega" format="2">
+	<unicode hex="03A9"/>
+	<advance width="1478"/>
+	<outline>
+		<contour>
+			<point x="-39.7411768958" y="0" type="line"/>
+			<point x="-5.9446835902" y="159" type="line"/>
+			<point x="326.0553164098" y="159" type="line"/>
+			<point x="357.9388006603" y="309" type="line"/>
+			<point x="185.1173074838" y="371"/>
+			<point x="71.0007917343" y="521"/>
+			<point x="113.2995475066" y="720" type="qcurve"/>
+			<point x="195.3463803113" y="1106" type="line"/>
+			<point x="235.7321270286" y="1296"/>
+			<point x="586.1178737459" y="1486"/>
+			<point x="900.1178737459" y="1486" type="qcurve"/>
+			<point x="1214.1178737459" y="1486"/>
+			<point x="1483.7321270286" y="1296"/>
+			<point x="1443.3463803113" y="1106" type="qcurve"/>
+			<point x="1361.2995475066" y="720" type="line"/>
+			<point x="1319.0007917343" y="521"/>
+			<point x="1141.1173074838" y="371"/>
+			<point x="941.9388006603" y="309" type="qcurve"/>
+			<point x="910.0553164098" y="159" type="line"/>
+			<point x="1242.0553164098" y="159" type="line"/>
+			<point x="1208.2588231042" y="0" type="line"/>
+			<point x="704.2588231042" y="0" type="line"/>
+			<point x="797.146040554" y="437" type="line"/>
+			<point x="962.7352939658" y="468"/>
+			<point x="1159.6475112865" y="684"/>
+			<point x="1191.7435520987" y="835" type="qcurve"/>
+			<point x="1203.6467195522" y="891" type="line"/>
+			<point x="1247.0082581329" y="1095"/>
+			<point x="1066.258597632" y="1322"/>
+			<point x="865.258597632" y="1322" type="qcurve"/>
+			<point x="664.258597632" y="1322"/>
+			<point x="387.0082581329" y="1095"/>
+			<point x="343.6467195522" y="891" type="qcurve"/>
+			<point x="331.7435520987" y="835" type="line"/>
+			<point x="299.6475112865" y="684"/>
+			<point x="404.7352939658" y="468"/>
+			<point x="557.146040554" y="437" type="qcurve"/>
+			<point x="464.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="tonos" x="78.5445703378" y="1074"/>
+</glyph>

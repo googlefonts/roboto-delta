@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idot" format="2">
+	<outline>
+		<contour>
+			<point x="-144.8271028037" y="1370.8691588785" type="qcurve" smooth="yes"/>
+			<point x="-144.8271028037" y="1429.1682242991"/>
+			<point x="-69.9065420561" y="1509.5373831776"/>
+			<point x="0.1448598131" y="1509.5373831776" type="qcurve" smooth="yes"/>
+			<point x="70.1962616822" y="1509.5373831776"/>
+			<point x="144.9719626168" y="1429.1682242991"/>
+			<point x="144.9719626168" y="1370.8691588785" type="qcurve" smooth="yes"/>
+			<point x="144.9719626168" y="1312.2803738318"/>
+			<point x="70.1962616822" y="1231.9112149533"/>
+			<point x="0.1448598131" y="1231.9112149533" type="qcurve" smooth="yes"/>
+			<point x="-69.9065420561" y="1231.9112149533"/>
+			<point x="-144.8271028037" y="1312.2803738318"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="1052"/>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u-stroke" format="2">
+	<advance width="1912"/>
+	<outline>
+		<contour>
+			<point x="101.4381216621" y="-145" type="line"/>
+			<point x="132.2588231042" y="0" type="line"/>
+			<point x="1474.2588231042" y="0" type="line"/>
+			<point x="1443.4381216621" y="-145" type="line"/>
+		</contour>
+	</outline>
+</glyph>

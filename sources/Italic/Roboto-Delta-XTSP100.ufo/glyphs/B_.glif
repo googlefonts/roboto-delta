@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="B" format="2">
+	<unicode hex="0042"/>
+	<advance width="1510"/>
+	<outline>
+		<contour>
+			<point x="140.2588231042" y="0" type="line"/>
+			<point x="449.7411768958" y="1456" type="line"/>
+			<point x="929.7411768958" y="1456" type="line" smooth="yes"/>
+			<point x="1149.7411768958" y="1456"/>
+			<point x="1362.2056564252" y="1270"/>
+			<point x="1319.6943440911" y="1070" type="qcurve" smooth="yes"/>
+			<point x="1294.1875566907" y="950"/>
+			<point x="1140.3040724402" y="800"/>
+			<point x="1043.5022624668" y="768" type="qcurve"/>
+			<point x="1042.6520362201" y="764" type="line"/>
+			<point x="1145.8502262467" y="732"/>
+			<point x="1249.2904976394" y="560"/>
+			<point x="1219.5325790056" y="420" type="qcurve" smooth="yes"/>
+			<point x="1177.0212666716" y="220"/>
+			<point x="867.2588231042" y="0"/>
+			<point x="650.2588231042" y="0" type="qcurve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="361.8427598481" y="158" type="line"/>
+			<point x="683.8427598481" y="158" type="line" smooth="yes"/>
+			<point x="833.8427598481" y="158"/>
+			<point x="1004.0257916052" y="300"/>
+			<point x="1029.5325790056" y="420" type="qcurve" smooth="yes"/>
+			<point x="1055.039366406" y="540"/>
+			<point x="944.7972850398" y="680"/>
+			<point x="794.7972850398" y="680" type="qcurve" smooth="yes"/>
+			<point x="378.7972850398" y="680" type="line"/>
+			<point x="411.9561086604" y="836" type="line"/>
+			<point x="797.9561086604" y="836" type="line" smooth="yes"/>
+			<point x="947.9561086604" y="836"/>
+			<point x="1106.3131223074" y="960"/>
+			<point x="1129.6943440911" y="1070" type="qcurve" smooth="yes"/>
+			<point x="1153.0755658749" y="1180"/>
+			<point x="1046.1572401519" y="1298"/>
+			<point x="896.1572401519" y="1298" type="qcurve" smooth="yes"/>
+			<point x="604.1572401519" y="1298" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="600.2588231042" y="0"/>
+	<anchor name="top" x="909.7411768958" y="1456"/>
+</glyph>

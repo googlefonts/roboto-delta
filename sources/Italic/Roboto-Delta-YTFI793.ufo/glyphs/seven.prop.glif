@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.prop" format="2">
+	<advance width="882"/>
+	<outline>
+		<contour>
+			<point x="58.2588231042" y="0" type="line"/>
+			<point x="812.7752266339" y="1395" type="line"/>
+			<point x="138.7752266339" y="1395" type="line"/>
+			<point x="172.9968330628" y="1556" type="line"/>
+			<point x="1046.9968330628" y="1556" type="line"/>
+			<point x="1024.8909506491" y="1452" type="line"/>
+			<point x="254.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+</glyph>

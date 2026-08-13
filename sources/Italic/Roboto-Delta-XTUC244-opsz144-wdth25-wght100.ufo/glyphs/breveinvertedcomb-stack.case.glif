@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breveinvertedcomb-stack.case" format="2">
+	<outline>
+		<contour>
+			<point x="152.6201362127" y="1526" type="qcurve"/>
+			<point x="57.4363127212" y="1591" type="line"/>
+			<point x="99.1798648199" y="1698"/>
+			<point x="176.4983037953" y="1803"/>
+			<point x="227.4983037953" y="1803" type="qcurve"/>
+			<point x="278.4983037953" y="1803"/>
+			<point x="312.1798648199" y="1698"/>
+			<point x="308.4363127212" y="1591" type="qcurve"/>
+			<point x="184.6201362127" y="1526" type="line"/>
+			<point x="196.7358602279" y="1583"/>
+			<point x="208.7018104897" y="1644"/>
+			<point x="193.7018104897" y="1644" type="qcurve"/>
+			<point x="178.7018104897" y="1644"/>
+			<point x="164.7358602279" y="1583"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="154.7411768958" y="1456"/>
+	<anchor name="top" x="228.4983037953" y="1803"/>
+</glyph>

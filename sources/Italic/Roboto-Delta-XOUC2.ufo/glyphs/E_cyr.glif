@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecyr" format="2">
+	<unicode hex="042D"/>
+	<advance width="986"/>
+	<outline>
+		<contour>
+			<point x="888.6807692903" y="830" type="line"/>
+			<point x="855.0968325465" y="672" type="line"/>
+			<point x="226.0968325465" y="672" type="line"/>
+			<point x="259.6807692903" y="830" type="line"/>
+		</contour>
+		<contour>
+			<point x="854.2223981632" y="682" type="qcurve" smooth="yes"/>
+			<point x="873.7776018368" y="774" type="line" smooth="yes"/>
+			<point x="934.9938915978" y="1062"/>
+			<point x="769.258597632" y="1322"/>
+			<point x="584.258597632" y="1322" type="qcurve" smooth="yes"/>
+			<point x="407.258597632" y="1322"/>
+			<point x="178.9984165314" y="1142"/>
+			<point x="148.8153847742" y="1000" type="qcurve" smooth="yes"/>
+			<point x="146.6898191575" y="990" type="line"/>
+			<point x="139.6898191575" y="990" type="line"/>
+			<point x="141.8153847742" y="1000" type="line" smooth="yes"/>
+			<point x="187.5150455333" y="1215"/>
+			<point x="441.1178737459" y="1486"/>
+			<point x="619.1178737459" y="1486" type="qcurve" smooth="yes"/>
+			<point x="807.1178737459" y="1486"/>
+			<point x="953.6845024896" y="1117"/>
+			<point x="880.7776018368" y="774" type="qcurve" smooth="yes"/>
+			<point x="861.2223981632" y="682" type="line" smooth="yes"/>
+			<point x="786.615045017" y="331"/>
+			<point x="502.8821262541" y="-30"/>
+			<point x="297.8821262541" y="-30" type="qcurve" smooth="yes"/>
+			<point x="109.8821262541" y="-30"/>
+			<point x="-18.1141405466" y="257"/>
+			<point x="24.1846152258" y="456" type="qcurve" smooth="yes"/>
+			<point x="26.3101808425" y="466" type="line"/>
+			<point x="33.3101808425" y="466" type="line"/>
+			<point x="31.1846152258" y="456" type="line" smooth="yes"/>
+			<point x="3.5522622087" y="326"/>
+			<point x="142.741402368" y="134"/>
+			<point x="332.741402368" y="134" type="qcurve" smooth="yes"/>
+			<point x="535.741402368" y="134"/>
+			<point x="800.870701184" y="431"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="628.7411768958" y="1456"/>
+	<guideline x="1152.3139140418" y="753" angle="102" identifier="Ovo68woMtl"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,1,0</string>
+		</dict>
+	</lib>
+</glyph>

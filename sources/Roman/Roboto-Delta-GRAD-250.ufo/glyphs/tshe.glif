@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tshe" format="2">
+	<unicode hex="045B"/>
+	<advance width="1138"/>
+	<outline>
+		<component base="h"/>
+		<component base="horizontalbarlc" xOffset="28" yOffset="510"/>
+	</outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="N" format="2">
+	<unicode hex="004E"/>
+	<advance width="814"/>
+	<outline>
+		<contour>
+			<point x="170" y="0" type="line"/>
+			<point x="170" y="1456" type="line"/>
+			<point x="371" y="1456" type="line"/>
+			<point x="437" y="736" type="line" smooth="yes"/>
+			<point x="440" y="705"/>
+			<point x="451" y="646"/>
+			<point x="451" y="621" type="qcurve"/>
+			<point x="458" y="621" type="line"/>
+			<point x="457" y="651"/>
+			<point x="456" y="726"/>
+			<point x="456" y="756" type="qcurve" smooth="yes"/>
+			<point x="456" y="1456" type="line"/>
+			<point x="644" y="1456" type="line"/>
+			<point x="644" y="0" type="line"/>
+			<point x="444" y="0" type="line"/>
+			<point x="378" y="720" type="line" smooth="yes"/>
+			<point x="375" y="750"/>
+			<point x="365" y="810"/>
+			<point x="365" y="835" type="qcurve"/>
+			<point x="358" y="835" type="line"/>
+			<point x="358" y="805"/>
+			<point x="358" y="733"/>
+			<point x="358" y="703" type="qcurve" smooth="yes"/>
+			<point x="358" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="404" y="0"/>
+	<anchor name="top" x="404" y="1456"/>
+	<anchor name="engtail" x="553" y="0"/>
+</glyph>

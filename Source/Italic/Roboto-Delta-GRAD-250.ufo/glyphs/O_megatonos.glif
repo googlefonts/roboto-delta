@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omegatonos" format="2">
-	<unicode hex="038F"/>
-	<advance width="1607"/>
-	<outline>
-		<component base="Omega" xOffset="129.025974026"/>
-		<component base="tonoscomb.case" xOffset="116.025974026" yOffset="22"/>
-	</outline>
-</glyph>

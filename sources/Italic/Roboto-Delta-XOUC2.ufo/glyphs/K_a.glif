@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ka" format="2">
+	<unicode hex="041A"/>
+	<advance width="853"/>
+	<outline>
+		<contour>
+			<point x="710.2588231042" y="0" type="line"/>
+			<point x="304.7776018368" y="774" type="line"/>
+			<point x="310.4152715218" y="777" type="line"/>
+			<point x="718.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="183.8403846452" y="779" type="line"/>
+			<point x="307.8403846452" y="779" type="line"/>
+			<point x="993.7411768958" y="1456" type="line"/>
+			<point x="1001.7411768958" y="1456" type="line"/>
+			<point x="308.3524887135" y="772" type="line"/>
+			<point x="182.3524887135" y="772" type="line"/>
+		</contour>
+		<contour>
+			<point x="15.2588231042" y="0" type="line"/>
+			<point x="324.7411768958" y="1456" type="line"/>
+			<point x="331.7411768958" y="1456" type="line"/>
+			<point x="22.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="634.7411768958" y="1456"/>
+	<anchor name="cy_descender" x="712.2588231042" y="0"/>
+	<guideline x="494.4538461936" y="796" angle="102" identifier="LxfLwWU0sJ"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,1,0</string>
+		</dict>
+	</lib>
+</glyph>

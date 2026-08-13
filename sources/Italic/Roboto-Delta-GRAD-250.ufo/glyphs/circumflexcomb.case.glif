@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb.case" format="2">
+	<outline>
+		<contour>
+			<point x="11.7888014347" y="1635" type="line"/>
+			<point x="-116.2111985653" y="1635" type="line"/>
+			<point x="219.0580324025" y="1975" type="line"/>
+			<point x="312.0580324025" y="1975" type="line"/>
+			<point x="503.7888014347" y="1635" type="line"/>
+			<point x="375.7888014347" y="1635" type="line"/>
+			<point x="242.1019237422" y="1867" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="154.7411768958" y="1456"/>
+	<anchor name="top" x="265.0580324025" y="1975"/>
+</glyph>

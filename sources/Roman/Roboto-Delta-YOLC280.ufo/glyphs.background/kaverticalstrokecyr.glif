@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaverticalstrokecyr" format="2">
+	<unicode hex="049D"/>
+	<advance width="1519"/>
+	<outline>
+		<contour>
+			<point x="879" y="852" type="line"/>
+			<point x="879" y="200" type="line"/>
+			<point x="464" y="200" type="line"/>
+			<point x="464" y="852" type="line"/>
+		</contour>
+		<contour>
+			<point x="334" y="1052" type="line"/>
+			<point x="334" y="0" type="line"/>
+			<point x="148" y="0" type="line"/>
+			<point x="148" y="1052" type="line"/>
+		</contour>
+		<contour>
+			<point x="1318" y="0" type="line"/>
+			<point x="945" y="450" type="line"/>
+			<point x="1060" y="576" type="line"/>
+			<point x="1544" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="687" y="610" type="line"/>
+			<point x="687" y="610" type="line"/>
+			<point x="1152" y="1052" type="line"/>
+			<point x="1666" y="1052" type="line"/>
+			<point x="1084" y="465" type="line"/>
+			<point x="687" y="465" type="line"/>
+		</contour>
+	</outline>
+</glyph>

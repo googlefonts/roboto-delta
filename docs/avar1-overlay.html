@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Variable font overlay diff</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    font-family: -apple-system, sans-serif;
+    font-size: 12px;
+  }
+  #panel {
+    width: 340px;
+    padding: 12px;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    flex-shrink: 0;
+  }
+  #panel h1 { font-size: 14px; margin: 0 0 4px; }
+  #panel p.note { color: #666; margin: 4px 0 10px; }
+  .fontrow { margin: 2px 0; display: flex; align-items: center; gap: 4px; }
+  .fontrow .name {
+    flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .fontrow .axcount { color: #999; }
+  .swatch {
+    display: inline-block; width: 10px; height: 10px;
+    border-radius: 2px; flex-shrink: 0;
+  }
+  .axis { margin: 6px 0; }
+  .axis label {
+    display: flex; justify-content: space-between;
+    font-variant-numeric: tabular-nums;
+  }
+  .axis input[type=range] { width: 100%; }
+  button { margin: 8px 4px 8px 0; }
+  #glyph-input { width: 3em; }
+  #stage {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: #fff;
+  }
+  #stage.dragover { outline: 4px dashed #7ab; outline-offset: -12px; }
+  #overlay { position: relative; line-height: 1; }
+  #overlay .layer {
+    font-size: 50vmin;
+    line-height: 1;
+    mix-blend-mode: multiply;
+  }
+  #overlay .layer + .layer { position: absolute; top: 0; left: 0; }
+  #hint { color: #aaa; font-size: 18px; text-align: center; }
+  #fvs {
+    position: absolute; bottom: 8px; left: 8px; right: 8px;
+    color: #999; font-size: 10px; word-break: break-all;
+  }
+</style>
+</head>
+<body>
+<div id="panel">
+  <h1>Variable font overlay diff</h1>
+  <p class="note">Drop up to 4 fonts onto the canvas. Sliders cover only the
+  axes of the font with the fewest axes (the shared, comparable subspace);
+  every other axis stays at its default. Where all fonts agree the overlay
+  reads near-black; a colour fringe is that font drifting. avar2 fonts need
+  CoreText — view in Safari.</p>
+  <div id="fonts"></div>
+  <div>
+    <button id="reset">Reset axes</button>
+    <button id="clear">Clear fonts</button>
+    glyph <input id="glyph-input" value="A" maxlength="3">
+  </div>
+  <div id="axes"></div>
+</div>
+<div id="stage">
+  <div id="hint">drop font files here</div>
+  <div id="overlay"></div>
+  <div id="fvs"></div>
+</div>
+
+<script>
+const COLORS = [
+  ["cyan", "rgb(0, 174, 239)"],
+  ["magenta", "rgb(236, 0, 140)"],
+  ["yellow", "rgb(245, 196, 0)"],
+  ["grey", "rgb(90, 90, 90)"],
+];
+const MAX_FONTS = COLORS.length;
+
+const stage = document.getElementById("stage");
+const overlay = document.getElementById("overlay");
+const hint = document.getElementById("hint");
+const fontsDiv = document.getElementById("fonts");
+const axesDiv = document.getElementById("axes");
+const fvsDiv = document.getElementById("fvs");
+const glyphInput = document.getElementById("glyph-input");
+
+let fonts = [];   // {fileName, family, axes: [{tag,min,def,max}], el, checkbox}
+let sliders = {}; // tag -> {input, valSpan, def}
+
+function parseFvar(buffer) {
+  const dv = new DataView(buffer);
+  const numTables = dv.getUint16(4);
+  let fvarOffset = null;
+  for (let i = 0; i < numTables; i++) {
+    const rec = 12 + i * 16;
+    const tag = String.fromCharCode(
+      dv.getUint8(rec), dv.getUint8(rec + 1),
+      dv.getUint8(rec + 2), dv.getUint8(rec + 3));
+    if (tag === "fvar") fvarOffset = dv.getUint32(rec + 8);
+  }
+  if (fvarOffset === null) return [];
+  const axesArrayOffset = dv.getUint16(fvarOffset + 4);
+  const axisCount = dv.getUint16(fvarOffset + 8);
+  const axisSize = dv.getUint16(fvarOffset + 10);
+  const fixed = off => dv.getInt32(off) / 65536;
+  const axes = [];
+  for (let i = 0; i < axisCount; i++) {
+    const off = fvarOffset + axesArrayOffset + i * axisSize;
+    axes.push({
+      tag: String.fromCharCode(dv.getUint8(off), dv.getUint8(off + 1),
+                               dv.getUint8(off + 2), dv.getUint8(off + 3)),
+      min: fixed(off + 4),
+      def: fixed(off + 8),
+      max: fixed(off + 12),
+    });
+  }
+  return axes;
+}
+
+async function addFont(file) {
+  if (fonts.length >= MAX_FONTS) return;
+  const buffer = await file.arrayBuffer();
+  const axes = parseFvar(buffer);
+  const family = `drop${Date.now()}_${fonts.length}`;
+  const face = new FontFace(family, buffer);
+  await face.load();
+  document.fonts.add(face);
+  fonts.push({ fileName: file.name, family, axes });
+  rebuild();
+}
+
+function rebuild() {
+  // layers
+  overlay.innerHTML = "";
+  fontsDiv.innerHTML = "";
+  hint.style.display = fonts.length ? "none" : "block";
+  fonts.forEach((font, i) => {
+    const [colorName, color] = COLORS[i];
+    const el = document.createElement("div");
+    el.className = "layer";
+    el.style.fontFamily = `"${font.family}"`;
+    el.style.color = color;
+    el.textContent = glyphInput.value || "A";
+    overlay.append(el);
+    font.el = el;
+
+    const row = document.createElement("div");
+    row.className = "fontrow";
+    const sw = document.createElement("span");
+    sw.className = "swatch";
+    sw.style.background = color;
+    const box = document.createElement("input");
+    box.type = "checkbox";
+    box.checked = true;
+    box.addEventListener("change", () => {
+      el.style.visibility = box.checked ? "visible" : "hidden";
+    });
+    const name = document.createElement("span");
+    name.className = "name";
+    name.textContent = font.fileName;
+    name.title = font.fileName;
+    const count = document.createElement("span");
+    count.className = "axcount";
+    count.textContent = `${font.axes.length} axes`;
+    row.append(sw, box, name, count);
+    fontsDiv.append(row);
+  });
+
+  // sliders: axes of the font with the fewest axes
+  axesDiv.innerHTML = "";
+  sliders = {};
+  if (!fonts.length) { apply(); return; }
+  const smallest = fonts.reduce((a, b) => a.axes.length <= b.axes.length ? a : b);
+  for (const axis of smallest.axes) {
+    const wrap = document.createElement("div");
+    wrap.className = "axis";
+    const label = document.createElement("label");
+    const nameSpan = document.createElement("span");
+    nameSpan.textContent = axis.tag;
+    const valSpan = document.createElement("span");
+    valSpan.textContent = axis.def;
+    label.append(nameSpan, valSpan);
+    const input = document.createElement("input");
+    input.type = "range";
+    input.min = axis.min;
+    input.max = axis.max;
+    input.step = (axis.max - axis.min) <= 2 ? 0.01 : 0.5;
+    input.value = axis.def;
+    input.addEventListener("input", () => {
+      valSpan.textContent = input.value;
+      apply();
+    });
+    input.addEventListener("dblclick", () => {
+      input.value = axis.def;
+      valSpan.textContent = input.value;
+      apply();
+    });
+    sliders[axis.tag] = { input, valSpan, def: axis.def };
+    wrap.append(label, input);
+    axesDiv.append(wrap);
+  }
+  apply();
+}
+
+function apply() {
+  const tags = Object.keys(sliders);
+  const fvs = tags.map(t => `"${t}" ${sliders[t].input.value}`).join(", ");
+  for (const font of fonts) {
+    font.el.style.fontVariationSettings = fvs;
+  }
+  fvsDiv.textContent = fonts.length ? `font-variation-settings: ${fvs};` : "";
+}
+
+stage.addEventListener("dragover", e => {
+  e.preventDefault();
+  stage.classList.add("dragover");
+});
+stage.addEventListener("dragleave", () => stage.classList.remove("dragover"));
+stage.addEventListener("drop", e => {
+  e.preventDefault();
+  stage.classList.remove("dragover");
+  for (const file of e.dataTransfer.files) addFont(file);
+});
+
+document.getElementById("reset").addEventListener("click", () => {
+  for (const tag in sliders) {
+    sliders[tag].input.value = sliders[tag].def;
+    sliders[tag].valSpan.textContent = sliders[tag].def;
+  }
+  apply();
+});
+document.getElementById("clear").addEventListener("click", () => {
+  fonts = [];
+  rebuild();
+});
+glyphInput.addEventListener("input", () => {
+  for (const font of fonts) font.el.textContent = glyphInput.value || "A";
+});
+</script>
+</body>
+</html>

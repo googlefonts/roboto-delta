@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="m" format="2">
+	<unicode hex="006D"/>
+	<advance width="2776"/>
+	<outline>
+		<contour>
+			<point x="-6.7411768958" y="0" type="line"/>
+			<point x="216.8683259811" y="1052" type="line"/>
+			<point x="384.8683259811" y="1052" type="line"/>
+			<point x="350.7919683719" y="807" type="line"/>
+			<point x="179.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="1477.0098416015" y="681" type="qcurve"/>
+			<point x="1332.2588231042" y="0" type="line"/>
+			<point x="1146.2588231042" y="0" type="line"/>
+			<point x="1291.0098416015" y="681" type="line" smooth="yes"/>
+			<point x="1317.7919683719" y="807"/>
+			<point x="1104.960633594" y="916"/>
+			<point x="939.960633594" y="916" type="qcurve" smooth="yes"/>
+			<point x="699.960633594" y="916"/>
+			<point x="363.3040724402" y="800"/>
+			<point x="206.7783935711" y="567" type="qcurve"/>
+			<point x="244.8260181101" y="746" type="line"/>
+			<point x="361.3615385807" y="932"/>
+			<point x="753.1194572145" y="1072"/>
+			<point x="1013.1194572145" y="1072" type="qcurve" smooth="yes"/>
+			<point x="1256.1194572145" y="1072"/>
+			<point x="1512.0718326756" y="893"/>
+		</contour>
+		<contour>
+			<point x="1386.8260181101" y="746" type="line"/>
+			<point x="1517.3615385807" y="932"/>
+			<point x="1924.1194572145" y="1072"/>
+			<point x="2164.1194572145" y="1072" type="qcurve" smooth="yes"/>
+			<point x="2427.1194572145" y="1072"/>
+			<point x="2664.7722851689" y="901"/>
+			<point x="2627.5847284782" y="679" type="qcurve"/>
+			<point x="2483.2588231042" y="0" type="line"/>
+			<point x="2297.2588231042" y="0" type="line"/>
+			<point x="2442.0098416015" y="681" type="line" smooth="yes"/>
+			<point x="2468.7919683719" y="807"/>
+			<point x="2283.960633594" y="916"/>
+			<point x="2090.960633594" y="916" type="qcurve" smooth="yes"/>
+			<point x="1878.960633594" y="916"/>
+			<point x="1526.3040724402" y="800"/>
+			<point x="1348.7783935711" y="567" type="qcurve"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="1222.2588231042" y="0"/>
+	<anchor name="top" x="1445.8683259811" y="1052"/>
+</glyph>

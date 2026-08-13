@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb-stack" format="2">
+	<outline>
+		<contour>
+			<point x="88.0082581329" y="1095" type="line"/>
+			<point x="-8.0499997419" y="1170" type="line"/>
+			<point x="97.5528284707" y="1441" type="line"/>
+			<point x="233.7222854271" y="1343" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="69.0808825428" y="1053"/>
+	<anchor name="top" x="151.5528284707" y="1441"/>
+	<anchor name="_topright" x="68.8683259811" y="1052"/>
+</glyph>

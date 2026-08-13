@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iukran" format="2">
-	<unicode hex="0456"/>
-	<advance width="206"/>
-	<outline>
-		<component base="idotless"/>
-		<component base="idot" xOffset="103"/>
-	</outline>
-</glyph>

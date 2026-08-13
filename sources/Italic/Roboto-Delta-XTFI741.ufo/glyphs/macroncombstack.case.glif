@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macroncombstack.case" format="2">
+	<outline>
+		<contour>
+			<point x="-94.9214926602" y="1674" type="line"/>
+			<point x="-61.7626690396" y="1830" type="line"/>
+			<point x="530.2373309604" y="1830" type="line"/>
+			<point x="497.0785073398" y="1674" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="171.7457018294" y="1536"/>
+	<anchor name="top" x="234.2373309604" y="1830"/>
+</glyph>

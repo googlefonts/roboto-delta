@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threequartersemdash" format="2">
+	<advance width="1536"/>
+	<outline>
+		<contour>
+			<point x="260" y="634" type="line"/>
+			<point x="260" y="641" type="line"/>
+			<point x="1276" y="641" type="line"/>
+			<point x="1276" y="634" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,1,0</string>
+		</dict>
+	</lib>
+</glyph>
