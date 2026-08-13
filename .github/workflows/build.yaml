@@ -22,7 +22,7 @@ jobs:
       - name: Install gftools
         # 0.9.998 is the first release with builder support for the
         # "instances" config section.
-        run: pip install "gftools>=0.9.998"
+        run: pip install -r requirements.txt
 
       - name: Build fonts
         run: gftools builder sources/config.yaml
