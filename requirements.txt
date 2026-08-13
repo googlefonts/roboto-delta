@@ -22,7 +22,7 @@ future==1.0.0
 gflanguages==0.7.9
 gfmetadata==0.2.5
 gfsubsets==2025.11.4
-gftools==0.9.998
+gftools==0.9.999
 glyphsets==1.1.3
 glyphsLib==6.14.0
 idna==3.18
