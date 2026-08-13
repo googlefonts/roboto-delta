@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghestroke" format="2">
+	<unicode hex="0493"/>
+	<advance width="864"/>
+	<outline>
+		<component base="ghe"/>
+		<component base="horizontalbarlc" xOffset="11.7009985917" yOffset="-224.2089552239"/>
+	</outline>
+</glyph>

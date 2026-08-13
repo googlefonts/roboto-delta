@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omega" format="2">
+	<unicode hex="03A9"/>
+	<advance width="2238"/>
+	<outline>
+		<contour>
+			<point x="-39.7411768958" y="0" type="line"/>
+			<point x="-5.9446835902" y="159" type="line"/>
+			<point x="506.0553164098" y="159" type="line"/>
+			<point x="537.9388006603" y="309" type="line"/>
+			<point x="295.1173074838" y="371"/>
+			<point x="93.3192307097" y="626"/>
+			<point x="137.7435520987" y="835" type="qcurve"/>
+			<point x="149.6467195522" y="891" type="line"/>
+			<point x="209.1625568198" y="1171"/>
+			<point x="796.1178737459" y="1486"/>
+			<point x="1280.1178737459" y="1486" type="qcurve"/>
+			<point x="1764.1178737459" y="1486"/>
+			<point x="2217.1625568198" y="1171"/>
+			<point x="2157.6467195522" y="891" type="qcurve"/>
+			<point x="2145.7435520987" y="835" type="line"/>
+			<point x="2101.3192307097" y="626"/>
+			<point x="1791.1173074838" y="371"/>
+			<point x="1521.9388006603" y="309" type="qcurve"/>
+			<point x="1490.0553164098" y="159" type="line"/>
+			<point x="2002.0553164098" y="159" type="line"/>
+			<point x="1968.2588231042" y="0" type="line"/>
+			<point x="1284.2588231042" y="0" type="line"/>
+			<point x="1377.146040554" y="437" type="line"/>
+			<point x="1642.7352939658" y="468"/>
+			<point x="1919.6475112865" y="684"/>
+			<point x="1951.7435520987" y="835" type="qcurve"/>
+			<point x="1963.6467195522" y="891" type="line"/>
+			<point x="2007.0082581329" y="1095"/>
+			<point x="1646.258597632" y="1322"/>
+			<point x="1245.258597632" y="1322" type="qcurve"/>
+			<point x="844.258597632" y="1322"/>
+			<point x="387.0082581329" y="1095"/>
+			<point x="343.6467195522" y="891" type="qcurve"/>
+			<point x="331.7435520987" y="835" type="line"/>
+			<point x="299.6475112865" y="684"/>
+			<point x="484.7352939658" y="468"/>
+			<point x="737.146040554" y="437" type="qcurve"/>
+			<point x="644.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="tonos" x="78.5445703378" y="1074"/>
+</glyph>

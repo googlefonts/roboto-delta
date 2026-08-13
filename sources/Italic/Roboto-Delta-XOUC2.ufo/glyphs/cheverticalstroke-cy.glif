@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cheverticalstroke-cy" format="2">
+	<unicode hex="04B9"/>
+	<advance width="1115"/>
+	<outline>
+		<contour>
+			<point x="657.3570136471" y="852" type="line"/>
+			<point x="518.7701354382" y="200" type="line"/>
+			<point x="353.7701354382" y="200" type="line"/>
+			<point x="492.3570136471" y="852" type="line"/>
+		</contour>
+		<contour>
+			<point x="320.5650452752" y="773" type="line" smooth="yes"/>
+			<point x="292.7201356964" y="642"/>
+			<point x="370.4644795294" y="542"/>
+			<point x="493.4644795294" y="542" type="qcurve" smooth="yes"/>
+			<point x="582.4644795294" y="542"/>
+			<point x="731.9909501328" y="568"/>
+			<point x="824.6671944895" y="590" type="qcurve"/>
+			<point x="793.6339364857" y="444" type="line"/>
+			<point x="704.595361814" y="425"/>
+			<point x="550.4312215256" y="396"/>
+			<point x="426.4312215256" y="396" type="qcurve" smooth="yes"/>
+			<point x="230.4312215256" y="396"/>
+			<point x="94.1792985578" y="583"/>
+			<point x="134.5650452752" y="773" type="qcurve" smooth="yes"/>
+			<point x="193.8683259811" y="1052" type="line"/>
+			<point x="379.8683259811" y="1052" type="line"/>
+		</contour>
+		<contour>
+			<point x="626.2588231042" y="0" type="line"/>
+			<point x="849.8683259811" y="1052" type="line"/>
+			<point x="1035.8683259811" y="1052" type="line"/>
+			<point x="812.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,1,0</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sigma" format="2">
+	<unicode hex="03A3"/>
+	<advance width="1190"/>
+	<outline>
+		<contour>
+			<point x="-103" y="0" type="line"/>
+			<point x="-75.0649488738" y="121" type="line"/>
+			<point x="574.6894069619" y="748" type="line"/>
+			<point x="564.0694701701" y="702" type="line"/>
+			<point x="210.0521212277" y="1304" type="line"/>
+			<point x="245.1440862788" y="1456" type="line"/>
+			<point x="1260.1440862788" y="1456" type="line"/>
+			<point x="1223.8977802721" y="1299" type="line"/>
+			<point x="427.8977802721" y="1299" type="line"/>
+			<point x="444.207748668" y="1322" type="line"/>
+			<point x="782.5363524909" y="756" type="line"/>
+			<point x="773.3016248459" y="716" type="line"/>
+			<point x="172.167205802" y="135" type="line"/>
+			<point x="166.4771741978" y="158" type="line"/>
+			<point x="992.4771741978" y="158" type="line"/>
+			<point x="956" y="0" type="line"/>
+		</contour>
+	</outline>
+</glyph>

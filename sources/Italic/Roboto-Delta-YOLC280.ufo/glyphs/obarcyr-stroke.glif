@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="obarcyr-stroke" format="2">
+	<advance width="1162"/>
+	<outline>
+		<contour>
+			<point x="144.2904976394" y="560" type="line"/>
+			<point x="946.2904976394" y="560" type="line"/>
+			<point x="931.6240948842" y="491" type="line"/>
+			<point x="129.6240948842" y="491" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="135.8752261176" y="511" angle="102" identifier="HuPjA4mSCL"/>
+	<guideline x="956.9183257229" y="610" angle="102" identifier="F596JbvFPy"/>
+</glyph>

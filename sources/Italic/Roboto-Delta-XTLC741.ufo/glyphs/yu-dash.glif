@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yu-dash" format="2">
+	<advance width="726"/>
+	<outline>
+		<contour>
+			<point x="-55.9023757192" y="465" type="line"/>
+			<point x="-25.0816742771" y="610" type="line"/>
+			<point x="700.9183257229" y="610" type="line"/>
+			<point x="670.0976242808" y="465" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_yu_dash" x="-40.8108598406" y="536"/>
+	<anchor name="yu_dash" x="685.1891401594" y="536"/>
+</glyph>

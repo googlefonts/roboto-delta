@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecombstack.case" format="2">
+	<outline>
+		<contour>
+			<point x="-0.3708139201" y="1686" type="line"/>
+			<point x="324.410521116" y="2019" type="line"/>
+			<point x="396.7638015638" y="1856" type="line"/>
+			<point x="52.9726249262" y="1570" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="171.7457018294" y="1536"/>
+	<anchor name="top" x="257.8311093057" y="1941"/>
+</glyph>

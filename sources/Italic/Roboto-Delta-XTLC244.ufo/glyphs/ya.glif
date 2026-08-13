@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ya" format="2">
+	<unicode hex="044F"/>
+	<advance width="649"/>
+	<outline>
+		<contour>
+			<point x="-69.7411768958" y="0" type="line"/>
+			<point x="114.7595021024" y="454" type="line"/>
+			<point x="295.146040554" y="437" type="line"/>
+			<point x="132.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="96.44932126" y="716" type="qcurve" smooth="yes"/>
+			<point x="128.9704751955" y="869"/>
+			<point x="282.8683259811" y="1052"/>
+			<point x="368.8683259811" y="1052" type="qcurve" smooth="yes"/>
+			<point x="569.8683259811" y="1052" type="line"/>
+			<point x="346.2588231042" y="0" type="line"/>
+			<point x="160.2588231042" y="0" type="line"/>
+			<point x="353.0476245389" y="907" type="line"/>
+			<point x="338.0476245389" y="907" type="line" smooth="yes"/>
+			<point x="329.0476245389" y="907"/>
+			<point x="300.1972134038" y="799.4972677596"/>
+			<point x="282.44932126" y="716" type="qcurve" smooth="yes"/>
+			<point x="264.9068738546" y="633.469273743"/>
+			<point x="247.7012442277" y="529"/>
+			<point x="257.7012442277" y="529" type="qcurve" smooth="yes"/>
+			<point x="362.7012442277" y="529" type="line"/>
+			<point x="331.8805427855" y="384" type="line"/>
+			<point x="244.8805427855" y="384" type="line"/>
+			<point x="229.4312215256" y="396" type="line"/>
+			<point x="145.4312215256" y="396"/>
+			<point x="65.2035066945" y="569"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="383.8683259811" y="1052"/>
+</glyph>

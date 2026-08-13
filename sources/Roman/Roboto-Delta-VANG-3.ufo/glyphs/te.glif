@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="te" format="2">
+	<unicode hex="0442"/>
+	<advance width="906"/>
+	<outline>
+		<contour>
+			<point x="20.4661441903" y="907" type="line"/>
+			<point x="12.8670161942" y="1052" type="line"/>
+			<point x="858.8670161942" y="1052" type="line"/>
+			<point x="866.4661441903" y="907" type="line"/>
+		</contour>
+		<contour>
+			<point x="398" y="0" type="line"/>
+			<point x="346.7975996405" y="977" type="line"/>
+			<point x="532.7975996405" y="977" type="line"/>
+			<point x="584" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="cy_descender" x="493" y="0"/>
+</glyph>

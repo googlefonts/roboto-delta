@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Psi" format="2">
+	<unicode hex="03A8"/>
+	<advance width="1665"/>
+	<outline>
+		<contour>
+			<point x="770" y="0" type="line"/>
+			<point x="770" y="1456" type="line"/>
+			<point x="896" y="1456" type="line"/>
+			<point x="896" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="783" y="361" type="line" smooth="yes"/>
+			<point x="492" y="361"/>
+			<point x="201" y="635"/>
+			<point x="202" y="928" type="qcurve" smooth="yes"/>
+			<point x="202" y="1456" type="line"/>
+			<point x="332" y="1456" type="line"/>
+			<point x="332" y="926" type="line" smooth="yes"/>
+			<point x="332" y="691"/>
+			<point x="538" y="481"/>
+			<point x="783" y="481" type="qcurve" smooth="yes"/>
+			<point x="884" y="481" type="line" smooth="yes"/>
+			<point x="1129" y="481"/>
+			<point x="1332" y="691"/>
+			<point x="1332" y="926" type="qcurve" smooth="yes"/>
+			<point x="1332" y="1456" type="line"/>
+			<point x="1463" y="1456" type="line"/>
+			<point x="1463" y="928" type="line" smooth="yes"/>
+			<point x="1463" y="635"/>
+			<point x="1173" y="361"/>
+			<point x="883" y="361" type="qcurve" smooth="yes"/>
+		</contour>
+	</outline>
+</glyph>

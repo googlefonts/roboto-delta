@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sha.bgr" format="2">
+	<advance width="2776"/>
+	<outline>
+		<contour>
+			<point x="2696.8683259811" y="1052" type="line"/>
+			<point x="2473.2588231042" y="0" type="line"/>
+			<point x="2305.2588231042" y="0" type="line"/>
+			<point x="2339.3351807134" y="245" type="line"/>
+			<point x="2510.8683259811" y="1052" type="line"/>
+		</contour>
+		<contour>
+			<point x="1213.1173074838" y="371" type="qcurve"/>
+			<point x="1357.8683259811" y="1052" type="line"/>
+			<point x="1543.8683259811" y="1052" type="line"/>
+			<point x="1399.1173074838" y="371" type="line" smooth="yes"/>
+			<point x="1372.3351807134" y="245"/>
+			<point x="1585.1665154913" y="136"/>
+			<point x="1750.1665154913" y="136" type="qcurve" smooth="yes"/>
+			<point x="1990.1665154913" y="136"/>
+			<point x="2326.8230766451" y="252"/>
+			<point x="2483.3487555142" y="485" type="qcurve"/>
+			<point x="2445.3011309753" y="306" type="line"/>
+			<point x="2328.7656105046" y="120"/>
+			<point x="1937.0076918708" y="-20"/>
+			<point x="1677.0076918708" y="-20" type="qcurve" smooth="yes"/>
+			<point x="1434.0076918708" y="-20"/>
+			<point x="1178.0553164098" y="159"/>
+		</contour>
+		<contour>
+			<point x="1303.3011309753" y="306" type="line"/>
+			<point x="1172.7656105046" y="120"/>
+			<point x="766.0076918708" y="-20"/>
+			<point x="526.0076918708" y="-20" type="qcurve" smooth="yes"/>
+			<point x="263.0076918708" y="-20"/>
+			<point x="25.3548639164" y="151"/>
+			<point x="62.5424206071" y="373" type="qcurve"/>
+			<point x="206.8683259811" y="1052" type="line"/>
+			<point x="392.8683259811" y="1052" type="line"/>
+			<point x="248.1173074838" y="371" type="line" smooth="yes"/>
+			<point x="221.3351807134" y="245"/>
+			<point x="406.1665154913" y="136"/>
+			<point x="599.1665154913" y="136" type="qcurve" smooth="yes"/>
+			<point x="811.1665154913" y="136"/>
+			<point x="1163.8230766451" y="252"/>
+			<point x="1341.3487555142" y="485" type="qcurve"/>
+		</contour>
+	</outline>
+	<anchor name="cy_descender" x="2380.2588231042" y="0"/>
+</glyph>

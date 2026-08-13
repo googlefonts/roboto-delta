@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shcha" format="2">
+	<unicode hex="0449"/>
+	<advance width="2874"/>
+	<outline>
+		<component base="sha"/>
+		<component base="cy-descendercomb" xOffset="2429"/>
+	</outline>
+</glyph>

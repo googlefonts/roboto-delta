@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="che" format="2">
+	<unicode hex="0447"/>
+	<advance width="1095"/>
+	<outline>
+		<contour>
+			<point x="320.5650452752" y="773" type="line" smooth="yes"/>
+			<point x="298.2466062998" y="668"/>
+			<point x="394.0582578747" y="653"/>
+			<point x="517.0582578747" y="653" type="qcurve" smooth="yes"/>
+			<point x="606.0582578747" y="653"/>
+			<point x="755.5847284782" y="679"/>
+			<point x="848.2609728349" y="701" type="qcurve"/>
+			<point x="751.1226241517" y="244" type="line"/>
+			<point x="662.08404948" y="225"/>
+			<point x="507.9199091915" y="196"/>
+			<point x="383.9199091915" y="196" type="qcurve" smooth="yes"/>
+			<point x="187.9199091915" y="196"/>
+			<point x="51.6679862238" y="383"/>
+			<point x="92.0537329411" y="573" type="qcurve" smooth="yes"/>
+			<point x="193.8683259811" y="1052" type="line"/>
+			<point x="379.8683259811" y="1052" type="line"/>
+		</contour>
+		<contour>
+			<point x="1015.8683259811" y="1052" type="line"/>
+			<point x="792.2588231042" y="0" type="line"/>
+			<point x="606.2588231042" y="0" type="line"/>
+			<point x="829.8683259811" y="1052" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="cy_descender" x="700.2588231042" y="0"/>
+	<guideline x="809.7254523643" y="515" angle="102" identifier="GGEFes61Q6"/>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevebelowcomb" format="2">
+	<unicode hex="032E"/>
+	<outline>
+		<contour>
+			<point x="-253.154864949" y="-463" type="qcurve"/>
+			<point x="-304.154864949" y="-463"/>
+			<point x="-341.9377834537" y="-382"/>
+			<point x="-328.194231355" y="-275" type="qcurve"/>
+			<point x="-218.1412901482" y="-223" type="line"/>
+			<point x="-230.2570141634" y="-280"/>
+			<point x="-233.2955888351" y="-299"/>
+			<point x="-218.2955888351" y="-299" type="qcurve"/>
+			<point x="-203.2955888351" y="-299"/>
+			<point x="-198.2570141634" y="-280"/>
+			<point x="-186.1412901482" y="-223" type="qcurve"/>
+			<point x="-98.194231355" y="-275" type="line"/>
+			<point x="-129.9377834537" y="-382"/>
+			<point x="-202.154864949" y="-463"/>
+		</contour>
+	</outline>
+	<anchor name="_bottom" x="-154.7411768958" y="0"/>
+	<anchor name="bottom" x="-253.154864949" y="-463"/>
+</glyph>

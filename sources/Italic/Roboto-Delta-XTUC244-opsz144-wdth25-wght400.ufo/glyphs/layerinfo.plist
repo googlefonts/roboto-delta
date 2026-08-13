@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>color</key>
+		<string>0,0.5046,0,0.7</string>
+		<key>lib</key>
+		<dict>
+			<key>org.unifiedfontobject.normalizer.imageReferences</key>
+			<dict>
+			</dict>
+			<key>org.unifiedfontobject.normalizer.modTimes</key>
+			<string>version: 0.6.3
+1761584477.6 A_.glif
+1761584934.0 K_.glif
+1761584205.1 M_.glif
+1761584324.1 N_.glif
+1761609011.6 V_.glif
+1761609005.3 W_.glif
+1761584591.2 Y_.glif</string>
+		</dict>
+	</dict>
+</plist>

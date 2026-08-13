@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Source/config.yaml for the gftools builder.
+"""Generate sources/config-instances.yaml for the gftools builder.
 
 The config declares one static instance for each point of the grid:
 Roman/Italic x opsz(8-144) x wdth(25-151) x wght(100-1000). The builder
@@ -8,7 +8,7 @@ which writes GF-spec name tables (non-wght particles join the family
 name, see https://googlefonts.github.io/gf-guide/statics.html).
 
 gen-static cannot set everything, so the recipe section appends
-gftools-fontsetter steps that use the files in Source/static-fixes/:
+gftools-fontsetter steps that use the files in sources/static-fixes/:
   - Italic statics get post.italicAngle = -12 (the drawing is slanted
     at slnt=0).
   - Non-default widths get the correct OS/2.usWidthClass.
@@ -19,8 +19,8 @@ Particle names come from the GF Axis Registry fallbacks, with two
 overrides that the registry does not cover: wdth 151 = "ExtraExpanded"
 (Roboto Flex precedent) and wght 1000 = "ExtraBlack".
 
-This script replaces Source/build-RobotoDelta-statics.sh. To change the
-grid, edit this file and run:
+This script replaces the old build-RobotoDelta-statics.sh. To change
+the grid, edit this file and run:
 
     python3 tools/gen_statics_config.py
 """
@@ -28,7 +28,7 @@ grid, edit this file and run:
 import os
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CONFIG = os.path.join(REPO, "Source", "config.yaml")
+CONFIG = os.path.join(REPO, "sources", "config-instances.yaml")
 
 POSTURES = ["Roman", "Italic"]
 OPTICAL_SIZES = [8, 14, 36, 72, 144]

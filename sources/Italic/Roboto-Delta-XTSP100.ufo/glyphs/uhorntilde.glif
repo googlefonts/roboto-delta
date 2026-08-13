@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uhorntilde" format="2">
+	<unicode hex="1EEF"/>
+	<advance width="1388"/>
+	<outline>
+		<component base="u"/>
+		<component base="horncomb" xOffset="1028"/>
+		<component base="tildecomb" xOffset="694"/>
+	</outline>
+</glyph>

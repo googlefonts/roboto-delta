@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi" format="2">
+	<unicode hex="FB01"/>
+	<advance width="1100"/>
+	<outline>
+		<component base="f"/>
+		<component base="idotless" xOffset="591.2592989438"/>
+		<component base="idot" xOffset="811.908235114"/>
+	</outline>
+</glyph>

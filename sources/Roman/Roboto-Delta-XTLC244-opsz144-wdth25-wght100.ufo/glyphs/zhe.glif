@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zhe" format="2">
+	<unicode hex="0436"/>
+	<advance width="740"/>
+	<outline>
+		<contour>
+			<point x="460" y="0" type="line"/>
+			<point x="280" y="0" type="line"/>
+			<point x="280" y="1052" type="line"/>
+			<point x="460" y="1052" type="line"/>
+		</contour>
+		<contour>
+			<point x="524" y="0" type="line"/>
+			<point x="472" y="508" type="line"/>
+			<point x="593" y="616" type="line"/>
+			<point x="728" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="370" y="610" type="line"/>
+			<point x="488" y="610" type="line"/>
+			<point x="510" y="1052" type="line"/>
+			<point x="716" y="1052" type="line"/>
+			<point x="589" y="465" type="line"/>
+			<point x="370" y="465" type="line"/>
+		</contour>
+		<contour>
+			<point x="216" y="0" type="line"/>
+			<point x="12" y="0" type="line"/>
+			<point x="147" y="616" type="line"/>
+			<point x="268" y="508" type="line"/>
+		</contour>
+		<contour>
+			<point x="370" y="610" type="line"/>
+			<point x="370" y="465" type="line"/>
+			<point x="151" y="465" type="line"/>
+			<point x="24" y="1052" type="line"/>
+			<point x="230" y="1052" type="line"/>
+			<point x="252" y="610" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="370" y="1052"/>
+	<anchor name="cy_descender" x="524" y="0"/>
+</glyph>

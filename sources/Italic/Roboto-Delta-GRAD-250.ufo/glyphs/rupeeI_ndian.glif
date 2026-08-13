@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rupeeIndian" format="2">
+	<unicode hex="20B9"/>
+	<advance width="1024"/>
+	<outline>
+		<contour>
+			<point x="64.6126698141" y="952" type="line"/>
+			<point x="89.9069006528" y="1071" type="line"/>
+			<point x="1032.9069006528" y="1071" type="line"/>
+			<point x="1007.6126698141" y="952" type="line"/>
+		</contour>
+		<contour>
+			<point x="684.2588231042" y="0" type="line"/>
+			<point x="591.4123300568" y="283" type="line" smooth="yes"/>
+			<point x="533.2473980341" y="461"/>
+			<point x="340.5174207362" y="594"/>
+			<point x="147.1550904212" y="597" type="qcurve" smooth="yes"/>
+			<point x="-10.2072398938" y="600" type="line"/>
+			<point x="11.8986425199" y="704" type="line"/>
+			<point x="331.8986425199" y="704" type="line" smooth="yes"/>
+			<point x="510.8986425199" y="704"/>
+			<point x="713.0960408122" y="879"/>
+			<point x="744.9795250627" y="1029" type="qcurve" smooth="yes"/>
+			<point x="773.8872174498" y="1165"/>
+			<point x="655.446946057" y="1337"/>
+			<point x="484.446946057" y="1337" type="qcurve" smooth="yes"/>
+			<point x="146.446946057" y="1337" type="line"/>
+			<point x="171.7411768958" y="1456" type="line"/>
+			<point x="1123.7411768958" y="1456" type="line"/>
+			<point x="1098.6595026187" y="1338" type="line"/>
+			<point x="846.6595026187" y="1338" type="line"/>
+			<point x="769.9348419887" y="1344" type="line"/>
+			<point x="770.2343894954" y="1336" type="line"/>
+			<point x="838.0702492069" y="1307"/>
+			<point x="893.7230771614" y="1136"/>
+			<point x="870.9795250627" y="1029" type="qcurve" smooth="yes"/>
+			<point x="831.2314480304" y="842"/>
+			<point x="610.6959275598" y="656"/>
+			<point x="431.7201356964" y="642" type="qcurve"/>
+			<point x="535.0438913396" y="620"/>
+			<point x="683.6725111574" y="463"/>
+			<point x="720.6392531536" y="317" type="qcurve" smooth="yes"/>
+			<point x="823.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+</glyph>

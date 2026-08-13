@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="diagonalbarl" format="2">
+	<advance width="629"/>
+	<outline>
+		<contour>
+			<point x="70.7882351726" y="520" type="line"/>
+			<point x="30.382013518" y="631" type="line"/>
+			<point x="295.8161765086" y="793" type="line"/>
+			<point x="569.9893666642" y="982" type="line"/>
+			<point x="608.2458145655" y="875" type="line"/>
+			<point x="334.8986425199" y="704" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_slash" x="314" y="728"/>
+</glyph>

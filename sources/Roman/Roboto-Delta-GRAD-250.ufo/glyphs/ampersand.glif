@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ampersand" format="2">
+	<unicode hex="0026"/>
+	<advance width="1280"/>
+	<outline>
+		<contour>
+			<point x="100" y="380" type="qcurve" smooth="yes"/>
+			<point x="100" y="540"/>
+			<point x="313" y="752"/>
+			<point x="462" y="845" type="qcurve" smooth="yes"/>
+			<point x="611" y="938" type="line" smooth="yes"/>
+			<point x="701" y="994"/>
+			<point x="784" y="1109"/>
+			<point x="784" y="1172" type="qcurve" smooth="yes"/>
+			<point x="784" y="1265"/>
+			<point x="673" y="1370"/>
+			<point x="570" y="1370" type="qcurve" smooth="yes"/>
+			<point x="465" y="1370"/>
+			<point x="354" y="1255"/>
+			<point x="354" y="1165" type="qcurve" smooth="yes"/>
+			<point x="354" y="1089"/>
+			<point x="434" y="962"/>
+			<point x="541" y="840" type="qcurve" smooth="yes"/>
+			<point x="1274" y="0" type="line"/>
+			<point x="1122" y="0" type="line"/>
+			<point x="446" y="772" type="line" smooth="yes"/>
+			<point x="333" y="901"/>
+			<point x="230" y="1068"/>
+			<point x="230" y="1165" type="qcurve" smooth="yes"/>
+			<point x="230" y="1311"/>
+			<point x="418" y="1486"/>
+			<point x="570" y="1486" type="qcurve" smooth="yes"/>
+			<point x="720" y="1486"/>
+			<point x="902" y="1319"/>
+			<point x="902" y="1180" type="qcurve" smooth="yes"/>
+			<point x="902" y="1071"/>
+			<point x="783" y="906"/>
+			<point x="688" y="847" type="qcurve" smooth="yes"/>
+			<point x="538" y="754" type="line" smooth="yes"/>
+			<point x="390" y="662"/>
+			<point x="226" y="502"/>
+			<point x="226" y="380" type="qcurve" smooth="yes"/>
+			<point x="226" y="258"/>
+			<point x="391" y="96"/>
+			<point x="544" y="96" type="qcurve" smooth="yes"/>
+			<point x="755" y="96"/>
+			<point x="1011" y="411"/>
+			<point x="1011" y="674" type="qcurve"/>
+			<point x="1142" y="674" type="line"/>
+			<point x="1142" y="380"/>
+			<point x="816" y="-20"/>
+			<point x="545" y="-20" type="qcurve" smooth="yes"/>
+			<point x="330" y="-20"/>
+			<point x="100" y="209"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>color</key>
+		<string>0,0.8,0.2,0.7</string>
+		<key>lib</key>
+		<dict>
+			<key>org.unifiedfontobject.normalizer.modTimes</key>
+			<string>version: 0.6.3
+1751422293.2 K_.glif
+1751422293.2 eight.glif
+1751422293.2 fraction.glif
+1751422293.2 h.glif
+1751422293.2 lira.glif
+1751422293.2 m.glif
+1751422293.2 n.glif
+1751422293.2 numbersign.glif
+1751422293.2 r.glif
+1751422293.2 two.glif
+1751422293.2 u.glif
+1751422293.2 zerosuperior.glif</string>
+		</dict>
+	</dict>
+</plist>

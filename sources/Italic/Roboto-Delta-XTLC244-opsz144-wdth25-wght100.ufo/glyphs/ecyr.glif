@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecyr" format="2">
+	<unicode hex="044D"/>
+	<advance width="552"/>
+	<outline>
+		<contour>
+			<point x="420.6626695559" y="510" type="line" smooth="yes"/>
+			<point x="367.5235291384" y="260"/>
+			<point x="198.8821262541" y="-30"/>
+			<point x="106.8821262541" y="-30" type="qcurve" smooth="yes"/>
+			<point x="11.8821262541" y="-30"/>
+			<point x="-39.8675342468" y="197"/>
+			<point x="-10.109615613" y="337" type="qcurve" smooth="yes"/>
+			<point x="-9.0468328046" y="342" type="line"/>
+			<point x="170.9531671954" y="342" type="line"/>
+			<point x="169.890384387" y="337" type="line" smooth="yes"/>
+			<point x="151.8230766451" y="252"/>
+			<point x="129.190723628" y="122"/>
+			<point x="139.190723628" y="122" type="qcurve" smooth="yes"/>
+			<point x="149.190723628" y="122"/>
+			<point x="199.890384387" y="337"/>
+			<point x="234.5371039392" y="500" type="qcurve" smooth="yes"/>
+			<point x="248.1407238861" y="564" type="line" smooth="yes"/>
+			<point x="280.6618778216" y="717"/>
+			<point x="322.9364254573" y="930"/>
+			<point x="312.9364254573" y="930" type="qcurve" smooth="yes"/>
+			<point x="304.9364254573" y="930"/>
+			<point x="271.6664027552" y="797"/>
+			<point x="254.2367646983" y="715" type="qcurve" smooth="yes"/>
+			<point x="253.1739818899" y="710" type="line"/>
+			<point x="73.1739818899" y="710" type="line"/>
+			<point x="74.2367646983" y="715" type="line" smooth="yes"/>
+			<point x="103.9946833321" y="855"/>
+			<point x="249.2450228312" y="1082"/>
+			<point x="347.2450228312" y="1082" type="qcurve" smooth="yes"/>
+			<point x="440.2450228312" y="1082"/>
+			<point x="480.3910633852" y="791"/>
+			<point x="427.4644795294" y="542" type="qcurve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="347.9183257229" y="610" type="line"/>
+			<point x="317.0976242808" y="465" type="line"/>
+			<point x="106.0976242808" y="465" type="line"/>
+			<point x="136.9183257229" y="610" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="338.8683259811" y="1052"/>
+	<guideline x="839.0492080075" y="493" angle="102" identifier="9ss4WcbEUf"/>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X" format="2">
+	<unicode hex="0058"/>
+	<advance width="793"/>
+	<outline>
+		<contour>
+			<point x="-129.7411768958" y="0" type="line"/>
+			<point x="399.3766968501" y="758" type="line"/>
+			<point x="400.3766968501" y="758" type="line"/>
+			<point x="891.7411768958" y="1456" type="line"/>
+			<point x="901.7411768958" y="1456" type="line"/>
+			<point x="402.8888009184" y="751" type="line"/>
+			<point x="401.8888009184" y="751" type="line"/>
+			<point x="-119.7411768958" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="199.7411768958" y="1456" type="line"/>
+			<point x="208.7411768958" y="1456" type="line"/>
+			<point x="403.3766968501" y="758" type="line"/>
+			<point x="404.3766968501" y="758" type="line"/>
+			<point x="613.2588231042" y="0" type="line"/>
+			<point x="603.2588231042" y="0" type="line"/>
+			<point x="398.8888009184" y="751" type="line"/>
+			<point x="397.8888009184" y="751" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="242.2588231042" y="0"/>
+	<anchor name="top" x="551.7411768958" y="1456"/>
+	<anchor name="cy_descender" x="607.2588231042" y="0"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,1,0</string>
+		</dict>
+	</lib>
+</glyph>

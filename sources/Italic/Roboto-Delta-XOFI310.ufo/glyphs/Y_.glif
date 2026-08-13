@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Y" format="2">
+	<unicode hex="0059"/>
+	<advance width="1228"/>
+	<outline>
+		<contour>
+			<point x="363.2588231042" y="0" type="line"/>
+			<point x="478.8895926527" y="544" type="line"/>
+			<point x="169.7411768958" y="1456" type="line"/>
+			<point x="385.7411768958" y="1456" type="line"/>
+			<point x="582.806334907" y="840" type="line" smooth="yes"/>
+			<point x="592.4296380569" y="810"/>
+			<point x="608.8018099734" y="760"/>
+			<point x="614.0627828084" y="733" type="qcurve"/>
+			<point x="620.0627828084" y="733" type="line"/>
+			<point x="636.8018099734" y="760"/>
+			<point x="674.4296380569" y="810"/>
+			<point x="696.806334907" y="840" type="qcurve" smooth="yes"/>
+			<point x="1159.7411768958" y="1456" type="line"/>
+			<point x="1367.7411768958" y="1456" type="line"/>
+			<point x="670.8895926527" y="544" type="line"/>
+			<point x="555.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="459.2588231042" y="0"/>
+	<anchor name="top" x="768.7411768958" y="1456"/>
+	<anchor name="tonos" x="-101.4554296622" y="1074"/>
+</glyph>

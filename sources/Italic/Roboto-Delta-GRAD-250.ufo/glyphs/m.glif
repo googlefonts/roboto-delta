@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="m" format="2">
+	<unicode hex="006D"/>
+	<advance width="1764"/>
+	<outline>
+		<contour>
+			<point x="26.2588231042" y="0" type="line"/>
+			<point x="249.8683259811" y="1052" type="line"/>
+			<point x="363.8683259811" y="1052" type="line"/>
+			<point x="334.2072398938" y="856" type="line"/>
+			<point x="152.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="939.5847284782" y="679" type="qcurve" smooth="yes"/>
+			<point x="795.2588231042" y="0" type="line"/>
+			<point x="668.2588231042" y="0" type="line"/>
+			<point x="813.0098416015" y="681" type="line" smooth="yes"/>
+			<point x="846.168665222" y="837"/>
+			<point x="748.6126698141" y="952"/>
+			<point x="641.6126698141" y="952" type="qcurve" smooth="yes"/>
+			<point x="532.6126698141" y="952"/>
+			<point x="351.1058824137" y="832"/>
+			<point x="225.932692258" y="643" type="qcurve"/>
+			<point x="255.0529412068" y="780" type="line"/>
+			<point x="344.9364254573" y="930"/>
+			<point x="578.1194572145" y="1072"/>
+			<point x="706.1194572145" y="1072" type="qcurve" smooth="yes"/>
+			<point x="850.1194572145" y="1072"/>
+			<point x="987.4099548539" y="904"/>
+		</contour>
+		<contour>
+			<point x="893.0529412068" y="780" type="line"/>
+			<point x="984.9364254573" y="930"/>
+			<point x="1218.1194572145" y="1072"/>
+			<point x="1343.1194572145" y="1072" type="qcurve" smooth="yes"/>
+			<point x="1493.1194572145" y="1072"/>
+			<point x="1630.6225114156" y="905"/>
+			<point x="1582.5847284782" y="679" type="qcurve" smooth="yes"/>
+			<point x="1438.2588231042" y="0" type="line"/>
+			<point x="1311.2588231042" y="0" type="line"/>
+			<point x="1456.0098416015" y="681" type="line" smooth="yes"/>
+			<point x="1488.530995537" y="834"/>
+			<point x="1392.6126698141" y="952"/>
+			<point x="1278.6126698141" y="952" type="qcurve" smooth="yes"/>
+			<point x="1173.6126698141" y="952"/>
+			<point x="992.1058824137" y="832"/>
+			<point x="863.932692258" y="643" type="qcurve"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="725.2588231042" y="0"/>
+	<anchor name="top" x="949.0808825428" y="1053"/>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omega" format="2">
+	<unicode hex="03C9"/>
+	<advance width="1570"/>
+	<outline>
+		<contour>
+			<point x="327.2588231042" y="0" type="qcurve" smooth="yes"/>
+			<point x="144.2588231042" y="0"/>
+			<point x="-13.19128989" y="219"/>
+			<point x="40.7980767741" y="473" type="qcurve"/>
+			<point x="82.2466062998" y="668"/>
+			<point x="255.1633485541" y="964"/>
+			<point x="362.8683259811" y="1052" type="qcurve"/>
+			<point x="551.8683259811" y="1052" type="line"/>
+			<point x="423.8494345124" y="939"/>
+			<point x="265.2322397647" y="635"/>
+			<point x="230.3729636508" y="471" type="qcurve"/>
+			<point x="191.6876694269" y="289"/>
+			<point x="261.4176467247" y="156"/>
+			<point x="360.4176467247" y="156" type="qcurve" smooth="yes"/>
+			<point x="470.4176467247" y="156"/>
+			<point x="600.1755653586" y="296"/>
+			<point x="623.9819002656" y="408" type="qcurve" smooth="yes"/>
+			<point x="690.72466063" y="722" type="line"/>
+			<point x="876.72466063" y="722" type="line"/>
+			<point x="809.9819002656" y="408" type="line" smooth="yes"/>
+			<point x="786.1755653586" y="296"/>
+			<point x="855.4176467247" y="156"/>
+			<point x="966.4176467247" y="156" type="qcurve" smooth="yes"/>
+			<point x="1065.4176467247" y="156"/>
+			<point x="1191.6876694269" y="289"/>
+			<point x="1230.3729636508" y="471" type="qcurve"/>
+			<point x="1265.2322397647" y="635"/>
+			<point x="1234.8494345124" y="939"/>
+			<point x="1154.8683259811" y="1052" type="qcurve"/>
+			<point x="1344.8683259811" y="1052" type="line"/>
+			<point x="1415.1633485541" y="964"/>
+			<point x="1462.2466062998" y="668"/>
+			<point x="1420.7980767741" y="473" type="qcurve"/>
+			<point x="1366.80871011" y="219"/>
+			<point x="1116.2588231042" y="0"/>
+			<point x="933.2588231042" y="0" type="qcurve" smooth="yes"/>
+			<point x="823.2588231042" y="0"/>
+			<point x="680.1135742845" y="84"/>
+			<point x="666.3208141783" y="212" type="qcurve"/>
+			<point x="684.3208141783" y="212" type="line"/>
+			<point x="616.1135742845" y="84"/>
+			<point x="437.2588231042" y="0"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="854.8683259811" y="1052"/>
+</glyph>

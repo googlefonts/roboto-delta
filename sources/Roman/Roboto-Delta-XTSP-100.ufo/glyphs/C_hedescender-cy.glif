@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Chedescender-cy" format="2">
+	<unicode hex="04B6"/>
+	<advance width="1098"/>
+	<outline>
+		<component base="Che"/>
+		<component base="Cy-descendercomb.case" xOffset="993"/>
+	</outline>
+</glyph>

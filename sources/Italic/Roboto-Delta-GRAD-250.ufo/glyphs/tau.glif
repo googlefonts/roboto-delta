@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tau" format="2">
+	<unicode hex="03C4"/>
+	<advance width="820"/>
+	<outline>
+		<contour>
+			<point x="64.2117648274" y="936" type="line"/>
+			<point x="88.8683259811" y="1052" type="line"/>
+			<point x="823.8683259811" y="1052" type="line"/>
+			<point x="799.2117648274" y="936" type="line"/>
+		</contour>
+		<contour>
+			<point x="363.8821262541" y="-30" type="qcurve" smooth="yes"/>
+			<point x="265.8821262541" y="-30"/>
+			<point x="179.6400448879" y="110"/>
+			<point x="211.5235291384" y="260" type="qcurve" smooth="yes"/>
+			<point x="366.9023757192" y="991" type="line"/>
+			<point x="493.9023757192" y="991" type="line"/>
+			<point x="338.5235291384" y="260" type="line" smooth="yes"/>
+			<point x="319.6059951498" y="171"/>
+			<point x="355.0265833395" y="93"/>
+			<point x="420.0265833395" y="93" type="qcurve" smooth="yes"/>
+			<point x="454.0265833395" y="93"/>
+			<point x="508.7898186412" y="106"/>
+			<point x="536.1279408196" y="117" type="qcurve"/>
+			<point x="511.2588231042" y="0" type="line"/>
+			<point x="485.7081443642" y="-12"/>
+			<point x="411.8821262541" y="-30"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hastroke-cy" format="2">
-	<unicode hex="04FF"/>
-	<advance width="565"/>
-	<outline>
-		<component base="x"/>
-		<component base="hacyr-stroke"/>
-	</outline>
-</glyph>

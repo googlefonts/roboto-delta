@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zhe.bgr" format="2">
+	<advance width="935"/>
+	<outline>
+		<contour>
+			<point x="-170.7411768958" y="0" type="line"/>
+			<point x="282.6187782163" y="618" type="line"/>
+			<point x="285.1308822846" y="611" type="line"/>
+			<point x="-162.7411768958" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="309.2588231042" y="0" type="line"/>
+			<point x="618.7411768958" y="1456" type="line"/>
+			<point x="625.7411768958" y="1456" type="line"/>
+			<point x="316.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="788.2588231042" y="0" type="line"/>
+			<point x="600.1308822846" y="611" type="line"/>
+			<point x="605.6187782163" y="618" type="line"/>
+			<point x="796.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="96.8683259811" y="1052" type="line"/>
+			<point x="104.8683259811" y="1052" type="line"/>
+			<point x="391.2670812371" y="367" type="line"/>
+			<point x="388.7164024971" y="355" type="line"/>
+		</contour>
+		<contour>
+			<point x="975.8683259811" y="1052" type="line"/>
+			<point x="387.7164024971" y="355" type="line"/>
+			<point x="390.2670812371" y="367" type="line"/>
+			<point x="967.8683259811" y="1052" type="line"/>
+		</contour>
+	</outline>
+</glyph>

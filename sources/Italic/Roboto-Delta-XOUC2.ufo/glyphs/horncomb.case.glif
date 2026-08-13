@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horncomb.case" format="2">
+	<outline>
+		<contour>
+			<point x="154.7411768958" y="1456" type="line"/>
+			<point x="238.7411768958" y="1456" type="line" smooth="yes"/>
+			<point x="286.7411768958" y="1456"/>
+			<point x="365.3304303075" y="1487"/>
+			<point x="376.5959280761" y="1540" type="qcurve" smooth="yes"/>
+			<point x="386.7986430362" y="1588"/>
+			<point x="391.8901589148" y="1659"/>
+			<point x="386.3296385732" y="1694" type="qcurve"/>
+			<point x="393.3296385732" y="1694" type="line"/>
+			<point x="398.8901589148" y="1659"/>
+			<point x="392.3107471045" y="1581"/>
+			<point x="383.5959280761" y="1540" type="qcurve" smooth="yes"/>
+			<point x="355.7510184973" y="1409"/>
+			<point x="254.6837107553" y="1324"/>
+			<point x="208.6837107553" y="1324" type="qcurve" smooth="yes"/>
+			<point x="182.6837107553" y="1324"/>
+			<point x="145.2343894954" y="1336"/>
+			<point x="131.1473985504" y="1345" type="qcurve"/>
+		</contour>
+	</outline>
+	<anchor name="_topright" x="154.7411768958" y="1456"/>
+	<anchor name="topright" x="205.3296385732" y="1694"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,1,0</string>
+		</dict>
+	</lib>
+</glyph>

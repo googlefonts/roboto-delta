@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="b" format="2">
+	<unicode hex="0062"/>
+	<advance width="1170"/>
+	<outline>
+		<contour>
+			<point x="-6.7411768958" y="0" type="line"/>
+			<point x="302.7411768958" y="1456" type="line"/>
+			<point x="488.7411768958" y="1456" type="line"/>
+			<point x="208.379072053" y="137" type="line"/>
+			<point x="198.379072053" y="137" type="line"/>
+			<point x="161.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="478.3162892447" y="132" type="qcurve" smooth="yes"/>
+			<point x="628.3162892447" y="132"/>
+			<point x="814.6536196887" y="350"/>
+			<point x="848.6626695559" y="510" type="qcurve" smooth="yes"/>
+			<point x="855.4644795294" y="542" type="line" smooth="yes"/>
+			<point x="889.4735293966" y="702"/>
+			<point x="795.8108598406" y="920"/>
+			<point x="645.8108598406" y="920" type="qcurve" smooth="yes"/>
+			<point x="504.8108598406" y="920"/>
+			<point x="284.6233031499" y="698"/>
+			<point x="252.9523754611" y="549" type="qcurve" smooth="yes"/>
+			<point x="247.0007917343" y="521" type="line" smooth="yes"/>
+			<point x="210.2285065654" y="348"/>
+			<point x="342.3162892447" y="132"/>
+		</contour>
+		<contour>
+			<point x="486.0076918708" y="-20" type="qcurve" smooth="yes"/>
+			<point x="283.0076918708" y="-20"/>
+			<point x="125.5863119468" y="265"/>
+			<point x="179.7882351726" y="520" type="qcurve" smooth="yes"/>
+			<point x="187.0151582694" y="554" type="line" smooth="yes"/>
+			<point x="243.7677602353" y="821"/>
+			<point x="495.1194572145" y="1072"/>
+			<point x="718.1194572145" y="1072" type="qcurve" smooth="yes"/>
+			<point x="906.1194572145" y="1072"/>
+			<point x="1128.5740951424" y="933"/>
+			<point x="1101.5794118103" y="806" type="qcurve" smooth="yes"/>
+			<point x="982.547737275" y="246" type="line" smooth="yes"/>
+			<point x="957.0409498746" y="126"/>
+			<point x="686.0076918708" y="-20"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="430.2588231042" y="0"/>
+	<anchor name="top" x="739.7411768958" y="1456"/>
+</glyph>

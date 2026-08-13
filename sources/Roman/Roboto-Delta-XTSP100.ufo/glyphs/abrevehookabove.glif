@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abrevehookabove" format="2">
+	<unicode hex="1EB3"/>
+	<advance width="1356"/>
+	<outline>
+		<component base="a"/>
+		<component base="brevecomb-stack" xOffset="678"/>
+		<component base="hookabovecomb-stack" xOffset="678" yOffset="398"/>
+	</outline>
+</glyph>

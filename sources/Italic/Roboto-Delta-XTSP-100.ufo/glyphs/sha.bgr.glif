@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sha.bgr" format="2">
+	<advance width="1498"/>
+	<outline>
+		<contour>
+			<point x="1556.8683259811" y="1052" type="line"/>
+			<point x="1333.2588231042" y="0" type="line"/>
+			<point x="1165.2588231042" y="0" type="line"/>
+			<point x="1188.7073526299" y="195" type="line"/>
+			<point x="1370.8683259811" y="1052" type="line"/>
+		</contour>
+		<contour>
+			<point x="580.5424206071" y="373" type="qcurve" smooth="yes"/>
+			<point x="724.8683259811" y="1052" type="line"/>
+			<point x="910.8683259811" y="1052" type="line"/>
+			<point x="766.1173074838" y="371" type="line" smooth="yes"/>
+			<point x="739.3351807134" y="245"/>
+			<point x="819.1665154913" y="136"/>
+			<point x="923.1665154913" y="136" type="qcurve" smooth="yes"/>
+			<point x="1014.1665154913" y="136"/>
+			<point x="1189.8230766451" y="252"/>
+			<point x="1343.3487555142" y="485" type="qcurve"/>
+			<point x="1305.3011309753" y="306" type="line"/>
+			<point x="1194.7656105046" y="120"/>
+			<point x="954.0076918708" y="-20"/>
+			<point x="835.0076918708" y="-20" type="qcurve" smooth="yes"/>
+			<point x="676.0076918708" y="-20"/>
+			<point x="538.4804295331" y="161"/>
+		</contour>
+		<contour>
+			<point x="659.3011309753" y="306" type="line"/>
+			<point x="548.7656105046" y="120"/>
+			<point x="308.0076918708" y="-20"/>
+			<point x="189.0076918708" y="-20" type="qcurve" smooth="yes"/>
+			<point x="30.0076918708" y="-20"/>
+			<point x="-107.5195704669" y="161"/>
+			<point x="-65.4575793929" y="373" type="qcurve" smooth="yes"/>
+			<point x="78.8683259811" y="1052" type="line"/>
+			<point x="264.8683259811" y="1052" type="line"/>
+			<point x="120.1173074838" y="371" type="line" smooth="yes"/>
+			<point x="93.3351807134" y="245"/>
+			<point x="173.1665154913" y="136"/>
+			<point x="277.1665154913" y="136" type="qcurve" smooth="yes"/>
+			<point x="368.1665154913" y="136"/>
+			<point x="543.8230766451" y="252"/>
+			<point x="697.3487555142" y="485" type="qcurve"/>
+		</contour>
+	</outline>
+	<anchor name="cy_descender" x="1247.2588231042" y="0"/>
+</glyph>

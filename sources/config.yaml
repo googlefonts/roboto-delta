@@ -1,0 +1,12 @@
+recipeProvider: googlefonts
+sources:
+  - ./Roman/RobotoDelta.designspace
+  - ./Italic/RobotoDelta-Italic.designspace
+checkCompatibility: False
+familyName: "Roboto Delta"
+splitItalic: false
+recipe:
+  "../fonts/variable/avar1/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf":
+    - source: "../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf"
+    - operation: avar2ToAvar1
+      args: --no-verify --grid opsz,wdth,wght --grid-cuts 1 --max-masters 600

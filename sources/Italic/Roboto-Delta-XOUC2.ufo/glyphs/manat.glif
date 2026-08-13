@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="manat" format="2">
+	<unicode hex="20BC"/>
+	<advance width="1024"/>
+	<outline>
+		<contour>
+			<point x="998.960633594" y="916" type="qcurve" smooth="yes"/>
+			<point x="804.2588231042" y="0" type="line"/>
+			<point x="622.2588231042" y="0" type="line"/>
+			<point x="816.960633594" y="916" type="line" smooth="yes"/>
+			<point x="851.3947965845" y="1078"/>
+			<point x="751.3796383151" y="1252"/>
+			<point x="623.3796383151" y="1252" type="qcurve" smooth="yes"/>
+			<point x="497.3796383151" y="1252"/>
+			<point x="323.3947965845" y="1078"/>
+			<point x="286.960633594" y="916" type="qcurve" smooth="yes"/>
+			<point x="92.2588231042" y="0" type="line"/>
+			<point x="-89.7411768958" y="0" type="line"/>
+			<point x="104.960633594" y="916" type="line" smooth="yes"/>
+			<point x="156.1867649564" y="1157"/>
+			<point x="443.238914429" y="1416"/>
+			<point x="658.238914429" y="1416" type="qcurve" smooth="yes"/>
+			<point x="870.238914429" y="1416"/>
+			<point x="1047.1867649564" y="1157"/>
+		</contour>
+		<contour>
+			<point x="437.2588231042" y="0" type="line"/>
+			<point x="277.2588231042" y="0" type="line"/>
+			<point x="613.5233036662" y="1582" type="line"/>
+			<point x="773.5233036662" y="1582" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,1,0</string>
+		</dict>
+	</lib>
+</glyph>

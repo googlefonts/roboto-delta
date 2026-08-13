@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="2">
+	<unicode hex="2044"/>
+	<advance width="342"/>
+	<outline>
+		<contour>
+			<point x="681.6942733639" y="1456" type="line"/>
+			<point x="-160" y="0" type="line"/>
+			<point x="-340" y="0" type="line"/>
+			<point x="501.6942733639" y="1456" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="-9.219409134" y="901" angle="0" identifier="tcCoNUQTdD"/>
+	<guideline x="8.9136824979" y="555" angle="0" identifier="0lx51aIE0d"/>
+</glyph>

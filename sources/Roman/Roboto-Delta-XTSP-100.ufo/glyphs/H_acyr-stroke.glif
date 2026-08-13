@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hacyr-stroke" format="2">
+	<advance width="1172"/>
+	<outline>
+		<contour>
+			<point x="170" y="824" type="line"/>
+			<point x="1002" y="824" type="line"/>
+			<point x="1002" y="658" type="line"/>
+			<point x="170" y="658" type="line"/>
+		</contour>
+	</outline>
+</glyph>

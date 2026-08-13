@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb-stack" format="2">
+	<outline>
+		<contour>
+			<point x="83.5150455333" y="1215" type="line"/>
+			<point x="-302.1188909524" y="1499" type="line"/>
+			<point x="120.0596158711" y="1561" type="line"/>
+			<point x="211.4567876586" y="1290" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="177.0596158711" y="1561"/>
+	<anchor name="_top" x="68.8683259811" y="1052"/>
+	<anchor name="_topright" x="68.8683259811" y="1052"/>
+</glyph>

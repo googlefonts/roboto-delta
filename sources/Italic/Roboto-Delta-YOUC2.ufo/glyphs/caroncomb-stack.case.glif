@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caroncomb-stack.case" format="2">
+	<outline>
+		<contour>
+			<point x="114.1609733512" y="1585" type="line"/>
+			<point x="70.8023762355" y="1875" type="line"/>
+			<point x="77.8023762355" y="1875" type="line"/>
+			<point x="215.7449100951" y="1743" type="line"/>
+			<point x="409.8023762355" y="1875" type="line"/>
+			<point x="415.8023762355" y="1875" type="line"/>
+			<point x="250.1609733512" y="1585" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="154.7411768958" y="1456"/>
+	<anchor name="top" x="249.1162902773" y="1900"/>
+</glyph>

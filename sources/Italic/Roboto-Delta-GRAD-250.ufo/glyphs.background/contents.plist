@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Euro</key>
+		<string>E_uro.glif</string>
+		<key>breve.cyrcomb</key>
+		<string>breve.cyrcomb.glif</string>
+		<key>breve.cyrcomb.case</key>
+		<string>breve.cyrcomb.case.glif</string>
+	</dict>
+</plist>

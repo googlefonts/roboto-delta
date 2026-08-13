@@ -1,0 +1,111 @@
+# buildVariable: Build a variable font from a source file
+rule buildVariable
+  command = /Users/marcfoley/Type/tools/venv/bin/python3.13 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o variable $
+      $fontmake_type $in $args $stamp
+  description = buildVariable
+
+# fix: Run gftools-fix
+rule fix
+  command = /Users/marcfoley/Type/tools/venv/bin/python3.13 -m $
+      gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# compress: Compress to webfont
+rule compress
+  command = /Users/marcfoley/Type/tools/venv/bin/python3.13 -m $
+      gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $in $
+      $stamp
+  description = compress
+
+# buildStat: Build a STAT table from one or more source files
+rule buildSTAT-operation
+  command = gftools-gen-stat --out $tempdir $args -- $in && mv $finalfile $
+      $out $stamp
+rule buildSTAT-postprocess
+  command = gftools-gen-stat --inplace $args -- $in $stamp
+
+# avar2ToAvar1: Flatten an avar2 variable font into an avar1 variable font
+rule avar2ToAvar1
+  command = /Users/marcfoley/Type/tools/venv/bin/python3.13 -m $
+      gftools.builder.jobrunner gftools-avar2-to-avar1 $args -o $out $in $
+      $stamp
+  description = avar2ToAvar1
+
+# copy: Copy a file
+rule copy
+  command = /Users/marcfoley/Type/tools/venv/bin/python3.13 -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmp8b4sz1xn
+build /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmp8b4sz1xn: $
+    buildVariable ./Roman/RobotoDelta.designspace
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter --no-check-compatibility
+  fontmake_type = -m
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmpwchgscqp
+build /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmpwchgscqp: $
+    buildVariable ./Italic/RobotoDelta-Italic.designspace
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter --no-check-compatibility
+  fontmake_type = -m
+  fontmake_args =  --verbose WARNING 
+# Generating
+# ../fonts/webfonts/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].woff2
+build $
+    ../fonts/webfonts/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].woff2: $
+    compress $
+    ../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf
+  operation = compress
+# Generating
+# ../fonts/variable/avar1/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf
+build $
+    ../fonts/variable/avar1/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf: $
+    avar2ToAvar1 $
+    ../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf
+  operation = avar2ToAvar1
+  args = --no-verify --grid opsz,wdth,wght --grid-cuts 1 --max-masters 600
+# Postprocessing  with BuildSTAT
+build $
+    /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmpdny8175m.buildStatstamp: $
+    buildSTAT-postprocess $
+    ../fonts/variable/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf $
+    ../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf $
+    | $
+    ../fonts/variable/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf $
+    ../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf
+  stamp =  && touch $
+      /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmpdny8175m.buildStatstamp
+  postprocess = buildStat
+# Generating
+# ../fonts/webfonts/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].woff2
+build $
+    ../fonts/webfonts/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].woff2: $
+    compress $
+    ../fonts/variable/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf $
+    | $
+    /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmpdny8175m.buildStatstamp
+  operation = compress
+# Generating
+# ../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf
+build $
+    ../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf: $
+    fix /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmp8b4sz1xn
+  operation = fix
+  args = 
+# Generating
+# ../fonts/variable/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf
+build $
+    ../fonts/variable/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf: $
+    fix /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmpwchgscqp
+  operation = fix
+  args = 
+default $
+    ../fonts/webfonts/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].woff2 $
+    ../fonts/variable/avar1/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf $
+    /var/folders/_k/fb06kkp570bfc7f32ml14q800000gn/T/tmpdny8175m.buildStatstamp $
+    ../fonts/webfonts/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].woff2

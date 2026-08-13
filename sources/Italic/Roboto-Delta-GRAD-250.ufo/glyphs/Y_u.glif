@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yu" format="2">
+	<unicode hex="042E"/>
+	<advance width="1993"/>
+	<outline>
+		<component base="I"/>
+		<component base="Yu-dash.case" xOffset="271"/>
+		<component base="O" xOffset="533" yOffset="2"/>
+	</outline>
+</glyph>

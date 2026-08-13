@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringcomb-stack" format="2">
+	<outline>
+		<contour>
+			<point x="-25.4131217911" y="1380" type="qcurve" smooth="yes"/>
+			<point x="-9.2588231042" y="1456"/>
+			<point x="99.8712674461" y="1546"/>
+			<point x="174.8712674461" y="1546" type="qcurve" smooth="yes"/>
+			<point x="249.8712674461" y="1546"/>
+			<point x="320.7411768958" y="1456"/>
+			<point x="304.5868782089" y="1380" type="qcurve" smooth="yes"/>
+			<point x="288.6451360836" y="1305"/>
+			<point x="179.5150455333" y="1215"/>
+			<point x="104.5150455333" y="1215" type="qcurve" smooth="yes"/>
+			<point x="29.5150455333" y="1215"/>
+			<point x="-41.3548639164" y="1305"/>
+		</contour>
+		<contour>
+			<point x="-18.4131217911" y="1380" type="qcurve" smooth="yes"/>
+			<point x="-33.7171942314" y="1308"/>
+			<point x="34.002941465" y="1222"/>
+			<point x="106.002941465" y="1222" type="qcurve" smooth="yes"/>
+			<point x="178.002941465" y="1222"/>
+			<point x="282.2828057686" y="1308"/>
+			<point x="297.5868782089" y="1380" type="qcurve" smooth="yes"/>
+			<point x="312.8909506491" y="1452"/>
+			<point x="245.3833715144" y="1539"/>
+			<point x="173.3833715144" y="1539" type="qcurve" smooth="yes"/>
+			<point x="101.3833715144" y="1539"/>
+			<point x="-3.1090493509" y="1452"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="68.8683259811" y="1052"/>
+	<anchor name="top" x="186.1995480229" y="1604"/>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kabashkircyr" format="2">
+	<unicode hex="04A0"/>
+	<advance width="1082"/>
+	<outline>
+		<contour>
+			<point x="939.2588231042" y="0" type="line"/>
+			<point x="514.7776018368" y="774" type="line"/>
+			<point x="520.4152715218" y="777" type="line"/>
+			<point x="947.2588231042" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="412.8403846452" y="779" type="line"/>
+			<point x="517.8403846452" y="779" type="line"/>
+			<point x="1222.7411768958" y="1456" type="line"/>
+			<point x="1230.7411768958" y="1456" type="line"/>
+			<point x="518.3524887135" y="772" type="line"/>
+			<point x="411.3524887135" y="772" type="line"/>
+		</contour>
+		<contour>
+			<point x="244.2588231042" y="0" type="line"/>
+			<point x="520.1572401519" y="1298" type="line"/>
+			<point x="275.1572401519" y="1298" type="line"/>
+			<point x="308.7411768958" y="1456" type="line"/>
+			<point x="560.7411768958" y="1456" type="line"/>
+			<point x="251.2588231042" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,1,0</string>
+		</dict>
+	</lib>
+</glyph>

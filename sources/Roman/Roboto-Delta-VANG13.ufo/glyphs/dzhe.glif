@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dzhe" format="2">
+	<unicode hex="045F"/>
+	<advance width="1128"/>
+	<outline>
+		<contour>
+			<point x="-20" y="0" type="line"/>
+			<point x="222.8733370641" y="1052" type="line"/>
+			<point x="408.8733370641" y="1052" type="line"/>
+			<point x="199.4758877132" y="145" type="line"/>
+			<point x="659.4758877132" y="145" type="line"/>
+			<point x="868.8733370641" y="1052" type="line"/>
+			<point x="1054.8733370641" y="1052" type="line"/>
+			<point x="812" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="249.6655883961" y="-270" type="line"/>
+			<point x="328.1607733788" y="70" type="line"/>
+			<point x="496.1607733788" y="70" type="line"/>
+			<point x="417.6655883961" y="-270" type="line"/>
+		</contour>
+	</outline>
+</glyph>

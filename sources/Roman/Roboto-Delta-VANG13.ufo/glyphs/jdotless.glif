@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jdotless" format="2">
+	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="-356.6559583615" y="-410" type="qcurve"/>
+			<point x="-322.0257296926" y="-260" type="line"/>
+			<point x="-303.4109388394" y="-266"/>
+			<point x="-232.6430935152" y="-280"/>
+			<point x="-202.6430935152" y="-280" type="qcurve" smooth="yes"/>
+			<point x="-142.6430935152" y="-280"/>
+			<point x="-59.4823201364" y="-210"/>
+			<point x="-41.0128648463" y="-130" type="qcurve" smooth="yes"/>
+			<point x="231.8733370641" y="1052" type="line"/>
+			<point x="417.8733370641" y="1052" type="line"/>
+			<point x="154.2218627987" y="-90" type="line" smooth="yes"/>
+			<point x="112.6655883961" y="-270"/>
+			<point x="-64.6585313307" y="-436"/>
+			<point x="-198.6585313307" y="-436" type="qcurve" smooth="yes"/>
+			<point x="-238.6585313307" y="-436"/>
+			<point x="-333.7337720816" y="-419"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="-18.6585313307" y="-436"/>
+	<anchor name="top" x="324.8733370641" y="1052"/>
+</glyph>

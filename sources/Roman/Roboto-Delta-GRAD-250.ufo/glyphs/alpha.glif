@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alpha" format="2">
+	<unicode hex="03B1"/>
+	<advance width="1236"/>
+	<outline>
+		<contour>
+			<point x="527" y="-20" type="qcurve" smooth="yes"/>
+			<point x="340" y="-20"/>
+			<point x="113" y="280"/>
+			<point x="113" y="510" type="qcurve" smooth="yes"/>
+			<point x="113" y="542" type="line" smooth="yes"/>
+			<point x="113" y="772"/>
+			<point x="339" y="1072"/>
+			<point x="527" y="1072" type="qcurve" smooth="yes"/>
+			<point x="733" y="1072"/>
+			<point x="932" y="776"/>
+			<point x="932" y="531" type="qcurve" smooth="yes"/>
+			<point x="932" y="504" type="line" smooth="yes"/>
+			<point x="932" y="282"/>
+			<point x="725" y="-20"/>
+		</contour>
+		<contour>
+			<point x="557" y="96" type="qcurve" smooth="yes"/>
+			<point x="707" y="96"/>
+			<point x="885" y="336"/>
+			<point x="885" y="503" type="qcurve" smooth="yes"/>
+			<point x="885" y="531" type="line" smooth="yes"/>
+			<point x="885" y="722"/>
+			<point x="703" y="956"/>
+			<point x="557" y="956" type="qcurve" smooth="yes"/>
+			<point x="398" y="956"/>
+			<point x="242" y="718"/>
+			<point x="242" y="542" type="qcurve" smooth="yes"/>
+			<point x="242" y="510" type="line" smooth="yes"/>
+			<point x="242" y="334"/>
+			<point x="398" y="96"/>
+		</contour>
+		<contour>
+			<point x="1046" y="-30" type="qcurve" smooth="yes"/>
+			<point x="966" y="-30"/>
+			<point x="876" y="53"/>
+			<point x="867" y="231" type="qcurve"/>
+			<point x="856" y="231" type="line"/>
+			<point x="856" y="799" type="line"/>
+			<point x="867" y="799" type="line"/>
+			<point x="873" y="1052" type="line"/>
+			<point x="983" y="1052" type="line"/>
+			<point x="983" y="262" type="line" smooth="yes"/>
+			<point x="983" y="155"/>
+			<point x="1027" y="92"/>
+			<point x="1073" y="92" type="qcurve"/>
+			<point x="1087" y="92"/>
+			<point x="1121" y="101"/>
+			<point x="1137" y="108" type="qcurve"/>
+			<point x="1137" y="-8" type="line"/>
+			<point x="1120" y="-17"/>
+			<point x="1074" y="-30"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="544" y="1052"/>
+</glyph>

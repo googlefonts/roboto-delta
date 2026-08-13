@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f_f_i" format="2">
+	<unicode hex="FB03"/>
+	<advance width="1700"/>
+	<outline>
+		<component base="f" xOffset="-11.5887850467"/>
+		<component base="f" xOffset="647.0794392523"/>
+		<component base="idotless" xOffset="1317.3364485981"/>
+		<component base="idot" xOffset="1596.308411215"/>
+	</outline>
+</glyph>
