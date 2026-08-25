@@ -11,3 +11,11 @@ recipe:
     - source: "../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf"
     - operation: avar2ToAvar1
       args: --no-verify --grid opsz,wdth,wght --grid-cuts 1 --max-masters 600
+
+    # The five-axis flatten
+  "../fonts/variable/avar1/RobotoDelta[GRAD,XTSP,opsz,wdth,wght].ttf":
+    - source: "../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf"
+    - operation: avar2ToAvar1
+      args: --no-verify --axes opsz,wdth,wght,GRAD,XTSP --grid opsz,wdth,wght
+    - operation: rename
+      name: Roboto Delta
