@@ -2,6 +2,7 @@
 <glyph name="yu" format="2">
 	<unicode hex="044E"/>
 	<advance width="1632"/>
+	<anchor x="1120" y="1058" name="top"/>
 	<outline>
 		<component base="idotless"/>
 		<component base="yu-dash" xOffset="251" yOffset="6"/>

@@ -2,6 +2,7 @@
 <glyph name="io" format="2">
 	<unicode hex="0451"/>
 	<advance width="572"/>
+	<anchor x="289" y="1311" name="top"/>
 	<outline>
 		<component base="e"/>
 		<component base="dieresiscomb" xOffset="289"/>

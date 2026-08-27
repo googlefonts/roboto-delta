@@ -2015,12 +2015,116 @@
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
+		<key>A</key>
+		<string>base</string>
+		<key>AE</key>
+		<string>base</string>
+		<key>Aogonek</key>
+		<string>base</string>
+		<key>B</key>
+		<string>base</string>
+		<key>C</key>
+		<string>base</string>
+		<key>Che</key>
+		<string>base</string>
+		<key>D</key>
+		<string>base</string>
+		<key>E</key>
+		<string>base</string>
+		<key>Ecyr</key>
+		<string>base</string>
+		<key>Edotaccent</key>
+		<string>base</string>
+		<key>Eogonek</key>
+		<string>base</string>
+		<key>F</key>
+		<string>base</string>
+		<key>G</key>
+		<string>base</string>
+		<key>Gamma</key>
+		<string>base</string>
+		<key>Ghe</key>
+		<string>base</string>
+		<key>H</key>
+		<string>base</string>
+		<key>I</key>
+		<string>base</string>
+		<key>Icyr</key>
+		<string>base</string>
+		<key>Idotaccent</key>
+		<string>base</string>
+		<key>Iogonek</key>
+		<string>base</string>
+		<key>J</key>
+		<string>base</string>
+		<key>K</key>
+		<string>base</string>
+		<key>Ka</key>
+		<string>base</string>
+		<key>L</key>
+		<string>base</string>
+		<key>M</key>
+		<string>base</string>
+		<key>N</key>
+		<string>base</string>
+		<key>O</key>
+		<string>base</string>
+		<key>Omega</key>
+		<string>base</string>
+		<key>P</key>
+		<string>base</string>
+		<key>Q</key>
+		<string>base</string>
+		<key>R</key>
+		<string>base</string>
+		<key>S</key>
+		<string>base</string>
+		<key>Sha</key>
+		<string>base</string>
+		<key>T</key>
+		<string>base</string>
+		<key>U</key>
+		<string>base</string>
+		<key>Ucyr</key>
+		<string>base</string>
+		<key>Umacron</key>
+		<string>base</string>
+		<key>Uogonek</key>
+		<string>base</string>
+		<key>V</key>
+		<string>base</string>
+		<key>W</key>
+		<string>base</string>
+		<key>X</key>
+		<string>base</string>
+		<key>Y</key>
+		<string>base</string>
+		<key>Ya</key>
+		<string>base</string>
 		<key>Yudash.case</key>
+		<string>base</string>
+		<key>Z</key>
+		<string>base</string>
+		<key>Ze</key>
+		<string>base</string>
+		<key>Zhe</key>
+		<string>base</string>
+		<key>a</key>
 		<string>base</string>
 		<key>acutecomb</key>
 		<string>mark</string>
 		<key>acutecomb.case</key>
 		<string>mark</string>
+		<key>acyr</key>
+		<string>base</string>
+		<key>ae</key>
+		<string>base</string>
+		<key>alpha</key>
+		<string>base</string>
+		<key>aogonek</key>
+		<string>base</string>
+		<key>b</key>
+		<string>base</string>
 		<key>brevebelowcomb</key>
 		<string>mark</string>
 		<key>brevebelowcomb.case</key>
@@ -2035,6 +2139,8 @@
 		<string>mark</string>
 		<key>breveinvertedcomb.stack</key>
 		<string>mark</string>
+		<key>c</key>
+		<string>base</string>
 		<key>caroncomb</key>
 		<string>mark</string>
 		<key>caroncomb.alt</key>
@@ -2045,6 +2151,8 @@
 		<string>mark</string>
 		<key>cedillacomb.case</key>
 		<string>mark</string>
+		<key>che</key>
+		<string>base</string>
 		<key>circumflexcomb</key>
 		<string>mark</string>
 		<key>circumflexcomb.case</key>
@@ -2055,6 +2163,8 @@
 		<string>mark</string>
 		<key>commaaccentturnedcomb</key>
 		<string>mark</string>
+		<key>d</key>
+		<string>base</string>
 		<key>diagonalbarl</key>
 		<string>base</string>
 		<key>dieresisbelowcomb</key>
@@ -2073,12 +2183,36 @@
 		<string>mark</string>
 		<key>dotbelowcomb.case</key>
 		<string>mark</string>
+		<key>e</key>
+		<string>base</string>
+		<key>ecyr</key>
+		<string>base</string>
+		<key>edotaccent</key>
+		<string>base</string>
+		<key>en</key>
+		<string>base</string>
 		<key>engtail</key>
+		<string>base</string>
+		<key>eogonek</key>
+		<string>base</string>
+		<key>epsilon</key>
+		<string>base</string>
+		<key>eta</key>
+		<string>base</string>
+		<key>f</key>
+		<string>base</string>
+		<key>g</key>
+		<string>base</string>
+		<key>ghe</key>
 		<string>base</string>
 		<key>gravecomb</key>
 		<string>mark</string>
 		<key>gravecomb.case</key>
 		<string>mark</string>
+		<key>h</key>
+		<string>base</string>
+		<key>hard</key>
+		<string>base</string>
 		<key>hookabovecomb</key>
 		<string>mark</string>
 		<key>hookabovecomb.case</key>
@@ -2093,6 +2227,36 @@
 		<string>mark</string>
 		<key>hungarumlautcomb.case</key>
 		<string>mark</string>
+		<key>i</key>
+		<string>base</string>
+		<key>icyr</key>
+		<string>base</string>
+		<key>idotless</key>
+		<string>base</string>
+		<key>ie</key>
+		<string>base</string>
+		<key>ieukran</key>
+		<string>base</string>
+		<key>io</key>
+		<string>base</string>
+		<key>iogonek</key>
+		<string>base</string>
+		<key>iota</key>
+		<string>base</string>
+		<key>iukran</key>
+		<string>base</string>
+		<key>j</key>
+		<string>base</string>
+		<key>jdotless</key>
+		<string>base</string>
+		<key>k</key>
+		<string>base</string>
+		<key>ka</key>
+		<string>base</string>
+		<key>l</key>
+		<string>base</string>
+		<key>m</key>
+		<string>base</string>
 		<key>macronbelowcomb</key>
 		<string>mark</string>
 		<key>macronbelowcomb.case</key>
@@ -2101,19 +2265,75 @@
 		<string>mark</string>
 		<key>macroncomb.case</key>
 		<string>mark</string>
+		<key>n</key>
+		<string>base</string>
+		<key>o</key>
+		<string>base</string>
+		<key>ocyr</key>
+		<string>base</string>
 		<key>ogonekcomb</key>
 		<string>mark</string>
 		<key>ogonekcomb.case</key>
 		<string>mark</string>
+		<key>omega</key>
+		<string>base</string>
+		<key>p</key>
+		<string>base</string>
+		<key>q</key>
+		<string>base</string>
+		<key>r</key>
+		<string>base</string>
 		<key>ringcomb</key>
 		<string>mark</string>
 		<key>ringcomb.case</key>
 		<string>mark</string>
+		<key>s</key>
+		<string>base</string>
+		<key>sha</key>
+		<string>base</string>
+		<key>sha.bgr</key>
+		<string>base</string>
+		<key>t</key>
+		<string>base</string>
+		<key>te</key>
+		<string>base</string>
 		<key>tildecomb</key>
 		<string>mark</string>
 		<key>tildecomb.case</key>
 		<string>mark</string>
+		<key>u</key>
+		<string>base</string>
+		<key>ucyr</key>
+		<string>base</string>
+		<key>umacron</key>
+		<string>base</string>
+		<key>uogonek</key>
+		<string>base</string>
+		<key>upsilon</key>
+		<string>base</string>
+		<key>v</key>
+		<string>base</string>
+		<key>w</key>
+		<string>base</string>
+		<key>x</key>
+		<string>base</string>
+		<key>y</key>
+		<string>base</string>
+		<key>ya</key>
+		<string>base</string>
+		<key>yeru</key>
+		<string>base</string>
+		<key>yi</key>
+		<string>base</string>
+		<key>yu</key>
+		<string>base</string>
 		<key>yudash</key>
+		<string>base</string>
+		<key>z</key>
+		<string>base</string>
+		<key>ze</key>
+		<string>base</string>
+		<key>zhe</key>
 		<string>base</string>
 	</dict>
 </dict>
