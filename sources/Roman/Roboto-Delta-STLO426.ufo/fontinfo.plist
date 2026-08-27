@@ -83,7 +83,7 @@
 	<key>openTypeHeadLowestRecPPEM</key>
 	<integer>9</integer>
 	<key>openTypeHheaAscender</key>
-	<integer>1958</integer>
+	<integer>1976</integer>
 	<key>openTypeHheaDescender</key>
 	<integer>-500</integer>
 	<key>openTypeHheaLineGap</key>
@@ -162,7 +162,7 @@
 	<key>openTypeOS2Type</key>
 	<array/>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>1958</integer>
+	<integer>1976</integer>
 	<key>openTypeOS2TypoDescender</key>
 	<integer>-500</integer>
 	<key>openTypeOS2TypoLineGap</key>
