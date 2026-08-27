@@ -7,6 +7,8 @@ languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn CAT;
 languagesystem latn NLD;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
 #languagesystem cyrl BGR;
 #languagesystem cyrl SRB;
 
@@ -16,7 +18,7 @@ languagesystem latn NLD;
 
 
 feature locl {
-    sub [space hyphen softhyphen endash emdash underscore] etatonos' [space hyphen softhyphen endash emdash underscore comma] by Etatonos;
+    sub [space hyphen endash emdash underscore] etatonos' [space hyphen endash emdash underscore comma] by Etatonos;
     script latn;
     
     language TRK exclude_dflt;
