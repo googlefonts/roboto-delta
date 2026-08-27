@@ -64,3 +64,14 @@ jobs:
         with:
           name: fonts
           path: fonts/
+
+      - name: Commit updated fonts
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fonts/
+          if ! git diff --cached --quiet; then
+            git commit -m "Rebuild fonts [skip ci]"
+            git push
+          fi
