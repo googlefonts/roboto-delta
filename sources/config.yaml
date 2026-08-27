@@ -6,15 +6,642 @@ checkCompatibility: False
 familyName: "Roboto Delta"
 splitItalic: false
 extraFontmakeArgs: "--production-names"
+stat:
+  ? RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf
+  : - name: Weight
+      tag: wght
+      values:
+      - name: Thin
+        value: 100
+      - name: ExtraLight
+        value: 200
+      - name: Light
+        value: 300
+      - name: Regular
+        value: 400
+        flags: 2
+        linkedValue: 700
+      - name: Medium
+        value: 500
+      - name: SemiBold
+        value: 600
+      - name: Bold
+        value: 700
+      - name: ExtraBold
+        value: 800
+      - name: Black
+        value: 900
+    - name: Width
+      tag: wdth
+      values:
+      - name: SuperCondensed
+        value: 25
+      - name: UltraCondensed
+        value: 50
+      - name: ExtraCondensed
+        value: 62.5
+      - name: Condensed
+        value: 75
+      - name: SemiCondensed
+        value: 87.5
+      - name: Normal
+        value: 100
+        flags: 2
+      - name: SemiExpanded
+        value: 112.5
+      - name: Expanded
+        value: 125
+      - name: ExtraExpanded
+        value: 150
+    - name: Optical Size
+      tag: opsz
+      values:
+      - name: 8pt
+        value: 8
+      - name: 9pt
+        value: 9
+      - name: 10pt
+        value: 10
+      - name: 11pt
+        value: 11
+      - name: 12pt
+        value: 12
+      - name: 14pt
+        value: 14
+      - name: 16pt
+        value: 16
+      - name: 17pt
+        value: 17
+      - name: 18pt
+        value: 18
+      - name: 20pt
+        value: 20
+      - name: 24pt
+        value: 24
+      - name: 28pt
+        value: 28
+      - name: 36pt
+        value: 36
+      - name: 48pt
+        value: 48
+      - name: 60pt
+        value: 60
+      - name: 72pt
+        value: 72
+      - name: 96pt
+        value: 96
+      - name: 120pt
+        value: 120
+      - name: 144pt
+        value: 144
+    - name: Grade
+      tag: GRAD
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Parametric Spacing
+      tag: XTSP
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Thick Stroke
+      tag: XOPQ
+      values:
+      - name: Normal
+        value: 88
+        flags: 2
+    - name: Thin Stroke
+      tag: YOPQ
+      values:
+      - name: Normal
+        value: 116
+        flags: 2
+    - name: Counter Width
+      tag: XTRA
+      values:
+      - name: Normal
+        value: 400
+        flags: 2
+    - name: Parametric Body Size
+      tag: BDSZ
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Parametric Wordspace
+      tag: WDSP
+      values:
+      - name: Normal
+        value: 246
+        flags: 2
+    - name: Parametric Thick Stroke Uppercase
+      tag: XOUC
+      values:
+      - name: Normal
+        value: 96
+        flags: 2
+    - name: Parametric Thin Stroke Uppercase
+      tag: YOUC
+      values:
+      - name: Normal
+        value: 79
+        flags: 2
+    - name: Parametric Counter Width Uppercase
+      tag: XTUC
+      values:
+      - name: Normal
+        value: 463
+        flags: 2
+    - name: Parametric Counter Width Diagonals Uppercase
+      tag: XTUD
+      values:
+      - name: Normal
+        value: 463
+        flags: 2
+    - name: Parametric Counter Width Round Letters Uppercase
+      tag: XTUR
+      values:
+      - name: Normal
+        value: 463
+        flags: 2
+    - name: Parametric Thin Stroke E
+      tag: YOPE
+      values:
+      - name: Normal
+        value: 79
+        flags: 2
+    - name: Uppercase Height
+      tag: YTUC
+      values:
+      - name: Normal
+        value: 725
+        flags: 2
+    - name: Parametric Uppercase Internal Straight Counter
+      tag: STUI
+      values:
+      - name: Normal
+        value: 92
+        flags: 2
+    - name: Parametric Uppercase Outer Straight Counter
+      tag: STUO
+      values:
+      - name: Normal
+        value: 92
+        flags: 2
+    - name: Parametric Thick Stroke Lowercase
+      tag: XOLC
+      values:
+      - name: Normal
+        value: 96
+        flags: 2
+    - name: Parametric Thin Stroke Lowercase
+      tag: YOLC
+      values:
+      - name: Normal
+        value: 79
+        flags: 2
+    - name: Parametric Counter Width Lowercase
+      tag: XTLC
+      values:
+      - name: Normal
+        value: 463
+        flags: 2
+    - name: Ascender Height
+      tag: YTAS
+      values:
+      - name: Normal
+        value: 750
+        flags: 2
+    - name: Descender Depth
+      tag: YTDE
+      values:
+      - name: Normal
+        value: -250
+        flags: 2
+    - name: Lowercase Height
+      tag: YTLC
+      values:
+      - name: Normal
+        value: 500
+        flags: 2
+    - name: Parametric Lowercase Internal Straight Counter
+      tag: STLI
+      values:
+      - name: Normal
+        value: 32
+        flags: 2
+    - name: Parametric Lowercase Outer Straight Counter
+      tag: STLO
+      values:
+      - name: Normal
+        value: 32
+        flags: 2
+    - name: Parametric Thin Stroke Lowercase Compensation
+      tag: YOLB
+      values:
+      - name: Normal
+        value: 132
+        flags: 2
+    - name: Parametric Thick Stroke Figures
+      tag: XOFI
+      values:
+      - name: Normal
+        value: 96
+        flags: 2
+    - name: Parametric Thin Stroke Figures
+      tag: YOFI
+      values:
+      - name: Normal
+        value: 79
+        flags: 2
+    - name: X transparent figures
+      tag: XTFI
+      values:
+      - name: Normal
+        value: 400
+        flags: 2
+    - name: Figure Height
+      tag: YTFI
+      values:
+      - name: Normal
+        value: 600
+        flags: 2
+    - name: Parametric Bars
+      tag: BARS
+      values:
+      - name: Normal
+        value: 1000
+        flags: 2
+    - name: Parametric Angle
+      tag: VANG
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Parametric Rotation
+      tag: VROT
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Parametric Ink Trap Length
+      tag: YTTL
+      values:
+      - name: Normal
+        value: 25
+        flags: 2
+    - name: Parametric Ink Trap Width
+      tag: XTTW
+      values:
+      - name: Normal
+        value: 5
+        flags: 2
+    - name: Parametric Overshoot
+      tag: YTOS
+      values:
+      - name: Normal
+        value: 30
+        flags: 2
+    - name: Italic
+      tag: ital
+      values:
+      - name: Roman
+        value: 0
+        flags: 0
+  ? RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf
+  : - name: Weight
+      tag: wght
+      values:
+      - name: Thin
+        value: 100
+      - name: ExtraLight
+        value: 200
+      - name: Light
+        value: 300
+      - name: Regular
+        value: 400
+        flags: 2
+        linkedValue: 700
+      - name: Medium
+        value: 500
+      - name: SemiBold
+        value: 600
+      - name: Bold
+        value: 700
+      - name: ExtraBold
+        value: 800
+      - name: Black
+        value: 900
+    - name: Width
+      tag: wdth
+      values:
+      - name: SuperCondensed
+        value: 25
+      - name: UltraCondensed
+        value: 50
+      - name: ExtraCondensed
+        value: 62.5
+      - name: Condensed
+        value: 75
+      - name: SemiCondensed
+        value: 87.5
+      - name: Normal
+        value: 100
+        flags: 2
+      - name: SemiExpanded
+        value: 112.5
+      - name: Expanded
+        value: 125
+      - name: ExtraExpanded
+        value: 150
+    - name: Optical Size
+      tag: opsz
+      values:
+      - name: 8pt
+        value: 8
+      - name: 9pt
+        value: 9
+      - name: 10pt
+        value: 10
+      - name: 11pt
+        value: 11
+      - name: 12pt
+        value: 12
+      - name: 14pt
+        value: 14
+      - name: 16pt
+        value: 16
+      - name: 17pt
+        value: 17
+      - name: 18pt
+        value: 18
+      - name: 20pt
+        value: 20
+      - name: 24pt
+        value: 24
+      - name: 28pt
+        value: 28
+      - name: 36pt
+        value: 36
+      - name: 48pt
+        value: 48
+      - name: 60pt
+        value: 60
+      - name: 72pt
+        value: 72
+      - name: 96pt
+        value: 96
+      - name: 120pt
+        value: 120
+      - name: 144pt
+        value: 144
+    - name: Grade
+      tag: GRAD
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Parametric Spacing
+      tag: XTSP
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Thick Stroke
+      tag: XOPQ
+      values:
+      - name: Normal
+        value: 88
+        flags: 2
+    - name: Thin Stroke
+      tag: YOPQ
+      values:
+      - name: Normal
+        value: 116
+        flags: 2
+    - name: Counter Width
+      tag: XTRA
+      values:
+      - name: Normal
+        value: 400
+        flags: 2
+    - name: Parametric Body Size
+      tag: BDSZ
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Parametric Wordspace
+      tag: WDSP
+      values:
+      - name: Normal
+        value: 246
+        flags: 2
+    - name: Parametric Thick Stroke Uppercase
+      tag: XOUC
+      values:
+      - name: Normal
+        value: 96
+        flags: 2
+    - name: Parametric Thin Stroke Uppercase
+      tag: YOUC
+      values:
+      - name: Normal
+        value: 79
+        flags: 2
+    - name: Parametric Counter Width Uppercase
+      tag: XTUC
+      values:
+      - name: Normal
+        value: 463
+        flags: 2
+    - name: Parametric Counter Width Diagonals Uppercase
+      tag: XTUD
+      values:
+      - name: Normal
+        value: 463
+        flags: 2
+    - name: Parametric Counter Width Round Letters Uppercase
+      tag: XTUR
+      values:
+      - name: Normal
+        value: 463
+        flags: 2
+    - name: Parametric Thin Stroke E
+      tag: YOPE
+      values:
+      - name: Normal
+        value: 79
+        flags: 2
+    - name: Uppercase Height
+      tag: YTUC
+      values:
+      - name: Normal
+        value: 725
+        flags: 2
+    - name: Parametric Uppercase Internal Straight Counter
+      tag: STUI
+      values:
+      - name: Normal
+        value: 92
+        flags: 2
+    - name: Parametric Uppercase Outer Straight Counter
+      tag: STUO
+      values:
+      - name: Normal
+        value: 92
+        flags: 2
+    - name: Parametric Thick Stroke Lowercase
+      tag: XOLC
+      values:
+      - name: Normal
+        value: 96
+        flags: 2
+    - name: Parametric Thin Stroke Lowercase
+      tag: YOLC
+      values:
+      - name: Normal
+        value: 79
+        flags: 2
+    - name: Parametric Counter Width Lowercase
+      tag: XTLC
+      values:
+      - name: Normal
+        value: 463
+        flags: 2
+    - name: Ascender Height
+      tag: YTAS
+      values:
+      - name: Normal
+        value: 750
+        flags: 2
+    - name: Descender Depth
+      tag: YTDE
+      values:
+      - name: Normal
+        value: -250
+        flags: 2
+    - name: Lowercase Height
+      tag: YTLC
+      values:
+      - name: Normal
+        value: 500
+        flags: 2
+    - name: Parametric Lowercase Internal Straight Counter
+      tag: STLI
+      values:
+      - name: Normal
+        value: 32
+        flags: 2
+    - name: Parametric Lowercase Outer Straight Counter
+      tag: STLO
+      values:
+      - name: Normal
+        value: 32
+        flags: 2
+    - name: Parametric Thin Stroke Lowercase Compensation
+      tag: YOLB
+      values:
+      - name: Normal
+        value: 132
+        flags: 2
+    - name: Parametric Thick Stroke Figures
+      tag: XOFI
+      values:
+      - name: Normal
+        value: 96
+        flags: 2
+    - name: Parametric Thin Stroke Figures
+      tag: YOFI
+      values:
+      - name: Normal
+        value: 79
+        flags: 2
+    - name: X transparent figures
+      tag: XTFI
+      values:
+      - name: Normal
+        value: 400
+        flags: 2
+    - name: Figure Height
+      tag: YTFI
+      values:
+      - name: Normal
+        value: 600
+        flags: 2
+    - name: Parametric Bars
+      tag: BARS
+      values:
+      - name: Normal
+        value: 1000
+        flags: 2
+    - name: Parametric Angle
+      tag: VANG
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Parametric Rotation
+      tag: VROT
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+    - name: Parametric Ink Trap Length
+      tag: YTTL
+      values:
+      - name: Normal
+        value: 25
+        flags: 2
+    - name: Parametric Ink Trap Width
+      tag: XTTW
+      values:
+      - name: Normal
+        value: 5
+        flags: 2
+    - name: Parametric Overshoot
+      tag: YTOS
+      values:
+      - name: Normal
+        value: 30
+        flags: 2
+    - name: Italic
+      tag: ital
+      values:
+      - name: Italic
+        value: 1
+        flags: 0
 recipe:
-  "../fonts/variable/avar1/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf":
-    - source: "../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf"
+  # Add the meta table (dlng/slng script tags); appended to the
+  # auto-generated VF steps because these are all postprocesses
+  "../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf":
+    - postprocess: exec
+      exe: python3
+      args: ../tools/add_meta.py $in
+  "../fonts/variable/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf":
+    - postprocess: exec
+      exe: python3
+      args: ../tools/add_meta.py $in
+  "../fonts/variable/avar1/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf":
+    - source: "../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf"
+    - operation: avar2ToAvar1
+      args: --no-verify --grid opsz,wdth,wght --grid-cuts 1 --max-masters 600
+  "../fonts/variable/avar1/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf":
+    - source: "../fonts/variable/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf"
     - operation: avar2ToAvar1
       args: --no-verify --grid opsz,wdth,wght --grid-cuts 1 --max-masters 600
 
     # The five-axis flatten
   "../fonts/variable/avar1/RobotoDelta[GRAD,XTSP,opsz,wdth,wght].ttf":
-    - source: "../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,slnt,wdth,wght].ttf"
+    - source: "../fonts/variable/RobotoDelta[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf"
+    - operation: avar2ToAvar1
+      args: --no-verify --axes opsz,wdth,wght,GRAD,XTSP --grid opsz,wdth,wght
+    - operation: rename
+      name: Roboto Delta
+  "../fonts/variable/avar1/RobotoDelta-Italic[GRAD,XTSP,opsz,wdth,wght].ttf":
+    - source: "../fonts/variable/RobotoDelta-Italic[BARS,BDSZ,GRAD,STLI,STLO,STUI,STUO,VANG,VROT,WDSP,XOFI,XOLC,XOPQ,XOUC,XTFI,XTLC,XTRA,XTSP,XTTW,XTUC,XTUD,XTUR,YOFI,YOLB,YOLC,YOPE,YOPQ,YOUC,YTAS,YTDE,YTFI,YTLC,YTOS,YTTL,YTUC,opsz,wdth,wght].ttf"
     - operation: avar2ToAvar1
       args: --no-verify --axes opsz,wdth,wght,GRAD,XTSP --grid opsz,wdth,wght
     - operation: rename
