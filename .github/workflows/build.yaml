@@ -31,8 +31,48 @@ jobs:
       - name: Build fonts
         run: gftools builder sources/config.yaml
 
+      - name: Download fontspector
+        run: |
+          curl -sL "https://github.com/fonttools/fontspector/releases/download/fontspector-v1.7.4/fontspector-v1.7.4-x86_64-unknown-linux-gnu.tar.gz" | tar -xz
+          sudo install fontspector-dev-x86_64-unknown-linux-gnu/fontspector /usr/local/bin/fontspector
+          fontspector --version
+      
+      - name: Interpolation Checks
+        continue-on-error: true
+        # Tolerance is relaxed to 0.4: the default (0.95) produces false
+        # positives on this family - the coincident terminal points that
+        # the XORN axis expands, and symmetric glyphs like the equals
+        # sign, confuse the start-point/reversal matcher even though the
+        # masters correspond point-for-point (verified winding + identical
+        # point structure across masters).
+        run: fonttools varLib.interpolatable --tolerance 0.4 "fonts/variable/"*.ttf
+
+      - name: Check variable font
+        continue-on-error: true
+        # Skip copyright since it uses a custom copyright
+        # Skip family name compliance check since YouTube is camelcase
+        # Skip fvar axis defaults because it flags the parametric axes since 
+        # the defaults in axis reg were hardcoded to another parametric font.
+        # In reality they should be whatever the designer deems appropriate,
+        # not a hardcoded value
+        # Skip fvar_axis_ranges since the axis registry currrently has arbitrary
+        # min/max values for parametric axes, which is not a good idea.
+        # https://github.com/googlefonts/axisregistry/issues/222
+        run: fontspector -p googlefonts -e fatal "fonts/variable/*.ttf" -x googlefonts/family_name_compliance -x googlefonts/font_copyright -x fvar_axis_defaults -x fvar_axis_ranges
+
       - name: Upload fonts
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: fonts
           path: fonts/
+
+      - name: Commit updated fonts
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fonts/
+          if ! git diff --cached --quiet; then
+            git commit -m "Rebuild fonts [skip ci]"
+            git push
+          fi

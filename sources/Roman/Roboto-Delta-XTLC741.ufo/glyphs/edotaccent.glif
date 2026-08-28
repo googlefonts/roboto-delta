@@ -2,6 +2,7 @@
 <glyph name="edotaccent" format="2">
 	<unicode hex="0117"/>
 	<advance width="1691"/>
+	<anchor x="882" y="1481" name="top"/>
 	<outline>
 		<component base="e"/>
 		<component base="dotaccentcomb" xOffset="882"/>

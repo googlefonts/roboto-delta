@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Upsilontonos" format="2">
 	<unicode hex="038E"/>
-	<advance width="1635"/>
+	<advance width="1576"/>
 	<outline>
 		<component base="Y" xOffset="407"/>
 		<component base="tonoscomb.case" xOffset="160" yOffset="22"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilontonos" format="2">
 	<unicode hex="0388"/>
-	<advance width="1433"/>
+	<advance width="1410"/>
 	<outline>
 		<component base="E" xOffset="271"/>
 		<component base="tonoscomb.case" xOffset="160" yOffset="22"/>

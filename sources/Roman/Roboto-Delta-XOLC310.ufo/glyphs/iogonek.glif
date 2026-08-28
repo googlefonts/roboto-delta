@@ -2,6 +2,7 @@
 <glyph name="iogonek" format="2">
 	<unicode hex="012F"/>
 	<advance width="900"/>
+	<anchor x="450" y="1052" name="top"/>
 	<outline>
 		<component base="idotless"/>
 		<component base="idot" xOffset="450"/>
