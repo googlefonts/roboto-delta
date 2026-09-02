@@ -15,7 +15,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      # write so the workflow can commit the rebuilt fonts back to main
+      contents: write
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
@@ -58,7 +59,7 @@ jobs:
         # Skip fvar_axis_ranges since the axis registry currrently has arbitrary
         # min/max values for parametric axes, which is not a good idea.
         # https://github.com/googlefonts/axisregistry/issues/222
-        run: fontspector -p googlefonts -e fatal "fonts/variable/*.ttf" -x googlefonts/family_name_compliance -x googlefonts/font_copyright -x fvar_axis_defaults -x fvar_axis_ranges
+        run: fontspector -p googlefonts -e fatal "fonts/variable/"*.ttf -x googlefonts/family_name_compliance -x googlefonts/font_copyright -x fvar_axis_defaults -x fvar_axis_ranges
 
       - name: Upload fonts
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
