@@ -2,9 +2,9 @@
 <glyph name="yi" format="2">
 	<unicode hex="0457"/>
 	<advance width="321"/>
-	<anchor x="230" y="1052" name="top"/>
 	<outline>
 		<component base="idotless"/>
 		<component base="yi-dieresiscomb" xOffset="161"/>
 	</outline>
+	<anchor name="top" x="230" y="1052"/>
 </glyph>

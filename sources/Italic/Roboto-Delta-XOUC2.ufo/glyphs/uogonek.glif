@@ -2,11 +2,11 @@
 <glyph name="uogonek" format="2">
 	<unicode hex="0173"/>
 	<advance width="1138"/>
-	<anchor x="638" y="1052" name="top"/>
 	<outline>
 		<component base="u"/>
 		<component base="ogonekcomb" xOffset="892"/>
 	</outline>
+	<anchor name="top" x="638" y="1052"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

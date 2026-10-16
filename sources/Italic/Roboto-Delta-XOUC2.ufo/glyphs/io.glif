@@ -2,11 +2,11 @@
 <glyph name="io" format="2">
 	<unicode hex="0451"/>
 	<advance width="1088"/>
-	<anchor x="709" y="1431" name="top"/>
 	<outline>
 		<component base="e"/>
 		<component base="dieresiscomb" xOffset="560"/>
 	</outline>
+	<anchor name="top" x="709" y="1431"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

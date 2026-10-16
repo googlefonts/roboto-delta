@@ -2,9 +2,9 @@
 <glyph name="i" format="2">
 	<unicode hex="0069"/>
 	<advance width="900"/>
-	<anchor x="450" y="1052" name="top"/>
 	<outline>
 		<component base="idotless"/>
 		<component base="idot" xOffset="450"/>
 	</outline>
+	<anchor name="top" x="450" y="1052"/>
 </glyph>

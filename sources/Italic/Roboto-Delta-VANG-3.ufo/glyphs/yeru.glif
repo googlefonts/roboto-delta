@@ -2,9 +2,9 @@
 <glyph name="yeru" format="2">
 	<unicode hex="044B"/>
 	<advance width="1548"/>
-	<anchor x="1281" y="1052" name="top"/>
 	<outline>
 		<component base="soft"/>
 		<component base="idotless" xOffset="1048"/>
 	</outline>
+	<anchor name="top" x="1281" y="1052"/>
 </glyph>

@@ -2,9 +2,9 @@
 <glyph name="iukran" format="2">
 	<unicode hex="0456"/>
 	<advance width="206"/>
-	<anchor x="172" y="1052" name="top"/>
 	<outline>
 		<component base="idotless"/>
 		<component base="idot" xOffset="103"/>
 	</outline>
+	<anchor name="top" x="172" y="1052"/>
 </glyph>

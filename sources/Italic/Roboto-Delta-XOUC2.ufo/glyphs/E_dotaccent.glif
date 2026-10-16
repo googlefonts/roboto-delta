@@ -2,11 +2,11 @@
 <glyph name="Edotaccent" format="2">
 	<unicode hex="0116"/>
 	<advance width="846"/>
-	<anchor x="723" y="1836" name="top"/>
 	<outline>
 		<component base="E"/>
 		<component base="dotaccentcomb.case" xOffset="487"/>
 	</outline>
+	<anchor name="top" x="723" y="1836"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

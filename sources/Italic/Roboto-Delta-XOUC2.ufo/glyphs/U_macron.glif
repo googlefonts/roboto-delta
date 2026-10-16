@@ -2,11 +2,11 @@
 <glyph name="Umacron" format="2">
 	<unicode hex="016A"/>
 	<advance width="994"/>
-	<anchor x="731" y="1830" name="top"/>
 	<outline>
 		<component base="U"/>
 		<component base="macroncomb.case" xOffset="497"/>
 	</outline>
+	<anchor name="top" x="731" y="1830"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

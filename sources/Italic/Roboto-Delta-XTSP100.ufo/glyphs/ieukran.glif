@@ -2,7 +2,6 @@
 <glyph name="ieukran" format="2">
 	<unicode hex="0454"/>
 	<advance width="1318"/>
-	<anchor x="756" y="1082" name="top"/>
 	<outline>
 		<contour>
 			<point x="163.6626695559" y="510" type="qcurve" smooth="yes"/>
@@ -45,5 +44,6 @@
 			<point x="250.0976242808" y="465" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="756" y="1082"/>
 	<guideline x="141.7398188994" y="548" angle="102" identifier="n4jm0tBg3Y"/>
 </glyph>

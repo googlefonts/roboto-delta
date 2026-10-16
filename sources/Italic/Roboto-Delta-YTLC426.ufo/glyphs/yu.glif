@@ -2,10 +2,10 @@
 <glyph name="yu" format="2">
 	<unicode hex="044E"/>
 	<advance width="1626"/>
-	<anchor x="1071" y="852" name="top"/>
 	<outline>
 		<component base="idotless"/>
 		<component base="yu-dash" xOffset="250"/>
 		<component base="o" xOffset="464"/>
 	</outline>
+	<anchor name="top" x="1071" y="852"/>
 </glyph>
