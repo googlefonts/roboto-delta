@@ -9,7 +9,7 @@
       <map input="84" output="0.946000"/>
       <map input="144" output="1"/>
     </axis>
-    <axis tag="wght" name="wght" minimum="100" maximum="1000" default="400">
+    <axis tag="wght" name="wght" minimum="1" maximum="1000" default="400">
       <labelname xml:lang="en">Weight</labelname>
     </axis>
     <axis tag="wdth" name="wdth" minimum="25" maximum="151" default="100">
@@ -133,7 +133,7 @@
       <mapping>
         <input>
             <dimension name="opsz" xvalue="-1"/>
-            <dimension name="wght" xvalue="100"/>
+            <dimension name="wght" xvalue="1"/>
             <dimension name="wdth" xvalue="25"/>
             <dimension name="GRAD" xvalue="0"/>
         </input>
@@ -266,7 +266,7 @@
       <mapping>
         <input>
             <dimension name="opsz" xvalue="-1"/>
-            <dimension name="wght" xvalue="100"/>
+            <dimension name="wght" xvalue="1"/>
             <dimension name="wdth" xvalue="100"/>
             <dimension name="GRAD" xvalue="0"/>
         </input>
@@ -399,7 +399,7 @@
       <mapping>
         <input>
             <dimension name="opsz" xvalue="-1"/>
-            <dimension name="wght" xvalue="100"/>
+            <dimension name="wght" xvalue="1"/>
             <dimension name="wdth" xvalue="151"/>
             <dimension name="GRAD" xvalue="0"/>
         </input>
@@ -532,7 +532,7 @@
       <mapping>
         <input>
             <dimension name="opsz" xvalue="0"/>
-            <dimension name="wght" xvalue="100"/>
+            <dimension name="wght" xvalue="1"/>
             <dimension name="wdth" xvalue="25"/>
             <dimension name="GRAD" xvalue="0"/>
         </input>
@@ -666,7 +666,7 @@
       <mapping>
         <input>
             <dimension name="opsz" xvalue="0"/>
-            <dimension name="wght" xvalue="100"/>
+            <dimension name="wght" xvalue="1"/>
             <dimension name="wdth" xvalue="100"/>
             <dimension name="GRAD" xvalue="0"/>
         </input>
@@ -799,7 +799,7 @@
       <mapping>
         <input>
             <dimension name="opsz" xvalue="0"/>
-            <dimension name="wght" xvalue="100"/>
+            <dimension name="wght" xvalue="1"/>
             <dimension name="wdth" xvalue="151"/>
             <dimension name="GRAD" xvalue="0"/>
         </input>
@@ -933,7 +933,7 @@
       <mapping>
         <input>
             <dimension name="opsz" xvalue="1"/>
-            <dimension name="wght" xvalue="100"/>
+            <dimension name="wght" xvalue="1"/>
             <dimension name="wdth" xvalue="25"/>
             <dimension name="GRAD" xvalue="0"/>
         </input>
@@ -1069,7 +1069,7 @@
       <mapping>
         <input>
             <dimension name="opsz" xvalue="1"/>
-            <dimension name="wght" xvalue="100"/>
+            <dimension name="wght" xvalue="1"/>
             <dimension name="wdth" xvalue="100"/>
             <dimension name="GRAD" xvalue="0"/>
         </input>
@@ -1248,7 +1248,7 @@
       <mapping>
         <input>
             <dimension name="opsz" xvalue="1"/>
-            <dimension name="wght" xvalue="100"/>
+            <dimension name="wght" xvalue="1"/>
             <dimension name="wdth" xvalue="151"/>
             <dimension name="GRAD" xvalue="0"/>
         </input>
@@ -2281,7 +2281,7 @@
     <source filename="Roboto-Delta-XTUC244-opsz144-wdth25-wght100.ufo" familyname="Roboto Delta" stylename="XTUC244-opsz144-wdth25-wght100" layer="foreground">
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="25"/>
         <dimension name="VANG" xvalue="0"/>
         <dimension name="VROT" xvalue="0"/>
@@ -2410,7 +2410,7 @@
     <source filename="Roboto-Delta-XTUC741-opsz144-wdth100-wght100.ufo" familyname="Roboto Delta" stylename="XTUC741-opsz144-wdth100-wght100" layer="foreground">
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="100"/>
         <dimension name="VANG" xvalue="0"/>
         <dimension name="VROT" xvalue="0"/>
@@ -2453,7 +2453,7 @@
     <source filename="Roboto-Delta-XTUC741-opsz144-wdth151-wght100.ufo" familyname="Roboto Delta" stylename="XTUC741-opsz144-wdth151-wght100" layer="foreground">
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="151"/>
         <dimension name="VANG" xvalue="0"/>
         <dimension name="VROT" xvalue="0"/>
@@ -2539,7 +2539,7 @@
     <source filename="Roboto-Delta-XTLC244-opsz144-wdth25-wght100.ufo" familyname="Roboto Delta" stylename="XTLC244-opsz144-wdth25-wght100" layer="public.default">
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="25"/>
         <dimension name="VANG" xvalue="0"/>
         <dimension name="VROT" xvalue="0"/>
@@ -2668,7 +2668,7 @@
     <source filename="Roboto-Delta-XTLC741-opsz144-wdth151-wght100.ufo" familyname="Roboto Delta" stylename="XTLC741-opsz144-wdth151-wght100" layer="foreground">
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="151"/>
         <dimension name="VANG" xvalue="0"/>
         <dimension name="VROT" xvalue="0"/>
@@ -2754,7 +2754,7 @@
     <source filename="Roboto-Delta-XTFI244-opsz144-wdth25-wght100.ufo" familyname="Roboto Delta" stylename="XTFI244-opsz144-wdth25-wght100" layer="foreground">
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="25"/>
         <dimension name="VANG" xvalue="0"/>
         <dimension name="VROT" xvalue="0"/>
@@ -2840,7 +2840,7 @@
     <source filename="Roboto-Delta-XTFI741-opsz144-wdth100-wght100.ufo" familyname="Roboto Delta" stylename="XTFI741-opsz144-wdth100-wght100" layer="foreground">
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="100"/>
         <dimension name="VANG" xvalue="0"/>
         <dimension name="VROT" xvalue="0"/>
@@ -2926,7 +2926,7 @@
     <source filename="Roboto-Delta-XTFI741-opsz144-wdth151-wght100.ufo" familyname="Roboto Delta" stylename="XTFI741-opsz144-wdth151-wght100" layer="foreground">
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="151"/>
         <dimension name="VANG" xvalue="0"/>
         <dimension name="VROT" xvalue="0"/>
@@ -4688,7 +4688,7 @@
       <kerning copy="1"/>
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="25"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XTSP" xvalue="0"/>
@@ -4817,7 +4817,7 @@
       <kerning copy="1"/>
       <location>
         <dimension name="opsz" xvalue="1"/>
-        <dimension name="wght" xvalue="100"/>
+        <dimension name="wght" xvalue="1"/>
         <dimension name="wdth" xvalue="100"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XTSP" xvalue="0"/>
