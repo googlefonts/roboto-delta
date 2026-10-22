@@ -130,7 +130,7 @@
     
     <mappings>
       
-      <mapping>
+      <mapping description="opsz8-wght1-wdth25">
         <input>
             <dimension name="opsz" xvalue="-1"/>
             <dimension name="wght" xvalue="1"/>
@@ -174,7 +174,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz8-wght400-wdth25">
         <input>
             <dimension name="opsz" xvalue="-1"/>
             <dimension name="wght" xvalue="400"/>
@@ -218,7 +218,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz8-wght1000-wdth25">
         <input>
             <dimension name="opsz" xvalue="-1"/>
             <dimension name="wght" xvalue="1000"/>
@@ -263,7 +263,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz8-wght1-wdth100">
         <input>
             <dimension name="opsz" xvalue="-1"/>
             <dimension name="wght" xvalue="1"/>
@@ -307,7 +307,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz8-wght400-wdth100">
         <input>
             <dimension name="opsz" xvalue="-1"/>
             <dimension name="wght" xvalue="400"/>
@@ -351,7 +351,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz8-wght1000-wdth100">
         <input>
             <dimension name="opsz" xvalue="-1"/>
             <dimension name="wght" xvalue="1000"/>
@@ -396,7 +396,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz8-wght1-wdth151">
         <input>
             <dimension name="opsz" xvalue="-1"/>
             <dimension name="wght" xvalue="1"/>
@@ -440,7 +440,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz8-wght400-wdth151">
         <input>
             <dimension name="opsz" xvalue="-1"/>
             <dimension name="wght" xvalue="400"/>
@@ -484,7 +484,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz8-wght1000-wdth151">
         <input>
             <dimension name="opsz" xvalue="-1"/>
             <dimension name="wght" xvalue="1000"/>
@@ -529,7 +529,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz14-wght1-wdth25">
         <input>
             <dimension name="opsz" xvalue="0"/>
             <dimension name="wght" xvalue="1"/>
@@ -574,7 +574,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz14-wght400-wdth25">
         <input>
             <dimension name="opsz" xvalue="0"/>
             <dimension name="wght" xvalue="400"/>
@@ -618,7 +618,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz14-wght1000-wdth25">
         <input>
             <dimension name="opsz" xvalue="0"/>
             <dimension name="wght" xvalue="1000"/>
@@ -663,7 +663,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz14-wght1-wdth100">
         <input>
             <dimension name="opsz" xvalue="0"/>
             <dimension name="wght" xvalue="1"/>
@@ -708,7 +708,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz14-wght400-wdth100">
         <input>
             <dimension name="opsz" xvalue="0"/>
             <dimension name="wght" xvalue="400"/>
@@ -751,7 +751,7 @@
             <dimension name="BDSZ" xvalue="0"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz14-wght1000-wdth100">
         <input>
             <dimension name="opsz" xvalue="0"/>
             <dimension name="wght" xvalue="1000"/>
@@ -796,7 +796,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz14-wght1-wdth151">
         <input>
             <dimension name="opsz" xvalue="0"/>
             <dimension name="wght" xvalue="1"/>
@@ -841,7 +841,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz14-wght400-wdth151">
         <input>
             <dimension name="opsz" xvalue="0"/>
             <dimension name="wght" xvalue="400"/>
@@ -885,7 +885,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz14-wght1000-wdth151">
         <input>
             <dimension name="opsz" xvalue="0"/>
             <dimension name="wght" xvalue="1000"/>
@@ -930,7 +930,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz144-wght1-wdth25">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="1"/>
@@ -976,7 +976,7 @@
             <dimension name="STLO" xvalue="426"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz144-wght400-wdth25">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="400"/>
@@ -1021,7 +1021,7 @@
             <dimension name="STLO" xvalue="340"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz144-wght1000-wdth25">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="1000"/>
@@ -1066,7 +1066,7 @@
             <dimension name="STLO" xvalue="80"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz144-wght1-wdth100">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="1"/>
@@ -1111,7 +1111,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz144-wght400-wdth100">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="400"/>
@@ -1156,7 +1156,7 @@
         </output>
       </mapping>
       <!--  THIS IS 144 100 500 TO SMOOTH wght PROGRESSION  -->
-      <mapping>
+      <mapping description="opsz144-wght500-wdth100">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="500"/>
@@ -1199,7 +1199,7 @@
         </output>
       </mapping>
 <!--  THIS IS 144 100 1000  -->
-      <mapping>
+      <mapping description="opsz144-wght1000-wdth100">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="1000"/>
@@ -1245,7 +1245,7 @@
         </output>
       </mapping>
       
-      <mapping>
+      <mapping description="opsz144-wght1-wdth151">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="1"/>
@@ -1292,7 +1292,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz144-wght400-wdth151">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="400"/>
@@ -1336,7 +1336,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="opsz144-wght1000-wdth151">
         <input>
             <dimension name="opsz" xvalue="1"/>
             <dimension name="wght" xvalue="1000"/>
@@ -1383,7 +1383,7 @@
       </mapping>
       
       <!-- XTRA BLENDED AXIS DEFINITION -->
-      <mapping>
+      <mapping description="XTRA244">
         <input>
             <dimension name="XTRA" xvalue="244"/>
         </input>
@@ -1424,7 +1424,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="XTRA741">
         <input>
             <dimension name="XTRA" xvalue="741"/>
         </input>
@@ -1467,7 +1467,7 @@
       </mapping>
       
       <!-- XOPQ BLENDED AXIS DEFINITION -->
-      <mapping>
+      <mapping description="XOPQ2">
         <input>
             <dimension name="XOPQ" xvalue="2"/>
         </input>
@@ -1508,7 +1508,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="XOPQ310">
         <input>
             <dimension name="XOPQ" xvalue="310"/>
         </input>
@@ -1551,7 +1551,7 @@
       </mapping>
       
       <!-- YOPQ BLENDED AXIS DEFINITION -->
-      <mapping>
+      <mapping description="YOPQ2">
         <input>
             <dimension name="YOPQ" xvalue="2"/>
         </input>
@@ -1592,7 +1592,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="YOPQ280">
         <input>
             <dimension name="YOPQ" xvalue="280"/>
         </input>
@@ -1634,7 +1634,7 @@
         </output>
       </mapping>
       
-      <mapping>
+      <mapping description="BDSZ-1">
         <input>
             <dimension name="BDSZ" xvalue="-1"/>
         </input>
@@ -1675,7 +1675,7 @@
             <dimension name="STLO" xvalue="32"/>
         </output>
       </mapping>
-      <mapping>
+      <mapping description="BDSZ1.4">
         <input>
             <dimension name="BDSZ" xvalue="1.4"/>
         </input>
